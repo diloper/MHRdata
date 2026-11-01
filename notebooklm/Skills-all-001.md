@@ -1,0 +1,1440 @@
+# Monster Hunter Rise: Skills (all)
+
+- Source file: Skills.json
+- Source version: 16.0.0
+- Snapshot mode: pilot
+- Coverage: 4 parsed records; 147 discovered; 143 missing.
+- Source date below is the download snapshot date, not the game release date.
+- Source date: 2026-10-30T14:20:10.103912+00:00
+
+Historical source snapshot, not verified as current or complete Sunbreak data.
+English names and original IDs are preserved. Numeric enum codes, rarity,
+skillList and decorationsNumList retain their original meaning without decoding.
+Empty values mean not provided, not necessarily absent. Unlock value 'None'
+is a literal source value, not a verified absence of requirements.
+All listed skill level effects are reference information, not equipped levels.
+Rampage skills use a separate ID namespace from normal skills.
+
+## Slugger
+
+- Category: Skills
+- ID: 1003081507
+- Source URL: https://mhrise.kiranico.com/data/skills/1003081507
+- language: en
+- description: Makes it easier to stun monsters.
+- Source database version: 16.0.0
+- Fetched at (UTC): 2026-10-30T14:24:03.785977+00:00
+- Snapshot ID: 2026-10-30T14:20:10.103912+00:00
+- source_groups: \["https://mhrise.kiranico.com/data/skills"\]
+
+### Slugger: Skill Level Effects
+
+- Level 1: Stun power +20%
+- Level 2: Stun power +30%
+- Level 3: Stun power +40%
+
+### Slugger: Overview
+
+- Row 1:
+  - Column 1 (unlabelled by source): Lv 1
+  - Column 2 (unlabelled by source): Stun power +20%
+- Row 2:
+  - Column 1 (unlabelled by source): Lv 2
+  - Column 2 (unlabelled by source): Stun power +30%
+- Row 3:
+  - Column 1 (unlabelled by source): Lv 3
+  - Column 2 (unlabelled by source): Stun power +40%
+
+### Slugger: Decorations
+
+- Row 1:
+  - Column 1 (unlabelled by source): KO Jewel 2
+    - KO Jewel 2: https://mhrise.kiranico.com/data/decorations/1003081507
+  - Column 2 (unlabelled by source): 750z
+  - Column 3 (unlabelled by source): A decoration that enhances the Slugger skill.
+- Row 2:
+  - Column 1 (unlabelled by source): KO Jewel+ 4
+    - KO Jewel+ 4: https://mhrise.kiranico.com/data/decorations/794433641
+  - Column 2 (unlabelled by source): 4,000z
+  - Column 3 (unlabelled by source): A decoration that enhances the skill.
+
+### Slugger: Armor
+
+- Row 1:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1593842794\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1593842794\_f.webp
+  - Column 3 (unlabelled by source): Ibushi's Foot
+    - Ibushi's Foot: https://mhrise.kiranico.com/data/armors/1593842794
+  - Column 4 (unlabelled by source): Lv 1
+- Row 2:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1507413003\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1507413003\_f.webp
+  - Column 3 (unlabelled by source): Ibushi's Foot
+    - Ibushi's Foot: https://mhrise.kiranico.com/data/armors/1507413003
+  - Column 4 (unlabelled by source): Lv 1
+- Row 3:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1848321965\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1848321965\_f.webp
+  - Column 3 (unlabelled by source): Khezu Coil
+    - Khezu Coil: https://mhrise.kiranico.com/data/armors/1848321965
+  - Column 4 (unlabelled by source): Lv 1
+- Row 4:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1863096130\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1863096130\_f.webp
+  - Column 3 (unlabelled by source): Khezu Coil S
+    - Khezu Coil S: https://mhrise.kiranico.com/data/armors/1863096130
+  - Column 4 (unlabelled by source): Lv 1
+- Row 5:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1862047554\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1862047554\_f.webp
+  - Column 3 (unlabelled by source): Khezu Greaves S
+    - Khezu Greaves S: https://mhrise.kiranico.com/data/armors/1862047554
+  - Column 4 (unlabelled by source): Lv 1
+- Row 6:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/121464113\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/121464113\_f.webp
+  - Column 3 (unlabelled by source): Kulu-Ya-Ku Braces
+    - Kulu-Ya-Ku Braces: https://mhrise.kiranico.com/data/armors/121464113
+  - Column 4 (unlabelled by source): Lv 1
+- Row 7:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/36099286\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/36099286\_f.webp
+  - Column 3 (unlabelled by source): Kulu-Ya-Ku Mail S
+    - Kulu-Ya-Ku Mail S: https://mhrise.kiranico.com/data/armors/36099286
+  - Column 4 (unlabelled by source): Lv 2
+- Row 8:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1496278\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1496278\_f.webp
+  - Column 3 (unlabelled by source): Kulu-Ya-Ku Braces S
+    - Kulu-Ya-Ku Braces S: https://mhrise.kiranico.com/data/armors/1496278
+  - Column 4 (unlabelled by source): Lv 1
+- Row 9:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/189707368\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/189707368\_f.webp
+  - Column 3 (unlabelled by source): Anjanath Helm
+    - Anjanath Helm: https://mhrise.kiranico.com/data/armors/189707368
+  - Column 4 (unlabelled by source): Lv 1
+- Row 10:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/254719080\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/254719080\_f.webp
+  - Column 3 (unlabelled by source): Anjanath Vambraces
+    - Anjanath Vambraces: https://mhrise.kiranico.com/data/armors/254719080
+  - Column 4 (unlabelled by source): Lv 1
+- Row 11:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/875029513\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/875029513\_f.webp
+  - Column 3 (unlabelled by source): Anjanath Helm S
+    - Anjanath Helm S: https://mhrise.kiranico.com/data/armors/875029513
+  - Column 4 (unlabelled by source): Lv 1
+- Row 12:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/134734857\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/134734857\_f.webp
+  - Column 3 (unlabelled by source): Anjanath Vambraces S
+    - Anjanath Vambraces S: https://mhrise.kiranico.com/data/armors/134734857
+  - Column 4 (unlabelled by source): Lv 2
+- Row 13:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/994522970\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/994522970\_f.webp
+  - Column 3 (unlabelled by source): Kulu-Ya-Ku Mail X
+    - Kulu-Ya-Ku Mail X: https://mhrise.kiranico.com/data/armors/994522970
+  - Column 4 (unlabelled by source): Lv 2
+- Row 14:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/959919962\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/959919962\_f.webp
+  - Column 3 (unlabelled by source): Kulu-Ya-Ku Braces X
+    - Kulu-Ya-Ku Braces X: https://mhrise.kiranico.com/data/armors/959919962
+  - Column 4 (unlabelled by source): Lv 1
+- Row 15:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/197697775\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/197697775\_f.webp
+  - Column 3 (unlabelled by source): Khezu Coil X
+    - Khezu Coil X: https://mhrise.kiranico.com/data/armors/197697775
+  - Column 4 (unlabelled by source): Lv 1
+- Row 16:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/163094767\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/163094767\_f.webp
+  - Column 3 (unlabelled by source): Khezu Greaves X
+    - Khezu Greaves X: https://mhrise.kiranico.com/data/armors/163094767
+  - Column 4 (unlabelled by source): Lv 2
+- Row 17:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/582776542\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/582776542\_f.webp
+  - Column 3 (unlabelled by source): Anjanath Helm X
+    - Anjanath Helm X: https://mhrise.kiranico.com/data/armors/582776542
+  - Column 4 (unlabelled by source): Lv 1
+- Row 18:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/647788254\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/647788254\_f.webp
+  - Column 3 (unlabelled by source): Anjanath Vambraces X
+    - Anjanath Vambraces X: https://mhrise.kiranico.com/data/armors/647788254
+  - Column 4 (unlabelled by source): Lv 2
+- Row 19:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1202088766\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1202088766\_f.webp
+  - Column 3 (unlabelled by source): Golm Greaves
+    - Golm Greaves: https://mhrise.kiranico.com/data/armors/1202088766
+  - Column 4 (unlabelled by source): Lv 2
+- Row 20:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1791405199\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1791405199\_f.webp
+  - Column 3 (unlabelled by source): Jelly Vest X
+    - Jelly Vest X: https://mhrise.kiranico.com/data/armors/1791405199
+  - Column 4 (unlabelled by source): Lv 1
+- Row 21:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1756802191\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1756802191\_f.webp
+  - Column 3 (unlabelled by source): Jelly Gloves X
+    - Jelly Gloves X: https://mhrise.kiranico.com/data/armors/1756802191
+  - Column 4 (unlabelled by source): Lv 1
+- Row 22:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1821813903\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1821813903\_f.webp
+  - Column 3 (unlabelled by source): Jelly Boots X
+    - Jelly Boots X: https://mhrise.kiranico.com/data/armors/1821813903
+  - Column 4 (unlabelled by source): Lv 1
+- Row 23:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/372413348\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/372413348\_f.webp
+  - Column 3 (unlabelled by source): Ibushi's Pure Foot
+    - Ibushi's Pure Foot: https://mhrise.kiranico.com/data/armors/372413348
+  - Column 4 (unlabelled by source): Lv 1
+
+## Muck Resistance
+
+- Category: Skills
+- ID: 1280901767
+- Source URL: https://mhrise.kiranico.com/data/skills/1280901767
+- language: en
+- description: Reduces impairments to mobility while stuck in monster muck or deep snow.
+- Source database version: 16.0.0
+- Fetched at (UTC): 2026-10-30T14:24:05.794203+00:00
+- Snapshot ID: 2026-10-30T14:20:10.103912+00:00
+- source_groups: \["https://mhrise.kiranico.com/data/skills"\]
+
+### Muck Resistance: Skill Level Effects
+
+- Level 1: Reduces limits on movement speed.
+- Level 2: Negates limits to movement speed.
+
+### Muck Resistance: Overview
+
+- Row 1:
+  - Column 1 (unlabelled by source): Lv 1
+  - Column 2 (unlabelled by source): Reduces limits on movement speed.
+- Row 2:
+  - Column 1 (unlabelled by source): Lv 2
+  - Column 2 (unlabelled by source): Negates limits to movement speed.
+
+### Muck Resistance: Decorations
+
+- Row 1:
+  - Column 1 (unlabelled by source): Muck Jewel 1
+    - Muck Jewel 1: https://mhrise.kiranico.com/data/decorations/1280901767
+  - Column 2 (unlabelled by source): 250z
+  - Column 3 (unlabelled by source): A decoration that enhances the Muck Resistance skill.
+
+### Muck Resistance: Armor
+
+- Row 1:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1050389112\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1050389112\_f.webp
+  - Column 3 (unlabelled by source): Bone Greaves
+    - Bone Greaves: https://mhrise.kiranico.com/data/armors/1050389112
+  - Column 4 (unlabelled by source): Lv 1
+- Row 2:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1000151577\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1000151577\_f.webp
+  - Column 3 (unlabelled by source): Bone Vambraces S
+    - Bone Vambraces S: https://mhrise.kiranico.com/data/armors/1000151577
+  - Column 4 (unlabelled by source): Lv 1
+- Row 3:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1065163289\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1065163289\_f.webp
+  - Column 3 (unlabelled by source): Bone Greaves S
+    - Bone Greaves S: https://mhrise.kiranico.com/data/armors/1065163289
+  - Column 4 (unlabelled by source): Lv 2
+- Row 4:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/787584404\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/787584404\_f.webp
+  - Column 3 (unlabelled by source): Bone Greaves X
+    - Bone Greaves X: https://mhrise.kiranico.com/data/armors/787584404
+  - Column 4 (unlabelled by source): Lv 2
+- Row 5:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/49787506\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/49787506\_f.webp
+  - Column 3 (unlabelled by source): Rhenoplos Helm X
+    - Rhenoplos Helm X: https://mhrise.kiranico.com/data/armors/49787506
+  - Column 4 (unlabelled by source): Lv 1
+- Row 6:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/890728654\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/890728654\_f.webp
+  - Column 3 (unlabelled by source): Barroth Mail X
+    - Barroth Mail X: https://mhrise.kiranico.com/data/armors/890728654
+  - Column 4 (unlabelled by source): Lv 2
+
+## Attack Boost
+
+- Category: Skills
+- ID: 366824395
+- Source URL: https://mhrise.kiranico.com/data/skills/366824395
+- language: en
+- description: Increases attack power.
+- Source database version: 16.0.0
+- Fetched at (UTC): 2026-10-30T14:26:32.187227+00:00
+- Snapshot ID: 2026-10-30T14:20:10.103912+00:00
+- source_groups: \["https://mhrise.kiranico.com/data/skills"\]
+
+### Attack Boost: Skill Level Effects
+
+- Level 1: Attack +3
+- Level 2: Attack +6
+- Level 3: Attack +9
+- Level 4: Attack +5% Bonus: +7
+- Level 5: Attack +6% Bonus: +8
+- Level 6: Attack +8% Bonus: +9
+- Level 7: Attack +10% Bonus: +10
+
+### Attack Boost: Overview
+
+- Row 1:
+  - Column 1 (unlabelled by source): Lv 1
+  - Column 2 (unlabelled by source): Attack +3
+- Row 2:
+  - Column 1 (unlabelled by source): Lv 2
+  - Column 2 (unlabelled by source): Attack +6
+- Row 3:
+  - Column 1 (unlabelled by source): Lv 3
+  - Column 2 (unlabelled by source): Attack +9
+- Row 4:
+  - Column 1 (unlabelled by source): Lv 4
+  - Column 2 (unlabelled by source): Attack +5% Bonus: +7
+- Row 5:
+  - Column 1 (unlabelled by source): Lv 5
+  - Column 2 (unlabelled by source): Attack +6% Bonus: +8
+- Row 6:
+  - Column 1 (unlabelled by source): Lv 6
+  - Column 2 (unlabelled by source): Attack +8% Bonus: +9
+- Row 7:
+  - Column 1 (unlabelled by source): Lv 7
+  - Column 2 (unlabelled by source): Attack +10% Bonus: +10
+
+### Attack Boost: Decorations
+
+- Row 1:
+  - Column 1 (unlabelled by source): Attack Jewel 2
+    - Attack Jewel 2: https://mhrise.kiranico.com/data/decorations/366824395
+  - Column 2 (unlabelled by source): 1,500z
+  - Column 3 (unlabelled by source): A decoration that enhances the Attack Boost skill.
+- Row 2:
+  - Column 1 (unlabelled by source): Attack Jewel+ 4
+    - Attack Jewel+ 4: https://mhrise.kiranico.com/data/decorations/1422352365
+  - Column 2 (unlabelled by source): 6,000z
+  - Column 3 (unlabelled by source): A decoration that enhances the skill.
+
+### Attack Boost: Armor
+
+- Row 1:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/468974444\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/468974444\_f.webp
+  - Column 3 (unlabelled by source): Hunter's Mail
+    - Hunter's Mail: https://mhrise.kiranico.com/data/armors/468974444
+  - Column 4 (unlabelled by source): Lv 1
+- Row 2:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/499383148\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/499383148\_f.webp
+  - Column 3 (unlabelled by source): Hunter's Greaves
+    - Hunter's Greaves: https://mhrise.kiranico.com/data/armors/499383148
+  - Column 4 (unlabelled by source): Lv 1
+- Row 3:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/81079053\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/81079053\_f.webp
+  - Column 3 (unlabelled by source): Hunter's Mail S
+    - Hunter's Mail S: https://mhrise.kiranico.com/data/armors/81079053
+  - Column 4 (unlabelled by source): Lv 1
+- Row 4:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/514140941\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/514140941\_f.webp
+  - Column 3 (unlabelled by source): Hunter's Greaves S
+    - Hunter's Greaves S: https://mhrise.kiranico.com/data/armors/514140941
+  - Column 4 (unlabelled by source): Lv 2
+- Row 5:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/129932066\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/129932066\_f.webp
+  - Column 3 (unlabelled by source): Dober Helm
+    - Dober Helm: https://mhrise.kiranico.com/data/armors/129932066
+  - Column 4 (unlabelled by source): Lv 1
+- Row 6:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/428776226\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/428776226\_f.webp
+  - Column 3 (unlabelled by source): Dober Coil
+    - Dober Coil: https://mhrise.kiranico.com/data/armors/428776226
+  - Column 4 (unlabelled by source): Lv 2
+- Row 7:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/436365953\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/436365953\_f.webp
+  - Column 3 (unlabelled by source): Ingot Greaves
+    - Ingot Greaves: https://mhrise.kiranico.com/data/armors/436365953
+  - Column 4 (unlabelled by source): Lv 1
+- Row 8:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/81517222\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/81517222\_f.webp
+  - Column 3 (unlabelled by source): Ingot Greaves S
+    - Ingot Greaves S: https://mhrise.kiranico.com/data/armors/81517222
+  - Column 4 (unlabelled by source): Lv 2
+- Row 9:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1977328197\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1977328197\_f.webp
+  - Column 3 (unlabelled by source): Jaggi Gauntlets
+    - Jaggi Gauntlets: https://mhrise.kiranico.com/data/armors/1977328197
+  - Column 4 (unlabelled by source): Lv 1
+- Row 10:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1992102522\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1992102522\_f.webp
+  - Column 3 (unlabelled by source): Jaggi Gauntlets S
+    - Jaggi Gauntlets S: https://mhrise.kiranico.com/data/armors/1992102522
+  - Column 4 (unlabelled by source): Lv 2
+- Row 11:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1742078103\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1742078103\_f.webp
+  - Column 3 (unlabelled by source): Baggi Mail
+    - Baggi Mail: https://mhrise.kiranico.com/data/armors/1742078103
+  - Column 4 (unlabelled by source): Lv 1
+- Row 12:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2040922263\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2040922263\_f.webp
+  - Column 3 (unlabelled by source): Baggi Greaves
+    - Baggi Greaves: https://mhrise.kiranico.com/data/armors/2040922263
+  - Column 4 (unlabelled by source): Lv 1
+- Row 13:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1622110388\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1622110388\_f.webp
+  - Column 3 (unlabelled by source): Baggi Mail S
+    - Baggi Mail S: https://mhrise.kiranico.com/data/armors/1622110388
+  - Column 4 (unlabelled by source): Lv 1
+- Row 14:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1687122100\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1687122100\_f.webp
+  - Column 3 (unlabelled by source): Baggi Coil S
+    - Baggi Coil S: https://mhrise.kiranico.com/data/armors/1687122100
+  - Column 4 (unlabelled by source): Lv 2
+- Row 15:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2055172276\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2055172276\_f.webp
+  - Column 3 (unlabelled by source): Baggi Greaves S
+    - Baggi Greaves S: https://mhrise.kiranico.com/data/armors/2055172276
+  - Column 4 (unlabelled by source): Lv 1
+- Row 16:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1789429743\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1789429743\_f.webp
+  - Column 3 (unlabelled by source): Barroth Helm
+    - Barroth Helm: https://mhrise.kiranico.com/data/armors/1789429743
+  - Column 4 (unlabelled by source): Lv 1
+- Row 17:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1754826735\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1754826735\_f.webp
+  - Column 3 (unlabelled by source): Barroth Mail
+    - Barroth Mail: https://mhrise.kiranico.com/data/armors/1754826735
+  - Column 4 (unlabelled by source): Lv 1
+- Row 18:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1803679628\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1803679628\_f.webp
+  - Column 3 (unlabelled by source): Barroth Helm S
+    - Barroth Helm S: https://mhrise.kiranico.com/data/armors/1803679628
+  - Column 4 (unlabelled by source): Lv 1
+- Row 19:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1769076620\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1769076620\_f.webp
+  - Column 3 (unlabelled by source): Barroth Mail S
+    - Barroth Mail S: https://mhrise.kiranico.com/data/armors/1769076620
+  - Column 4 (unlabelled by source): Lv 1
+- Row 20:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1868691340\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1868691340\_f.webp
+  - Column 3 (unlabelled by source): Barroth Vambraces S
+    - Barroth Vambraces S: https://mhrise.kiranico.com/data/armors/1868691340
+  - Column 4 (unlabelled by source): Lv 2
+- Row 21:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/489531045\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/489531045\_f.webp
+  - Column 3 (unlabelled by source): Rathalos Helm
+    - Rathalos Helm: https://mhrise.kiranico.com/data/armors/489531045
+  - Column 4 (unlabelled by source): Lv 1
+- Row 22:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/286107301\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/286107301\_f.webp
+  - Column 3 (unlabelled by source): Rathalos Braces
+    - Rathalos Braces: https://mhrise.kiranico.com/data/armors/286107301
+  - Column 4 (unlabelled by source): Lv 1
+- Row 23:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/285058725\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/285058725\_f.webp
+  - Column 3 (unlabelled by source): Rathalos Coil
+    - Rathalos Coil: https://mhrise.kiranico.com/data/armors/285058725
+  - Column 4 (unlabelled by source): Lv 1
+- Row 24:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/384673445\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/384673445\_f.webp
+  - Column 3 (unlabelled by source): Rathalos Greaves
+    - Rathalos Greaves: https://mhrise.kiranico.com/data/armors/384673445
+  - Column 4 (unlabelled by source): Lv 1
+- Row 25:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/503780954\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/503780954\_f.webp
+  - Column 3 (unlabelled by source): Rathalos Helm S
+    - Rathalos Helm S: https://mhrise.kiranico.com/data/armors/503780954
+  - Column 4 (unlabelled by source): Lv 1
+- Row 26:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/502732378\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/502732378\_f.webp
+  - Column 3 (unlabelled by source): Rathalos Mail S
+    - Rathalos Mail S: https://mhrise.kiranico.com/data/armors/502732378
+  - Column 4 (unlabelled by source): Lv 1
+- Row 27:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/333911642\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/333911642\_f.webp
+  - Column 3 (unlabelled by source): Rathalos Braces S
+    - Rathalos Braces S: https://mhrise.kiranico.com/data/armors/333911642
+  - Column 4 (unlabelled by source): Lv 2
+- Row 28:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/299308634\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/299308634\_f.webp
+  - Column 3 (unlabelled by source): Rathalos Coil S
+    - Rathalos Coil S: https://mhrise.kiranico.com/data/armors/299308634
+  - Column 4 (unlabelled by source): Lv 2
+- Row 29:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/398923354\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/398923354\_f.webp
+  - Column 3 (unlabelled by source): Rathalos Greaves S
+    - Rathalos Greaves S: https://mhrise.kiranico.com/data/armors/398923354
+  - Column 4 (unlabelled by source): Lv 1
+- Row 30:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/254719080\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/254719080\_f.webp
+  - Column 3 (unlabelled by source): Anjanath Vambraces
+    - Anjanath Vambraces: https://mhrise.kiranico.com/data/armors/254719080
+  - Column 4 (unlabelled by source): Lv 1
+- Row 31:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/220116072\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/220116072\_f.webp
+  - Column 3 (unlabelled by source): Anjanath Coil
+    - Anjanath Coil: https://mhrise.kiranico.com/data/armors/220116072
+  - Column 4 (unlabelled by source): Lv 2
+- Row 32:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/134734857\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/134734857\_f.webp
+  - Column 3 (unlabelled by source): Anjanath Vambraces S
+    - Anjanath Vambraces S: https://mhrise.kiranico.com/data/armors/134734857
+  - Column 4 (unlabelled by source): Lv 2
+- Row 33:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/267904009\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/267904009\_f.webp
+  - Column 3 (unlabelled by source): Anjanath Coil S
+    - Anjanath Coil S: https://mhrise.kiranico.com/data/armors/267904009
+  - Column 4 (unlabelled by source): Lv 2
+- Row 34:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1883073748\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1883073748\_f.webp
+  - Column 3 (unlabelled by source): Sonic Cap
+    - Sonic Cap: https://mhrise.kiranico.com/data/armors/1883073748
+  - Column 4 (unlabelled by source): Lv 1
+- Row 35:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1982688468\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1982688468\_f.webp
+  - Column 3 (unlabelled by source): Sonic Jersey
+    - Sonic Jersey: https://mhrise.kiranico.com/data/armors/1982688468
+  - Column 4 (unlabelled by source): Lv 1
+- Row 36:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1948085460\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1948085460\_f.webp
+  - Column 3 (unlabelled by source): Sonic Gloves
+    - Sonic Gloves: https://mhrise.kiranico.com/data/armors/1948085460
+  - Column 4 (unlabelled by source): Lv 1
+- Row 37:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1241345236\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1241345236\_f.webp
+  - Column 3 (unlabelled by source): Sonic Shoes
+    - Sonic Shoes: https://mhrise.kiranico.com/data/armors/1241345236
+  - Column 4 (unlabelled by source): Lv 1
+- Row 38:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1914818405\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1914818405\_f.webp
+  - Column 3 (unlabelled by source): Hunter's Helm X
+    - Hunter's Helm X: https://mhrise.kiranico.com/data/armors/1914818405
+  - Column 4 (unlabelled by source): Lv 2
+- Row 39:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1880215397\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1880215397\_f.webp
+  - Column 3 (unlabelled by source): Hunter's Mail X
+    - Hunter's Mail X: https://mhrise.kiranico.com/data/armors/1880215397
+  - Column 4 (unlabelled by source): Lv 1
+- Row 40:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1273089893\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1273089893\_f.webp
+  - Column 3 (unlabelled by source): Hunter's Greaves X
+    - Hunter's Greaves X: https://mhrise.kiranico.com/data/armors/1273089893
+  - Column 4 (unlabelled by source): Lv 2
+- Row 41:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/128508435\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/128508435\_f.webp
+  - Column 3 (unlabelled by source): Jaggi Gauntlets X
+    - Jaggi Gauntlets X: https://mhrise.kiranico.com/data/armors/128508435
+  - Column 4 (unlabelled by source): Lv 3
+- Row 42:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1248492189\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1248492189\_f.webp
+  - Column 3 (unlabelled by source): Velociprey Helm
+    - Velociprey Helm: https://mhrise.kiranico.com/data/armors/1248492189
+  - Column 4 (unlabelled by source): Lv 1
+- Row 43:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1213889181\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1213889181\_f.webp
+  - Column 3 (unlabelled by source): Velociprey Mail
+    - Velociprey Mail: https://mhrise.kiranico.com/data/armors/1213889181
+  - Column 4 (unlabelled by source): Lv 1
+- Row 44:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1313503901\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1313503901\_f.webp
+  - Column 3 (unlabelled by source): Velociprey Braces
+    - Velociprey Braces: https://mhrise.kiranico.com/data/armors/1313503901
+  - Column 4 (unlabelled by source): Lv 2
+- Row 45:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1278900893\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1278900893\_f.webp
+  - Column 3 (unlabelled by source): Velociprey Tassets
+    - Velociprey Tassets: https://mhrise.kiranico.com/data/armors/1278900893
+  - Column 4 (unlabelled by source): Lv 1
+- Row 46:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/162148682\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/162148682\_f.webp
+  - Column 3 (unlabelled by source): Baggi Mail X
+    - Baggi Mail X: https://mhrise.kiranico.com/data/armors/162148682
+  - Column 4 (unlabelled by source): Lv 1
+- Row 47:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/227160394\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/227160394\_f.webp
+  - Column 3 (unlabelled by source): Baggi Coil X
+    - Baggi Coil X: https://mhrise.kiranico.com/data/armors/227160394
+  - Column 4 (unlabelled by source): Lv 2
+- Row 48:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/58339658\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/58339658\_f.webp
+  - Column 3 (unlabelled by source): Baggi Greaves X
+    - Baggi Greaves X: https://mhrise.kiranico.com/data/armors/58339658
+  - Column 4 (unlabelled by source): Lv 2
+- Row 49:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/925331662\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/925331662\_f.webp
+  - Column 3 (unlabelled by source): Barroth Helm X
+    - Barroth Helm X: https://mhrise.kiranico.com/data/armors/925331662
+  - Column 4 (unlabelled by source): Lv 1
+- Row 50:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/890728654\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/890728654\_f.webp
+  - Column 3 (unlabelled by source): Barroth Mail X
+    - Barroth Mail X: https://mhrise.kiranico.com/data/armors/890728654
+  - Column 4 (unlabelled by source): Lv 2
+- Row 51:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/185037006\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/185037006\_f.webp
+  - Column 3 (unlabelled by source): Barroth Vambraces X
+    - Barroth Vambraces X: https://mhrise.kiranico.com/data/armors/185037006
+  - Column 4 (unlabelled by source): Lv 2
+- Row 52:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2125848280\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2125848280\_f.webp
+  - Column 3 (unlabelled by source): Ingot Helm X
+    - Ingot Helm X: https://mhrise.kiranico.com/data/armors/2125848280
+  - Column 4 (unlabelled by source): Lv 2
+- Row 53:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1887821528\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1887821528\_f.webp
+  - Column 3 (unlabelled by source): Ingot Coil X
+    - Ingot Coil X: https://mhrise.kiranico.com/data/armors/1887821528
+  - Column 4 (unlabelled by source): Lv 1
+- Row 54:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1987436248\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1987436248\_f.webp
+  - Column 3 (unlabelled by source): Ingot Greaves X
+    - Ingot Greaves X: https://mhrise.kiranico.com/data/armors/1987436248
+  - Column 4 (unlabelled by source): Lv 2
+- Row 55:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/304107088\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/304107088\_f.webp
+  - Column 3 (unlabelled by source): Squire's Earrings
+    - Squire's Earrings: https://mhrise.kiranico.com/data/armors/304107088
+  - Column 4 (unlabelled by source): Lv 2
+- Row 56:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/582776542\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/582776542\_f.webp
+  - Column 3 (unlabelled by source): Anjanath Helm X
+    - Anjanath Helm X: https://mhrise.kiranico.com/data/armors/582776542
+  - Column 4 (unlabelled by source): Lv 1
+- Row 57:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/647788254\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/647788254\_f.webp
+  - Column 3 (unlabelled by source): Anjanath Vambraces X
+    - Anjanath Vambraces X: https://mhrise.kiranico.com/data/armors/647788254
+  - Column 4 (unlabelled by source): Lv 2
+- Row 58:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/613185246\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/613185246\_f.webp
+  - Column 3 (unlabelled by source): Anjanath Coil X
+    - Anjanath Coil X: https://mhrise.kiranico.com/data/armors/613185246
+  - Column 4 (unlabelled by source): Lv 2
+- Row 59:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2096840474\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2096840474\_f.webp
+  - Column 3 (unlabelled by source): Dober Helm X
+    - Dober Helm X: https://mhrise.kiranico.com/data/armors/2096840474
+  - Column 4 (unlabelled by source): Lv 1
+- Row 60:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1993031450\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1993031450\_f.webp
+  - Column 3 (unlabelled by source): Dober Coil X
+    - Dober Coil X: https://mhrise.kiranico.com/data/armors/1993031450
+  - Column 4 (unlabelled by source): Lv 2
+- Row 61:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2048073308\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2048073308\_f.webp
+  - Column 3 (unlabelled by source): Death Stench Brain X
+    - Death Stench Brain X: https://mhrise.kiranico.com/data/armors/2048073308
+  - Column 4 (unlabelled by source): Lv 1
+- Row 62:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2146639452\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2146639452\_f.webp
+  - Column 3 (unlabelled by source): Death Stench Grip X
+    - Death Stench Grip X: https://mhrise.kiranico.com/data/armors/2146639452
+  - Column 4 (unlabelled by source): Lv 1
+- Row 63:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2112036444\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2112036444\_f.webp
+  - Column 3 (unlabelled by source): Death Stench Bowels X
+    - Death Stench Bowels X: https://mhrise.kiranico.com/data/armors/2112036444
+  - Column 4 (unlabelled by source): Lv 1
+- Row 64:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1943215708\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1943215708\_f.webp
+  - Column 3 (unlabelled by source): Death Stench Heel X
+    - Death Stench Heel X: https://mhrise.kiranico.com/data/armors/1943215708
+  - Column 4 (unlabelled by source): Lv 1
+- Row 65:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1869180171\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1869180171\_f.webp
+  - Column 3 (unlabelled by source): Channeler's Hair Tie (Spring)
+    - Channeler's Hair Tie (Spring): https://mhrise.kiranico.com/data/armors/1869180171
+  - Column 4 (unlabelled by source): Lv 2
+- Row 66:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1665756427\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1665756427\_f.webp
+  - Column 3 (unlabelled by source): Channeler's Hope (Spring)
+    - Channeler's Hope (Spring): https://mhrise.kiranico.com/data/armors/1665756427
+  - Column 4 (unlabelled by source): Lv 2
+- Row 67:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1631153419\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1631153419\_f.webp
+  - Column 3 (unlabelled by source): Channeler's Obi (Spring)
+    - Channeler's Obi (Spring): https://mhrise.kiranico.com/data/armors/1631153419
+  - Column 4 (unlabelled by source): Lv 1
+- Row 68:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1730768139\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1730768139\_f.webp
+  - Column 3 (unlabelled by source): Channeler's Hakama (Spring)
+    - Channeler's Hakama (Spring): https://mhrise.kiranico.com/data/armors/1730768139
+  - Column 4 (unlabelled by source): Lv 2
+- Row 69:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1749212456\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1749212456\_f.webp
+  - Column 3 (unlabelled by source): Utsushi True Mask (H)
+    - Utsushi True Mask (H): https://mhrise.kiranico.com/data/armors/1749212456
+  - Column 4 (unlabelled by source): Lv 2
+- Row 70:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1814224168\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1814224168\_f.webp
+  - Column 3 (unlabelled by source): Utsushi True Braces (H)
+    - Utsushi True Braces (H): https://mhrise.kiranico.com/data/armors/1814224168
+  - Column 4 (unlabelled by source): Lv 2
+- Row 71:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1645403432\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1645403432\_f.webp
+  - Column 3 (unlabelled by source): Utsushi True Tassets (H)
+    - Utsushi True Tassets (H): https://mhrise.kiranico.com/data/armors/1645403432
+  - Column 4 (unlabelled by source): Lv 1
+- Row 72:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1610800424\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1610800424\_f.webp
+  - Column 3 (unlabelled by source): Utsushi True Greaves (H)
+    - Utsushi True Greaves (H): https://mhrise.kiranico.com/data/armors/1610800424
+  - Column 4 (unlabelled by source): Lv 2
+- Row 73:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1030086755\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1030086755\_f.webp
+  - Column 3 (unlabelled by source): Rathalos Helm X
+    - Rathalos Helm X: https://mhrise.kiranico.com/data/armors/1030086755
+  - Column 4 (unlabelled by source): Lv 1
+- Row 74:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/861266019\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/861266019\_f.webp
+  - Column 3 (unlabelled by source): Rathalos Mail X
+    - Rathalos Mail X: https://mhrise.kiranico.com/data/armors/861266019
+  - Column 4 (unlabelled by source): Lv 1
+- Row 75:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/826663011\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/826663011\_f.webp
+  - Column 3 (unlabelled by source): Rathalos Braces X
+    - Rathalos Braces X: https://mhrise.kiranico.com/data/armors/826663011
+  - Column 4 (unlabelled by source): Lv 2
+- Row 76:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/926277731\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/926277731\_f.webp
+  - Column 3 (unlabelled by source): Rathalos Coil X
+    - Rathalos Coil X: https://mhrise.kiranico.com/data/armors/926277731
+  - Column 4 (unlabelled by source): Lv 2
+- Row 77:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/891674723\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/891674723\_f.webp
+  - Column 3 (unlabelled by source): Rathalos Greaves X
+    - Rathalos Greaves X: https://mhrise.kiranico.com/data/armors/891674723
+  - Column 4 (unlabelled by source): Lv 1
+- Row 78:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1678211309\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1678211309\_f.webp
+  - Column 3 (unlabelled by source): Snowshear Headgear
+    - Snowshear Headgear: https://mhrise.kiranico.com/data/armors/1678211309
+  - Column 4 (unlabelled by source): Lv 2
+- Row 79:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2079815917\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2079815917\_f.webp
+  - Column 3 (unlabelled by source): Snowshear Mail
+    - Snowshear Mail: https://mhrise.kiranico.com/data/armors/2079815917
+  - Column 4 (unlabelled by source): Lv 1
+- Row 80:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2045212909\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2045212909\_f.webp
+  - Column 3 (unlabelled by source): Snowshear Braces
+    - Snowshear Braces: https://mhrise.kiranico.com/data/armors/2045212909
+  - Column 4 (unlabelled by source): Lv 1
+- Row 81:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2144827629\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2144827629\_f.webp
+  - Column 3 (unlabelled by source): Snowshear Coil
+    - Snowshear Coil: https://mhrise.kiranico.com/data/armors/2144827629
+  - Column 4 (unlabelled by source): Lv 1
+- Row 82:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2110224621\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2110224621\_f.webp
+  - Column 3 (unlabelled by source): Snowshear Greaves
+    - Snowshear Greaves: https://mhrise.kiranico.com/data/armors/2110224621
+  - Column 4 (unlabelled by source): Lv 2
+- Row 83:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1074514808\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1074514808\_f.webp
+  - Column 3 (unlabelled by source): Malzeno Braces
+    - Malzeno Braces: https://mhrise.kiranico.com/data/armors/1074514808
+  - Column 4 (unlabelled by source): Lv 2
+- Row 84:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1207683960\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1207683960\_f.webp
+  - Column 3 (unlabelled by source): Malzeno Coil
+    - Malzeno Coil: https://mhrise.kiranico.com/data/armors/1207683960
+  - Column 4 (unlabelled by source): Lv 1
+- Row 85:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1173080952\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1173080952\_f.webp
+  - Column 3 (unlabelled by source): Malzeno Greaves
+    - Malzeno Greaves: https://mhrise.kiranico.com/data/armors/1173080952
+  - Column 4 (unlabelled by source): Lv 1
+- Row 86:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/216276099\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/216276099\_f.webp
+  - Column 3 (unlabelled by source): Black Belt Helm S
+    - Black Belt Helm S: https://mhrise.kiranico.com/data/armors/216276099
+  - Column 4 (unlabelled by source): Lv 1
+- Row 87:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/47455363\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/47455363\_f.webp
+  - Column 3 (unlabelled by source): Black Belt Mail S
+    - Black Belt Mail S: https://mhrise.kiranico.com/data/armors/47455363
+  - Column 4 (unlabelled by source): Lv 1
+- Row 88:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/12852355\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/12852355\_f.webp
+  - Column 3 (unlabelled by source): Black Belt Braces S
+    - Black Belt Braces S: https://mhrise.kiranico.com/data/armors/12852355
+  - Column 4 (unlabelled by source): Lv 1
+- Row 89:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/77864067\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/77864067\_f.webp
+  - Column 3 (unlabelled by source): Black Belt Greaves S
+    - Black Belt Greaves S: https://mhrise.kiranico.com/data/armors/77864067
+  - Column 4 (unlabelled by source): Lv 1
+- Row 90:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1129487195\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1129487195\_f.webp
+  - Column 3 (unlabelled by source): Pride Helm
+    - Pride Helm: https://mhrise.kiranico.com/data/armors/1129487195
+  - Column 4 (unlabelled by source): Lv 1
+- Row 91:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1094884187\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1094884187\_f.webp
+  - Column 3 (unlabelled by source): Pride Mail
+    - Pride Mail: https://mhrise.kiranico.com/data/armors/1094884187
+  - Column 4 (unlabelled by source): Lv 1
+- Row 92:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1844481988\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1844481988\_f.webp
+  - Column 3 (unlabelled by source): Flaming Espinas Brain
+    - Flaming Espinas Brain: https://mhrise.kiranico.com/data/armors/1844481988
+  - Column 4 (unlabelled by source): Lv 2
+- Row 93:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1675661252\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1675661252\_f.webp
+  - Column 3 (unlabelled by source): Flaming Espinas Muscle
+    - Flaming Espinas Muscle: https://mhrise.kiranico.com/data/armors/1675661252
+  - Column 4 (unlabelled by source): Lv 2
+- Row 94:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1641058244\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1641058244\_f.webp
+  - Column 3 (unlabelled by source): Flaming Espinas Grip
+    - Flaming Espinas Grip: https://mhrise.kiranico.com/data/armors/1641058244
+  - Column 4 (unlabelled by source): Lv 1
+- Row 95:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1706069956\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1706069956\_f.webp
+  - Column 3 (unlabelled by source): Flaming Espinas Heel
+    - Flaming Espinas Heel: https://mhrise.kiranico.com/data/armors/1706069956
+  - Column 4 (unlabelled by source): Lv 1
+- Row 96:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/713154630\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/713154630\_f.webp
+  - Column 3 (unlabelled by source): Risen Kushala Iram
+    - Risen Kushala Iram: https://mhrise.kiranico.com/data/armors/713154630
+  - Column 4 (unlabelled by source): Lv 2
+- Row 97:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/778166342\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/778166342\_f.webp
+  - Column 3 (unlabelled by source): Risen Kushala Cocoon
+    - Risen Kushala Cocoon: https://mhrise.kiranico.com/data/armors/778166342
+  - Column 4 (unlabelled by source): Lv 2
+- Row 98:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1552103353\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1552103353\_f.webp
+  - Column 3 (unlabelled by source): Valstrax Helm - Epoch
+    - Valstrax Helm - Epoch: https://mhrise.kiranico.com/data/armors/1552103353
+  - Column 4 (unlabelled by source): Lv 1
+- Row 99:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1383282617\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1383282617\_f.webp
+  - Column 3 (unlabelled by source): Valstrax Mail - Epoch
+    - Valstrax Mail - Epoch: https://mhrise.kiranico.com/data/armors/1383282617
+  - Column 4 (unlabelled by source): Lv 1
+- Row 100:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1348679609\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1348679609\_f.webp
+  - Column 3 (unlabelled by source): Valstrax Braces - Epoch
+    - Valstrax Braces - Epoch: https://mhrise.kiranico.com/data/armors/1348679609
+  - Column 4 (unlabelled by source): Lv 1
+- Row 101:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1448294329\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1448294329\_f.webp
+  - Column 3 (unlabelled by source): Valstrax Coil - Epoch
+    - Valstrax Coil - Epoch: https://mhrise.kiranico.com/data/armors/1448294329
+  - Column 4 (unlabelled by source): Lv 1
+- Row 102:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1413691321\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1413691321\_f.webp
+  - Column 3 (unlabelled by source): Valstrax Greaves - Epoch
+    - Valstrax Greaves - Epoch: https://mhrise.kiranico.com/data/armors/1413691321
+  - Column 4 (unlabelled by source): Lv 2
+- Row 103:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1377687423\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1377687423\_f.webp
+  - Column 3 (unlabelled by source): Virtue Braces
+    - Virtue Braces: https://mhrise.kiranico.com/data/armors/1377687423
+  - Column 4 (unlabelled by source): Lv 3
+- Row 104:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1482442384\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1482442384\_f.webp
+  - Column 3 (unlabelled by source): Prudence Braces
+    - Prudence Braces: https://mhrise.kiranico.com/data/armors/1482442384
+  - Column 4 (unlabelled by source): Lv 3
+- Row 105:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1587652306\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1587652306\_f.webp
+  - Column 3 (unlabelled by source): Buff Arms
+    - Buff Arms: https://mhrise.kiranico.com/data/armors/1587652306
+  - Column 4 (unlabelled by source): Lv 2
+- Row 106:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1553049298\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1553049298\_f.webp
+  - Column 3 (unlabelled by source): Buff Waist
+    - Buff Waist: https://mhrise.kiranico.com/data/armors/1553049298
+  - Column 4 (unlabelled by source): Lv 2
+- Row 107:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1384228562\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1384228562\_f.webp
+  - Column 3 (unlabelled by source): Buff Legs
+    - Buff Legs: https://mhrise.kiranico.com/data/armors/1384228562
+  - Column 4 (unlabelled by source): Lv 3
+
+## Stamina Thief
+
+- Category: Skills
+- ID: 614678208
+- Source URL: https://mhrise.kiranico.com/data/skills/614678208
+- language: en
+- description: Increases certain attacks' ability to exhaust monsters.
+- Source database version: 16.0.0
+- Fetched at (UTC): 2026-10-30T14:24:07.809981+00:00
+- Snapshot ID: 2026-10-30T14:20:10.103912+00:00
+- source_groups: \["https://mhrise.kiranico.com/data/skills"\]
+
+### Stamina Thief: Skill Level Effects
+
+- Level 1: Exhaust power +20%
+- Level 2: Exhaust power +30%
+- Level 3: Exhaust power +40%
+
+### Stamina Thief: Overview
+
+- Row 1:
+  - Column 1 (unlabelled by source): Lv 1
+  - Column 2 (unlabelled by source): Exhaust power +20%
+- Row 2:
+  - Column 1 (unlabelled by source): Lv 2
+  - Column 2 (unlabelled by source): Exhaust power +30%
+- Row 3:
+  - Column 1 (unlabelled by source): Lv 3
+  - Column 2 (unlabelled by source): Exhaust power +40%
+
+### Stamina Thief: Decorations
+
+- Row 1:
+  - Column 1 (unlabelled by source): Drain Jewel 1
+    - Drain Jewel 1: https://mhrise.kiranico.com/data/decorations/614678208
+  - Column 2 (unlabelled by source): 500z
+  - Column 3 (unlabelled by source): A decoration that enhances the Stamina Thief skill.
+- Row 2:
+  - Column 1 (unlabelled by source): Hard Drain Jewel 4
+    - Hard Drain Jewel 4: https://mhrise.kiranico.com/data/decorations/412366096
+  - Column 2 (unlabelled by source): 4,000z
+  - Column 3 (unlabelled by source): A decoration that enhances the skill.
+
+### Stamina Thief: Armor
+
+- Row 1:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/86861105\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/86861105\_f.webp
+  - Column 3 (unlabelled by source): Kulu-Ya-Ku Coil
+    - Kulu-Ya-Ku Coil: https://mhrise.kiranico.com/data/armors/86861105
+  - Column 4 (unlabelled by source): Lv 1
+- Row 2:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1496278\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1496278\_f.webp
+  - Column 3 (unlabelled by source): Kulu-Ya-Ku Braces S
+    - Kulu-Ya-Ku Braces S: https://mhrise.kiranico.com/data/armors/1496278
+  - Column 4 (unlabelled by source): Lv 2
+- Row 3:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/101110998\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/101110998\_f.webp
+  - Column 3 (unlabelled by source): Kulu-Ya-Ku Coil S
+    - Kulu-Ya-Ku Coil S: https://mhrise.kiranico.com/data/armors/101110998
+  - Column 4 (unlabelled by source): Lv 1
+- Row 4:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/617327224\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/617327224\_f.webp
+  - Column 3 (unlabelled by source): Bone Mail
+    - Bone Mail: https://mhrise.kiranico.com/data/armors/617327224
+  - Column 4 (unlabelled by source): Lv 1
+- Row 5:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/985377400\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/985377400\_f.webp
+  - Column 3 (unlabelled by source): Bone Vambraces
+    - Bone Vambraces: https://mhrise.kiranico.com/data/armors/985377400
+  - Column 4 (unlabelled by source): Lv 1
+- Row 6:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/666704409\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/666704409\_f.webp
+  - Column 3 (unlabelled by source): Bone Helm S
+    - Bone Helm S: https://mhrise.kiranico.com/data/armors/666704409
+  - Column 4 (unlabelled by source): Lv 1
+- Row 7:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/632101401\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/632101401\_f.webp
+  - Column 3 (unlabelled by source): Bone Mail S
+    - Bone Mail S: https://mhrise.kiranico.com/data/armors/632101401
+  - Column 4 (unlabelled by source): Lv 1
+- Row 8:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1000151577\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1000151577\_f.webp
+  - Column 3 (unlabelled by source): Bone Vambraces S
+    - Bone Vambraces S: https://mhrise.kiranico.com/data/armors/1000151577
+  - Column 4 (unlabelled by source): Lv 1
+- Row 9:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1429312916\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1429312916\_f.webp
+  - Column 3 (unlabelled by source): Bone Helm X
+    - Bone Helm X: https://mhrise.kiranico.com/data/armors/1429312916
+  - Column 4 (unlabelled by source): Lv 1
+- Row 10:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/723621268\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/723621268\_f.webp
+  - Column 3 (unlabelled by source): Bone Mail X
+    - Bone Mail X: https://mhrise.kiranico.com/data/armors/723621268
+  - Column 4 (unlabelled by source): Lv 1
+- Row 11:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/689018260\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/689018260\_f.webp
+  - Column 3 (unlabelled by source): Bone Vambraces X
+    - Bone Vambraces X: https://mhrise.kiranico.com/data/armors/689018260
+  - Column 4 (unlabelled by source): Lv 1
+- Row 12:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/959919962\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/959919962\_f.webp
+  - Column 3 (unlabelled by source): Kulu-Ya-Ku Braces X
+    - Kulu-Ya-Ku Braces X: https://mhrise.kiranico.com/data/armors/959919962
+  - Column 4 (unlabelled by source): Lv 2
+- Row 13:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1059534682\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1059534682\_f.webp
+  - Column 3 (unlabelled by source): Kulu-Ya-Ku Coil X
+    - Kulu-Ya-Ku Coil X: https://mhrise.kiranico.com/data/armors/1059534682
+  - Column 4 (unlabelled by source): Lv 1
+- Row 14:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1202088766\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1202088766\_f.webp
+  - Column 3 (unlabelled by source): Golm Greaves
+    - Golm Greaves: https://mhrise.kiranico.com/data/armors/1202088766
+  - Column 4 (unlabelled by source): Lv 2
+- Row 15:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1678211309\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1678211309\_f.webp
+  - Column 3 (unlabelled by source): Snowshear Headgear
+    - Snowshear Headgear: https://mhrise.kiranico.com/data/armors/1678211309
+  - Column 4 (unlabelled by source): Lv 1
+- Row 16:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2079815917\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2079815917\_f.webp
+  - Column 3 (unlabelled by source): Snowshear Mail
+    - Snowshear Mail: https://mhrise.kiranico.com/data/armors/2079815917
+  - Column 4 (unlabelled by source): Lv 1
+- Row 17:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2144827629\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2144827629\_f.webp
+  - Column 3 (unlabelled by source): Snowshear Coil
+    - Snowshear Coil: https://mhrise.kiranico.com/data/armors/2144827629
+  - Column 4 (unlabelled by source): Lv 1
+- Row 18:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1527946075\_m.webp
+  - Column 2 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1527946075\_f.webp
+  - Column 3 (unlabelled by source): Pride Greaves
+    - Pride Greaves: https://mhrise.kiranico.com/data/armors/1527946075
+  - Column 4 (unlabelled by source): Lv 3
+

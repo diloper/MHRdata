@@ -1,0 +1,43 @@
+Sticky Ammo Reference
+Snapshot ID: 2026-10-30T14:20:10.103912+00:00
+MR10 availability: not established by this reference; verify progression separately.
+Only source-provided descriptions and tables are included; no crafting recipe is inferred.
+
+## Sticky Ammo 1
+Name: Sticky Ammo 1
+ID: 959840076
+Database version: 16.0.0
+Source URL: https://mhrise.kiranico.com/data/items/959840076
+Description: Powerful pierce and burst ammo. Headshots may stun.
+Source table: Weapons
+- No rows provided by source.
+Source table: Armor
+- No rows provided by source.
+Source table: Decorations
+- No rows provided by source.
+
+## Sticky Ammo 2
+Name: Sticky Ammo 2
+ID: 974073709
+Database version: 16.0.0
+Source URL: https://mhrise.kiranico.com/data/items/974073709
+Description: Very powerful pierce and burst ammo. Headshots may stun.
+Source table: Weapons
+- No rows provided by source.
+Source table: Armor
+- No rows provided by source.
+Source table: Decorations
+- No rows provided by source.
+
+## Sticky Ammo 3
+Name: Sticky Ammo 3
+ID: 636717490
+Database version: 16.0.0
+Source URL: https://mhrise.kiranico.com/data/items/636717490
+Description: Powerful pierce and burst ammo. Headshots stun.
+Source table: Weapons
+- No rows provided by source.
+Source table: Armor
+- No rows provided by source.
+Source table: Decorations
+- No rows provided by source.

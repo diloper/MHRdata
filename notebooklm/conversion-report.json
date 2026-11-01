@@ -1,0 +1,48 @@
+{
+  "sources": {
+    "Items": {
+      "input_records": 11,
+      "output_records": 11,
+      "exact_duplicates_removed": 0,
+      "conflicting_ids": [],
+      "sha256": "a07eb85017556be4888fe815e078d3df0b6940302b6bdbd7a8f9692f5c2d4c5d"
+    },
+    "Skills": {
+      "input_records": 4,
+      "output_records": 4,
+      "exact_duplicates_removed": 0,
+      "conflicting_ids": [],
+      "sha256": "a551e0651f4c1a55d73ba30858dbcf77bf2615a8060cc2aa161d3bc0bc5d86d4"
+    },
+    "Decorations": {
+      "input_records": 1,
+      "output_records": 1,
+      "exact_duplicates_removed": 0,
+      "conflicting_ids": [],
+      "sha256": "21a56db78310f765be7e7f9b9a2826094ca71700b5e75790d5b7d38ac853f96e"
+    },
+    "Armors": {
+      "input_records": 1,
+      "output_records": 1,
+      "exact_duplicates_removed": 0,
+      "conflicting_ids": [],
+      "sha256": "9be68ecde06b9a8d79ca9dc5fd8b9320319854e68f4948a6bfdd439973b5384e"
+    },
+    "Weapons": {
+      "input_records": 1,
+      "output_records": 1,
+      "exact_duplicates_removed": 0,
+      "conflicting_ids": [],
+      "sha256": "cee7c8dde9af512c27865dadf233da6b7e7ef95c364144186c5da0bad6b9c6ca"
+    }
+  },
+  "warnings": [],
+  "generated_files": [
+    "Armors-view-3-001.md",
+    "Decorations-all-001.md",
+    "Items-all-001.md",
+    "Items-all-002.md",
+    "Skills-all-001.md",
+    "Weapons-view-10-001.md"
+  ]
+}

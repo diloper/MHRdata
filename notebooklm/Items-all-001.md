@@ -1,0 +1,3549 @@
+# Monster Hunter Rise: Items (all)
+
+- Source file: Items.json
+- Source version: 16.0.0
+- Snapshot mode: pilot
+- Coverage: 11 parsed records; 1764 discovered; 1753 missing.
+- Source date below is the download snapshot date, not the game release date.
+- Source date: 2026-10-30T14:20:10.103912+00:00
+
+Historical source snapshot, not verified as current or complete Sunbreak data.
+English names and original IDs are preserved. Numeric enum codes, rarity,
+skillList and decorationsNumList retain their original meaning without decoding.
+Empty values mean not provided, not necessarily absent. Unlock value 'None'
+is a literal source value, not a verified absence of requirements.
+All listed skill level effects are reference information, not equipped levels.
+Rampage skills use a separate ID namespace from normal skills.
+
+## Goss Harag Brace+
+
+- Category: Items
+- ID: 100077363
+- Source URL: https://mhrise.kiranico.com/data/items/100077363
+- language: en
+- description: Arm carapace thickened by the reckless behavior of a Goss Harag.
+- Source database version: 16.0.0
+- Fetched at (UTC): 2026-10-30T14:23:51.927412+00:00
+- Snapshot ID: 2026-10-30T14:20:10.103912+00:00
+- source_groups: \["https://mhrise.kiranico.com/data/items?view=material"\]
+
+### Goss Harag Brace+: Monsters
+
+- Row 1:
+  - Column 1 (unlabelled by source): Goss Harag
+    - Goss Harag: https://mhrise.kiranico.com/data/monsters/2069053547
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Target Rewards
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 20%
+- Row 2:
+  - Column 1 (unlabelled by source): Goss Harag
+    - Goss Harag: https://mhrise.kiranico.com/data/monsters/2069053547
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Capture Rewards
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 20%
+- Row 3:
+  - Column 1 (unlabelled by source): Goss Harag
+    - Goss Harag: https://mhrise.kiranico.com/data/monsters/2069053547
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Broken Part Rewards BodyPart 6
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 20%
+- Row 4:
+  - Column 1 (unlabelled by source): Goss Harag
+    - Goss Harag: https://mhrise.kiranico.com/data/monsters/2069053547
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Items Obtained by Palico
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 20%
+- Row 5:
+  - Column 1 (unlabelled by source): Goss Harag
+    - Goss Harag: https://mhrise.kiranico.com/data/monsters/2069053547
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Carves Body
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 15%
+
+### Goss Harag Brace+: Weapons
+
+- Row 1:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1502968916.webp
+  - Column 2 (unlabelled by source): Abominable Great Sword
+    - Abominable Great Sword: https://mhrise.kiranico.com/data/weapons/1502968916
+  - Column 3 (unlabelled by source): x2
+- Row 2:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/721444254.webp
+  - Column 2 (unlabelled by source): Mincing Blade II
+    - Mincing Blade II: https://mhrise.kiranico.com/data/weapons/721444254
+  - Column 3 (unlabelled by source): x2
+- Row 3:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1483981571.webp
+  - Column 2 (unlabelled by source): Ashigara Axes
+    - Ashigara Axes: https://mhrise.kiranico.com/data/weapons/1483981571
+  - Column 3 (unlabelled by source): x2
+- Row 4:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1553730743.webp
+  - Column 2 (unlabelled by source): Yeti Hammer III
+    - Yeti Hammer III: https://mhrise.kiranico.com/data/weapons/1553730743
+  - Column 3 (unlabelled by source): x3
+- Row 5:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1925398635.webp
+  - Column 2 (unlabelled by source): Algiguiro
+    - Algiguiro: https://mhrise.kiranico.com/data/weapons/1925398635
+  - Column 3 (unlabelled by source): x2
+- Row 6:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1399159892.webp
+  - Column 2 (unlabelled by source): Abominable Lance
+    - Abominable Lance: https://mhrise.kiranico.com/data/weapons/1399159892
+  - Column 3 (unlabelled by source): x3
+- Row 7:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/548850995.webp
+  - Column 2 (unlabelled by source): Stunning Axe
+    - Stunning Axe: https://mhrise.kiranico.com/data/weapons/548850995
+  - Column 3 (unlabelled by source): x4
+- Row 8:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1058741786.webp
+  - Column 2 (unlabelled by source): Gossglaive II
+    - Gossglaive II: https://mhrise.kiranico.com/data/weapons/1058741786
+  - Column 3 (unlabelled by source): x3
+- Row 9:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/185192227.webp
+  - Column 2 (unlabelled by source): Abominable Bowgun
+    - Abominable Bowgun: https://mhrise.kiranico.com/data/weapons/185192227
+  - Column 3 (unlabelled by source): x3
+
+### Goss Harag Brace+: Armor
+
+- Row 1:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/31263303\_f.webp
+  - Column 2 (unlabelled by source): Damascus Vambraces
+    - Damascus Vambraces: https://mhrise.kiranico.com/data/armors/31263303
+  - Column 3 (unlabelled by source): x2
+- Row 2:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1486621879\_f.webp
+  - Column 2 (unlabelled by source): Goss Harag Braces S
+    - Goss Harag Braces S: https://mhrise.kiranico.com/data/armors/1486621879
+  - Column 3 (unlabelled by source): x2
+- Row 3:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1551633591\_f.webp
+  - Column 2 (unlabelled by source): Goss Harag Greaves S
+    - Goss Harag Greaves S: https://mhrise.kiranico.com/data/armors/1551633591
+  - Column 3 (unlabelled by source): x2
+- Row 4:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1176499116\_f.webp
+  - Column 2 (unlabelled by source): Kushala Crus
+    - Kushala Crus: https://mhrise.kiranico.com/data/armors/1176499116
+  - Column 3 (unlabelled by source): x2
+
+### Goss Harag Brace+: Decorations
+
+- Row 1:
+  - Column 1 (unlabelled by source): Shield Jewel 2
+    - Shield Jewel 2: https://mhrise.kiranico.com/data/decorations/1032544142
+  - Column 2 (unlabelled by source): x3
+- Row 2:
+  - Column 1 (unlabelled by source): Blunt Jewel 2
+    - Blunt Jewel 2: https://mhrise.kiranico.com/data/decorations/885053622
+  - Column 2 (unlabelled by source): x3
+
+## Bloodrun Jewel
+
+- Category: Items
+- ID: 1046750886
+- Source URL: https://mhrise.kiranico.com/data/items/1046750886
+- language: en
+- description: An indispensable item used in decorations. A shame that these are so high-end.
+- Source database version: 16.0.0
+- Fetched at (UTC): 2026-10-30T14:26:26.464023+00:00
+- Snapshot ID: 2026-10-30T14:20:10.103912+00:00
+- source_groups: \["https://mhrise.kiranico.com/data/items?view=material"\]
+
+### Bloodrun Jewel: Quests
+
+- Row 1:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ A Blaze Among Beasts
+    - Gathering Hub 8★ A Blaze Among Beasts: https://mhrise.kiranico.com/data/quests/581544328
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 70%
+- Row 2:
+  - Column 1 (unlabelled by source): Village 6★ Advanced: The Veterans' Gala
+    - Village 6★ Advanced: The Veterans' Gala: https://mhrise.kiranico.com/data/quests/584819409
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 60%
+- Row 3:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Allmother
+    - Gathering Hub 8★ The Allmother: https://mhrise.kiranico.com/data/quests/924625848
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 60%
+- Row 4:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Advanced: Dual Calamities
+    - Gathering Hub 8★ Advanced: Dual Calamities: https://mhrise.kiranico.com/data/quests/1489682303
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 60%
+- Row 5:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Advanced: Monsters in Ink
+    - Gathering Hub 8★ Advanced: Monsters in Ink: https://mhrise.kiranico.com/data/quests/1503915804
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 60%
+- Row 6:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Master Utsushi's Challenge Part 1
+    - Gathering Hub 8★ Master Utsushi's Challenge Part 1: https://mhrise.kiranico.com/data/quests/1086049878
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 60%
+- Row 7:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Master Utsushi's Challenge Part 2
+    - Gathering Hub 8★ Master Utsushi's Challenge Part 2: https://mhrise.kiranico.com/data/quests/1100824183
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 60%
+- Row 8:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Master Utsushi's Challenge Part 3
+    - Gathering Hub 8★ Master Utsushi's Challenge Part 3: https://mhrise.kiranico.com/data/quests/1115057684
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 60%
+- Row 9:
+  - Column 1 (unlabelled by source): Event Quests 8★ Rajang's Holiday Special
+    - Event Quests 8★ Rajang's Holiday Special: https://mhrise.kiranico.com/data/quests/1889868399
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 60%
+- Row 10:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Avaricious Apex Arzuros
+    - Gathering Hub 8★ The Avaricious Apex Arzuros: https://mhrise.kiranico.com/data/quests/1370675237
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 40%
+- Row 11:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Graceful Apex Rathian
+    - Gathering Hub 8★ The Graceful Apex Rathian: https://mhrise.kiranico.com/data/quests/1385435098
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 40%
+- Row 12:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Harlequin Apex Mizutsune
+    - Gathering Hub 8★ The Harlequin Apex Mizutsune: https://mhrise.kiranico.com/data/quests/1399685115
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 40%
+- Row 13:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Advanced: Of Storm and Fire
+    - Gathering Hub 8★ Advanced: Of Storm and Fire: https://mhrise.kiranico.com/data/quests/1518690109
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 40%
+- Row 14:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Advanced: Scaredy-Cat
+    - Gathering Hub 8★ Advanced: Scaredy-Cat: https://mhrise.kiranico.com/data/quests/1532923602
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 40%
+- Row 15:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Advanced: The Fallen Comet
+    - Gathering Hub 8★ Advanced: The Fallen Comet: https://mhrise.kiranico.com/data/quests/1144520435
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 40%
+- Row 16:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Advanced: Proof of Power
+    - Gathering Hub 8★ Advanced: Proof of Power: https://mhrise.kiranico.com/data/quests/1158229648
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 40%
+- Row 17:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Master Utsushi's Challenge Part 4
+    - Gathering Hub 8★ Master Utsushi's Challenge Part 4: https://mhrise.kiranico.com/data/quests/1129307701
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 40%
+- Row 18:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Master Utsushi's Challenge Part 5
+    - Gathering Hub 8★ Master Utsushi's Challenge Part 5: https://mhrise.kiranico.com/data/quests/1277234730
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 40%
+- Row 19:
+  - Column 1 (unlabelled by source): Event Quests 8★ Fooled in the Flooded Forest
+    - Event Quests 8★ Fooled in the Flooded Forest: https://mhrise.kiranico.com/data/quests/1399600486
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 40%
+- Row 20:
+  - Column 1 (unlabelled by source): Event Quests 8★ Heart of a Hero
+    - Event Quests 8★ Heart of a Hero: https://mhrise.kiranico.com/data/quests/1562301732
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 40%
+- Row 21:
+  - Column 1 (unlabelled by source): Event Quests 8★ An Icy Blade So Bright
+    - Event Quests 8★ An Icy Blade So Bright: https://mhrise.kiranico.com/data/quests/1609565381
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 40%
+- Row 22:
+  - Column 1 (unlabelled by source): Event Quests 8★ Tempest in the Desert
+    - Event Quests 8★ Tempest in the Desert: https://mhrise.kiranico.com/data/quests/1489597690
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 40%
+- Row 23:
+  - Column 1 (unlabelled by source): Event Quests 8★ Boomy Dango
+    - Event Quests 8★ Boomy Dango: https://mhrise.kiranico.com/data/quests/1518605496
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 40%
+- Row 24:
+  - Column 1 (unlabelled by source): Event Quests 8★ SF: Ultimate Promotion Exam
+    - Event Quests 8★ SF: Ultimate Promotion Exam: https://mhrise.kiranico.com/data/quests/1158669343
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 40%
+- Row 25:
+  - Column 1 (unlabelled by source): Event Quests 8★ Scorching Showdown
+    - Event Quests 8★ Scorching Showdown: https://mhrise.kiranico.com/data/quests/1205949500
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 40%
+- Row 26:
+  - Column 1 (unlabelled by source): Event Quests 8★ White Desert Blossom
+    - Event Quests 8★ White Desert Blossom: https://mhrise.kiranico.com/data/quests/1085979613
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 40%
+- Row 27:
+  - Column 1 (unlabelled by source): Event Quests 8★ Gales of Ibushi Blow Again
+    - Event Quests 8★ Gales of Ibushi Blow Again: https://mhrise.kiranico.com/data/quests/1114987411
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 40%
+- Row 28:
+  - Column 1 (unlabelled by source): Event Quests 8★ Clouds of Narwa Rumble Again
+    - Event Quests 8★ Clouds of Narwa Rumble Again: https://mhrise.kiranico.com/data/quests/1129221040
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 40%
+- Row 29:
+  - Column 1 (unlabelled by source): Event Quests 8★ Princesses' Banquet
+    - Event Quests 8★ Princesses' Banquet: https://mhrise.kiranico.com/data/quests/2023106886
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 40%
+- Row 30:
+  - Column 1 (unlabelled by source): Event Quests 8★ Super Shady Look-alike
+    - Event Quests 8★ Super Shady Look-alike: https://mhrise.kiranico.com/data/quests/1858465746
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 40%
+- Row 31:
+  - Column 1 (unlabelled by source): Event Quests 8★ USJ - Shrine Showdown!
+    - Event Quests 8★ USJ - Shrine Showdown!: https://mhrise.kiranico.com/data/quests/1752207248
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 40%
+- Row 32:
+  - Column 1 (unlabelled by source): 2★ A Fire to Jyuratodouse
+    - 2★ A Fire to Jyuratodouse: https://mhrise.kiranico.com/data/quests/845616219
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 40%
+- Row 33:
+  - Column 1 (unlabelled by source): 2★ A Fire to Jyuratodouse
+    - 2★ A Fire to Jyuratodouse: https://mhrise.kiranico.com/data/quests/845616219
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x3
+  - Column 4 (unlabelled by source): 40%
+- Row 34:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Fearsome Apex Rathalos
+    - Gathering Hub 8★ The Fearsome Apex Rathalos: https://mhrise.kiranico.com/data/quests/1548136344
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x3
+  - Column 4 (unlabelled by source): 30%
+- Row 35:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Devastating Apex Diablos
+    - Gathering Hub 8★ The Devastating Apex Diablos: https://mhrise.kiranico.com/data/quests/1561862073
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x3
+  - Column 4 (unlabelled by source): 30%
+- Row 36:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Voltaic Apex Zinogre
+    - Gathering Hub 8★ The Voltaic Apex Zinogre: https://mhrise.kiranico.com/data/quests/1609650014
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x3
+  - Column 4 (unlabelled by source): 30%
+- Row 37:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Advanced: Those Crowned Apex
+    - Gathering Hub 8★ Advanced: Those Crowned Apex: https://mhrise.kiranico.com/data/quests/1206034097
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x3
+  - Column 4 (unlabelled by source): 30%
+- Row 38:
+  - Column 1 (unlabelled by source): Event Quests 8★ Heart of Rivalry
+    - Event Quests 8★ Heart of Rivalry: https://mhrise.kiranico.com/data/quests/1532839001
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x3
+  - Column 4 (unlabelled by source): 30%
+- Row 39:
+  - Column 1 (unlabelled by source): Event Quests 8★ Heart of Might
+    - Event Quests 8★ Heart of Might: https://mhrise.kiranico.com/data/quests/1100213234
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x3
+  - Column 4 (unlabelled by source): 30%
+- Row 40:
+  - Column 1 (unlabelled by source): Event Quests 8★ Trouble in Paradise
+    - Event Quests 8★ Trouble in Paradise: https://mhrise.kiranico.com/data/quests/1277688657
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x3
+  - Column 4 (unlabelled by source): 30%
+- Row 41:
+  - Column 1 (unlabelled by source): Event Quests 8★ Diablos Deception
+    - Event Quests 8★ Diablos Deception: https://mhrise.kiranico.com/data/quests/1324952438
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x3
+  - Column 4 (unlabelled by source): 30%
+- Row 42:
+  - Column 1 (unlabelled by source): Event Quests 8★ Blazin' Soul of a Warrior
+    - Event Quests 8★ Blazin' Soul of a Warrior: https://mhrise.kiranico.com/data/quests/1339202327
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x3
+  - Column 4 (unlabelled by source): 30%
+- Row 43:
+  - Column 1 (unlabelled by source): Event Quests 8★ Advanced: Born of Paradise
+    - Event Quests 8★ Advanced: Born of Paradise: https://mhrise.kiranico.com/data/quests/1219218228
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x3
+  - Column 4 (unlabelled by source): 30%
+- Row 44:
+  - Column 1 (unlabelled by source): Event Quests 8★ Advanced: Crimson Calamity
+    - Event Quests 8★ Advanced: Crimson Calamity: https://mhrise.kiranico.com/data/quests/1233992405
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x3
+  - Column 4 (unlabelled by source): 30%
+- Row 45:
+  - Column 1 (unlabelled by source): Event Quests 8★ Heart of an Apex
+    - Event Quests 8★ Heart of an Apex: https://mhrise.kiranico.com/data/quests/1904101900
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x3
+  - Column 4 (unlabelled by source): 30%
+- Row 46:
+  - Column 1 (unlabelled by source): Event Quests 8★ Apex Arzuros Emergency
+    - Event Quests 8★ Apex Arzuros Emergency: https://mhrise.kiranico.com/data/quests/1739458712
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x3
+  - Column 4 (unlabelled by source): 30%
+- Row 47:
+  - Column 1 (unlabelled by source): Event Quests 8★ Apex Rathian Emergency
+    - Event Quests 8★ Apex Rathian Emergency: https://mhrise.kiranico.com/data/quests/1619491001
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x3
+  - Column 4 (unlabelled by source): 30%
+- Row 48:
+  - Column 1 (unlabelled by source): Event Quests 8★ Apex Mizutsune Emergency
+    - Event Quests 8★ Apex Mizutsune Emergency: https://mhrise.kiranico.com/data/quests/1633200222
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x3
+  - Column 4 (unlabelled by source): 30%
+- Row 49:
+  - Column 1 (unlabelled by source): Event Quests 8★ Apex Rathalos Emergency
+    - Event Quests 8★ Apex Rathalos Emergency: https://mhrise.kiranico.com/data/quests/1647450239
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x3
+  - Column 4 (unlabelled by source): 30%
+- Row 50:
+  - Column 1 (unlabelled by source): Event Quests 8★ Apex Diablos Emergency
+    - Event Quests 8★ Apex Diablos Emergency: https://mhrise.kiranico.com/data/quests/1661683740
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x3
+  - Column 4 (unlabelled by source): 30%
+- Row 51:
+  - Column 1 (unlabelled by source): Event Quests 8★ Apex Zinogre Emergency
+    - Event Quests 8★ Apex Zinogre Emergency: https://mhrise.kiranico.com/data/quests/1844230205
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x3
+  - Column 4 (unlabelled by source): 30%
+- Row 52:
+  - Column 1 (unlabelled by source): Village 6★ Advanced: The Veterans' Gala
+    - Village 6★ Advanced: The Veterans' Gala: https://mhrise.kiranico.com/data/quests/584819409
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 27%
+- Row 53:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ A Blaze Among Beasts
+    - Gathering Hub 8★ A Blaze Among Beasts: https://mhrise.kiranico.com/data/quests/581544328
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 27%
+- Row 54:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Master Utsushi's Challenge Part 2
+    - Gathering Hub 8★ Master Utsushi's Challenge Part 2: https://mhrise.kiranico.com/data/quests/1100824183
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 27%
+- Row 55:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Master Utsushi's Challenge Part 5
+    - Gathering Hub 8★ Master Utsushi's Challenge Part 5: https://mhrise.kiranico.com/data/quests/1277234730
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 27%
+- Row 56:
+  - Column 1 (unlabelled by source): Event Quests 8★ Heart of a Hero
+    - Event Quests 8★ Heart of a Hero: https://mhrise.kiranico.com/data/quests/1562301732
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 27%
+- Row 57:
+  - Column 1 (unlabelled by source): Event Quests 8★ An Icy Blade So Bright
+    - Event Quests 8★ An Icy Blade So Bright: https://mhrise.kiranico.com/data/quests/1609565381
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 27%
+- Row 58:
+  - Column 1 (unlabelled by source): Event Quests 8★ Boomy Dango
+    - Event Quests 8★ Boomy Dango: https://mhrise.kiranico.com/data/quests/1518605496
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 27%
+- Row 59:
+  - Column 1 (unlabelled by source): Event Quests 8★ SF: Ultimate Promotion Exam
+    - Event Quests 8★ SF: Ultimate Promotion Exam: https://mhrise.kiranico.com/data/quests/1158669343
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 27%
+- Row 60:
+  - Column 1 (unlabelled by source): Event Quests 8★ White Desert Blossom
+    - Event Quests 8★ White Desert Blossom: https://mhrise.kiranico.com/data/quests/1085979613
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 27%
+- Row 61:
+  - Column 1 (unlabelled by source): Event Quests 8★ Rajang's Holiday Special
+    - Event Quests 8★ Rajang's Holiday Special: https://mhrise.kiranico.com/data/quests/1889868399
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 27%
+- Row 62:
+  - Column 1 (unlabelled by source): Event Quests 8★ Princesses' Banquet
+    - Event Quests 8★ Princesses' Banquet: https://mhrise.kiranico.com/data/quests/2023106886
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 27%
+- Row 63:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ Serpent Goddess of Thunder
+    - Gathering Hub 7★ Serpent Goddess of Thunder: https://mhrise.kiranico.com/data/quests/196572196
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 23%
+- Row 64:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ Omnidirectional Threats
+    - Gathering Hub 7★ Omnidirectional Threats: https://mhrise.kiranico.com/data/quests/640014805
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 20%
+- Row 65:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Death From Above
+    - Gathering Hub 8★ Death From Above: https://mhrise.kiranico.com/data/quests/714799331
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 20%
+- Row 66:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Return of the Bazelgeuse
+    - Gathering Hub 8★ Return of the Bazelgeuse: https://mhrise.kiranico.com/data/quests/729557120
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 20%
+- Row 67:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Return of the Bazelgeuse
+    - Gathering Hub 8★ Return of the Bazelgeuse: https://mhrise.kiranico.com/data/quests/1414895777
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 20%
+- Row 68:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Return of the Bazelgeuse
+    - Gathering Hub 8★ Return of the Bazelgeuse: https://mhrise.kiranico.com/data/quests/1442855015
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 20%
+- Row 69:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Return of the Bazelgeuse
+    - Gathering Hub 8★ Return of the Bazelgeuse: https://mhrise.kiranico.com/data/quests/1356425220
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 20%
+- Row 70:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Advanced: Dual Calamities
+    - Gathering Hub 8★ Advanced: Dual Calamities: https://mhrise.kiranico.com/data/quests/1489682303
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 20%
+- Row 71:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Advanced: Monsters in Ink
+    - Gathering Hub 8★ Advanced: Monsters in Ink: https://mhrise.kiranico.com/data/quests/1503915804
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 20%
+- Row 72:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Master Utsushi's Challenge Part 1
+    - Gathering Hub 8★ Master Utsushi's Challenge Part 1: https://mhrise.kiranico.com/data/quests/1086049878
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 20%
+- Row 73:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Master Utsushi's Challenge Part 3
+    - Gathering Hub 8★ Master Utsushi's Challenge Part 3: https://mhrise.kiranico.com/data/quests/1115057684
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 20%
+- Row 74:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Master Utsushi's Challenge Part 4
+    - Gathering Hub 8★ Master Utsushi's Challenge Part 4: https://mhrise.kiranico.com/data/quests/1129307701
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 20%
+- Row 75:
+  - Column 1 (unlabelled by source): Event Quests 7★ Beast of the Shadows
+    - Event Quests 7★ Beast of the Shadows: https://mhrise.kiranico.com/data/quests/1414813228
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 20%
+- Row 76:
+  - Column 1 (unlabelled by source): Event Quests 8★ Almudron: Fashion Victim
+    - Event Quests 8★ Almudron: Fashion Victim: https://mhrise.kiranico.com/data/quests/1384826177
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 20%
+- Row 77:
+  - Column 1 (unlabelled by source): Event Quests 6★ Knight in Shattered Armor
+    - Event Quests 6★ Knight in Shattered Armor: https://mhrise.kiranico.com/data/quests/1262476011
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 20%
+- Row 78:
+  - Column 1 (unlabelled by source): 2★ A Fire to Jyuratodouse
+    - 2★ A Fire to Jyuratodouse: https://mhrise.kiranico.com/data/quests/845616219
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 20%
+- Row 79:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ Occupational Hazards
+    - Gathering Hub 7★ Occupational Hazards: https://mhrise.kiranico.com/data/quests/625764916
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 19%
+- Row 80:
+  - Column 1 (unlabelled by source): Event Quests 8★ Frost Bites
+    - Event Quests 8★ Frost Bites: https://mhrise.kiranico.com/data/quests/1932061122
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 19%
+- Row 81:
+  - Column 1 (unlabelled by source): Event Quests 7★ Monster Maniacs
+    - Event Quests 7★ Monster Maniacs: https://mhrise.kiranico.com/data/quests/2037356903
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 19%
+- Row 82:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ It's Gonna Get You!
+    - Gathering Hub 7★ It's Gonna Get You!: https://mhrise.kiranico.com/data/quests/852446078
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 18%
+- Row 83:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ Evil Afoot
+    - Gathering Hub 7★ Evil Afoot: https://mhrise.kiranico.com/data/quests/1057880723
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 18%
+- Row 84:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ May Fire Quell Fury
+    - Gathering Hub 8★ May Fire Quell Fury: https://mhrise.kiranico.com/data/quests/595794345
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 18%
+- Row 85:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ A Frosty Stalemate
+    - Gathering Hub 7★ A Frosty Stalemate: https://mhrise.kiranico.com/data/quests/999410294
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 18%
+- Row 86:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Avaricious Apex Arzuros
+    - Gathering Hub 8★ The Avaricious Apex Arzuros: https://mhrise.kiranico.com/data/quests/1370675237
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 17%
+- Row 87:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Graceful Apex Rathian
+    - Gathering Hub 8★ The Graceful Apex Rathian: https://mhrise.kiranico.com/data/quests/1385435098
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 17%
+- Row 88:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Harlequin Apex Mizutsune
+    - Gathering Hub 8★ The Harlequin Apex Mizutsune: https://mhrise.kiranico.com/data/quests/1399685115
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 17%
+- Row 89:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Fearsome Apex Rathalos
+    - Gathering Hub 8★ The Fearsome Apex Rathalos: https://mhrise.kiranico.com/data/quests/1548136344
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 17%
+- Row 90:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Devastating Apex Diablos
+    - Gathering Hub 8★ The Devastating Apex Diablos: https://mhrise.kiranico.com/data/quests/1561862073
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 17%
+- Row 91:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Voltaic Apex Zinogre
+    - Gathering Hub 8★ The Voltaic Apex Zinogre: https://mhrise.kiranico.com/data/quests/1609650014
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 17%
+- Row 92:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Advanced: Scaredy-Cat
+    - Gathering Hub 8★ Advanced: Scaredy-Cat: https://mhrise.kiranico.com/data/quests/1532923602
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 17%
+- Row 93:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Advanced: The Fallen Comet
+    - Gathering Hub 8★ Advanced: The Fallen Comet: https://mhrise.kiranico.com/data/quests/1144520435
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 17%
+- Row 94:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Advanced: Proof of Power
+    - Gathering Hub 8★ Advanced: Proof of Power: https://mhrise.kiranico.com/data/quests/1158229648
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 17%
+- Row 95:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Advanced: Those Crowned Apex
+    - Gathering Hub 8★ Advanced: Those Crowned Apex: https://mhrise.kiranico.com/data/quests/1206034097
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 17%
+- Row 96:
+  - Column 1 (unlabelled by source): Event Quests 8★ Haste Makes Waste
+    - Event Quests 8★ Haste Makes Waste: https://mhrise.kiranico.com/data/quests/1429046733
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 17%
+- Row 97:
+  - Column 1 (unlabelled by source): Event Quests 8★ Heart of Rivalry
+    - Event Quests 8★ Heart of Rivalry: https://mhrise.kiranico.com/data/quests/1532839001
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 17%
+- Row 98:
+  - Column 1 (unlabelled by source): Event Quests 8★ Heart of Might
+    - Event Quests 8★ Heart of Might: https://mhrise.kiranico.com/data/quests/1100213234
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 17%
+- Row 99:
+  - Column 1 (unlabelled by source): Event Quests 8★ Trouble in Paradise
+    - Event Quests 8★ Trouble in Paradise: https://mhrise.kiranico.com/data/quests/1277688657
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 17%
+- Row 100:
+  - Column 1 (unlabelled by source): Event Quests 8★ Diablos Deception
+    - Event Quests 8★ Diablos Deception: https://mhrise.kiranico.com/data/quests/1324952438
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 17%
+- Row 101:
+  - Column 1 (unlabelled by source): Event Quests 8★ Heart of an Apex
+    - Event Quests 8★ Heart of an Apex: https://mhrise.kiranico.com/data/quests/1904101900
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 17%
+- Row 102:
+  - Column 1 (unlabelled by source): Event Quests 8★ Super Shady Look-alike
+    - Event Quests 8★ Super Shady Look-alike: https://mhrise.kiranico.com/data/quests/1858465746
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 17%
+- Row 103:
+  - Column 1 (unlabelled by source): Event Quests 8★ USJ - Shrine Showdown!
+    - Event Quests 8★ USJ - Shrine Showdown!: https://mhrise.kiranico.com/data/quests/1752207248
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 17%
+- Row 104:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ Skies Flash, Clouds Boom
+    - Gathering Hub 6★ Skies Flash, Clouds Boom: https://mhrise.kiranico.com/data/quests/981917638
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 16%
+- Row 105:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ Red Skies at Night
+    - Gathering Hub 6★ Red Skies at Night: https://mhrise.kiranico.com/data/quests/564051736
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 16%
+- Row 106:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ Learn the Long Sword
+    - Gathering Hub 6★ Learn the Long Sword: https://mhrise.kiranico.com/data/quests/592010974
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 16%
+- Row 107:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ Showdown in the Arena
+    - Gathering Hub 6★ Showdown in the Arena: https://mhrise.kiranico.com/data/quests/711015952
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 16%
+- Row 108:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ Clad in Hellfire
+    - Gathering Hub 7★ Clad in Hellfire: https://mhrise.kiranico.com/data/quests/866171679
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 16%
+- Row 109:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ A Muddy Invitation
+    - Gathering Hub 7★ A Muddy Invitation: https://mhrise.kiranico.com/data/quests/1014623036
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 16%
+- Row 110:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ Subterranean Disturbances
+    - Gathering Hub 7★ Subterranean Disturbances: https://mhrise.kiranico.com/data/quests/1028872925
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 16%
+- Row 111:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ A Resounding Roar
+    - Gathering Hub 7★ A Resounding Roar: https://mhrise.kiranico.com/data/quests/1043630834
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 16%
+- Row 112:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ Seared Situation
+    - Gathering Hub 7★ Seared Situation: https://mhrise.kiranico.com/data/quests/971451056
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 16%
+- Row 113:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ A Quartet of Horns
+    - Gathering Hub 7★ A Quartet of Horns: https://mhrise.kiranico.com/data/quests/567310827
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 16%
+- Row 114:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ Ruckus in the Ruins
+    - Gathering Hub 7★ Ruckus in the Ruins: https://mhrise.kiranico.com/data/quests/985176657
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 16%
+- Row 115:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ Fought, Failed, Fired Up
+    - Gathering Hub 7★ Fought, Failed, Fired Up: https://mhrise.kiranico.com/data/quests/611006999
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 16%
+- Row 116:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ A Whirlwind of a Stage
+    - Gathering Hub 7★ A Whirlwind of a Stage: https://mhrise.kiranico.com/data/quests/553585098
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 16%
+- Row 117:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Ancient Illusion
+    - Gathering Hub 8★ Ancient Illusion: https://mhrise.kiranico.com/data/quests/881384389
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 16%
+- Row 118:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Steely Storm
+    - Gathering Hub 8★ The Steely Storm: https://mhrise.kiranico.com/data/quests/895618042
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 16%
+- Row 119:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Emperor of Flame
+    - Gathering Hub 8★ The Emperor of Flame: https://mhrise.kiranico.com/data/quests/909867931
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 16%
+- Row 120:
+  - Column 1 (unlabelled by source): Event Quests 7★ I Can't Do What Somnacan
+    - Event Quests 7★ I Can't Do What Somnacan: https://mhrise.kiranico.com/data/quests/1443296738
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 16%
+- Row 121:
+  - Column 1 (unlabelled by source): Event Quests 7★ Heart of a Ninja
+    - Event Quests 7★ Heart of a Ninja: https://mhrise.kiranico.com/data/quests/1370592672
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 16%
+- Row 122:
+  - Column 1 (unlabelled by source): Event Quests 6★ The Blue Bomber's Best Bud
+    - Event Quests 6★ The Blue Bomber's Best Bud: https://mhrise.kiranico.com/data/quests/1248225994
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 16%
+- Row 123:
+  - Column 1 (unlabelled by source): Event Quests 7★ Kunai Ask You a Favor?
+    - Event Quests 7★ Kunai Ask You a Favor?: https://mhrise.kiranico.com/data/quests/1995078313
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 16%
+- Row 124:
+  - Column 1 (unlabelled by source): Event Quests 7★ Zin and Yang
+    - Event Quests 7★ Zin and Yang: https://mhrise.kiranico.com/data/quests/2051066116
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 16%
+- Row 125:
+  - Column 1 (unlabelled by source): Event Quests 7★ Memories of That Day
+    - Event Quests 7★ Memories of That Day: https://mhrise.kiranico.com/data/quests/1725225211
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 16%
+- Row 126:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Allmother
+    - Gathering Hub 8★ The Allmother: https://mhrise.kiranico.com/data/quests/924625848
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 12%
+- Row 127:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Crimson Glow
+    - Gathering Hub 8★ The Crimson Glow: https://mhrise.kiranico.com/data/quests/838212441
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 12%
+- Row 128:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Evil Star from Beyond
+    - Gathering Hub 8★ The Evil Star from Beyond: https://mhrise.kiranico.com/data/quests/759019887
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 12%
+- Row 129:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Evil Star from Beyond
+    - Gathering Hub 8★ The Evil Star from Beyond: https://mhrise.kiranico.com/data/quests/773253388
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 12%
+- Row 130:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Evil Star from Beyond
+    - Gathering Hub 8★ The Evil Star from Beyond: https://mhrise.kiranico.com/data/quests/686315821
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 12%
+- Row 131:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Evil Star from Beyond
+    - Gathering Hub 8★ The Evil Star from Beyond: https://mhrise.kiranico.com/data/quests/700549314
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 12%
+- Row 132:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Advanced: Of Storm and Fire
+    - Gathering Hub 8★ Advanced: Of Storm and Fire: https://mhrise.kiranico.com/data/quests/1518690109
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 12%
+- Row 133:
+  - Column 1 (unlabelled by source): Event Quests 8★ Fooled in the Flooded Forest
+    - Event Quests 8★ Fooled in the Flooded Forest: https://mhrise.kiranico.com/data/quests/1399600486
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 12%
+- Row 134:
+  - Column 1 (unlabelled by source): Event Quests 8★ Tempest in the Desert
+    - Event Quests 8★ Tempest in the Desert: https://mhrise.kiranico.com/data/quests/1489597690
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 12%
+- Row 135:
+  - Column 1 (unlabelled by source): Event Quests 8★ Scorching Showdown
+    - Event Quests 8★ Scorching Showdown: https://mhrise.kiranico.com/data/quests/1205949500
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 12%
+- Row 136:
+  - Column 1 (unlabelled by source): Event Quests 8★ Gales of Ibushi Blow Again
+    - Event Quests 8★ Gales of Ibushi Blow Again: https://mhrise.kiranico.com/data/quests/1114987411
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 12%
+- Row 137:
+  - Column 1 (unlabelled by source): Event Quests 8★ Clouds of Narwa Rumble Again
+    - Event Quests 8★ Clouds of Narwa Rumble Again: https://mhrise.kiranico.com/data/quests/1129221040
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 12%
+- Row 138:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ A Somniferous Elegy
+    - Gathering Hub 6★ A Somniferous Elegy: https://mhrise.kiranico.com/data/quests/995626983
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 10%
+- Row 139:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ Sharpening Amber Fangs
+    - Gathering Hub 6★ Sharpening Amber Fangs: https://mhrise.kiranico.com/data/quests/607223684
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 10%
+- Row 140:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ Skies are Gray
+    - Gathering Hub 6★ Skies are Gray: https://mhrise.kiranico.com/data/quests/621457317
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 10%
+- Row 141:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ Closer Than it Appears
+    - Gathering Hub 6★ Closer Than it Appears: https://mhrise.kiranico.com/data/quests/669785946
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 10%
+- Row 142:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ The Abyss Stares Back
+    - Gathering Hub 6★ The Abyss Stares Back: https://mhrise.kiranico.com/data/quests/549801851
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 10%
+- Row 143:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ A Bewitching Dance
+    - Gathering Hub 6★ A Bewitching Dance: https://mhrise.kiranico.com/data/quests/953432064
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 10%
+- Row 144:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ Do It for the Dango!
+    - Gathering Hub 6★ Do It for the Dango!: https://mhrise.kiranico.com/data/quests/578285369
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 10%
+- Row 145:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ Dissect the Dual Blades
+    - Gathering Hub 6★ Dissect the Dual Blades: https://mhrise.kiranico.com/data/quests/740462335
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 10%
+- Row 146:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ Grasp the Gunlance
+    - Gathering Hub 6★ Grasp the Gunlance: https://mhrise.kiranico.com/data/quests/788266652
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 10%
+- Row 147:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ Invoke the Insect Glaive
+    - Gathering Hub 6★ Invoke the Insect Glaive: https://mhrise.kiranico.com/data/quests/803024573
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 10%
+- Row 148:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ Be One with the Bow
+    - Gathering Hub 6★ Be One with the Bow: https://mhrise.kiranico.com/data/quests/683056722
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 10%
+- Row 149:
+  - Column 1 (unlabelled by source): Event Quests 6★ Troubled Waters
+    - Event Quests 6★ Troubled Waters: https://mhrise.kiranico.com/data/quests/2009311822
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 10%
+- Row 150:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ Serpent Goddess of Thunder
+    - Gathering Hub 7★ Serpent Goddess of Thunder: https://mhrise.kiranico.com/data/quests/196572196
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 9%
+- Row 151:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ The Lava Caverns Sweep
+    - Gathering Hub 6★ The Lava Caverns Sweep: https://mhrise.kiranico.com/data/quests/697290355
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 8%
+- Row 152:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ Can't Kill It with Fire
+    - Gathering Hub 7★ Can't Kill It with Fire: https://mhrise.kiranico.com/data/quests/182322183
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 8%
+
+### Bloodrun Jewel: Weapons
+
+- Source table is empty; this does not prove absence.
+
+### Bloodrun Jewel: Armor
+
+- Source table is empty; this does not prove absence.
+
+### Bloodrun Jewel: Decorations
+
+- Row 1:
+  - Column 1 (unlabelled by source): Capacity Jewel 3
+    - Capacity Jewel 3: https://mhrise.kiranico.com/data/decorations/776924665
+  - Column 2 (unlabelled by source): x5
+- Row 2:
+  - Column 1 (unlabelled by source): Guardian Jewel 3
+    - Guardian Jewel 3: https://mhrise.kiranico.com/data/decorations/1047302063
+  - Column 2 (unlabelled by source): x5
+- Row 3:
+  - Column 1 (unlabelled by source): Fungiform Jewel 3
+    - Fungiform Jewel 3: https://mhrise.kiranico.com/data/decorations/1893605725
+  - Column 2 (unlabelled by source): x5
+- Row 4:
+  - Column 1 (unlabelled by source): Draw Jewel 3
+    - Draw Jewel 3: https://mhrise.kiranico.com/data/decorations/1061551948
+  - Column 2 (unlabelled by source): x4
+- Row 5:
+  - Column 1 (unlabelled by source): Precise Jewel 2
+    - Precise Jewel 2: https://mhrise.kiranico.com/data/decorations/200239249
+  - Column 2 (unlabelled by source): x5
+- Row 6:
+  - Column 1 (unlabelled by source): Crit Element Jewel 2
+    - Crit Element Jewel 2: https://mhrise.kiranico.com/data/decorations/408054401
+  - Column 2 (unlabelled by source): x4
+- Row 7:
+  - Column 1 (unlabelled by source): Artillery Jewel 2
+    - Artillery Jewel 2: https://mhrise.kiranico.com/data/decorations/657919655
+  - Column 2 (unlabelled by source): x4
+- Row 8:
+  - Column 1 (unlabelled by source): Sprinter Jewel 2
+    - Sprinter Jewel 2: https://mhrise.kiranico.com/data/decorations/808327178
+  - Column 2 (unlabelled by source): x4
+- Row 9:
+  - Column 1 (unlabelled by source): Charger Jewel 2
+    - Charger Jewel 2: https://mhrise.kiranico.com/data/decorations/913537140
+  - Column 2 (unlabelled by source): x5
+- Row 10:
+  - Column 1 (unlabelled by source): Mind's Eye Jewel 2
+    - Mind's Eye Jewel 2: https://mhrise.kiranico.com/data/decorations/152451312
+  - Column 2 (unlabelled by source): x5
+- Row 11:
+  - Column 1 (unlabelled by source): Potential Jewel 2
+    - Potential Jewel 2: https://mhrise.kiranico.com/data/decorations/2084266193
+  - Column 2 (unlabelled by source): x5
+- Row 12:
+  - Column 1 (unlabelled by source): Trueshot Jewel 2
+    - Trueshot Jewel 2: https://mhrise.kiranico.com/data/decorations/585215589
+  - Column 2 (unlabelled by source): x4
+- Row 13:
+  - Column 1 (unlabelled by source): Magazine Jewel 2
+    - Magazine Jewel 2: https://mhrise.kiranico.com/data/decorations/537427524
+  - Column 2 (unlabelled by source): x4
+- Row 14:
+  - Column 1 (unlabelled by source): Shield Jewel 2
+    - Shield Jewel 2: https://mhrise.kiranico.com/data/decorations/1032544142
+  - Column 2 (unlabelled by source): x4
+- Row 15:
+  - Column 1 (unlabelled by source): Ironwall Jewel 2
+    - Ironwall Jewel 2: https://mhrise.kiranico.com/data/decorations/1018294249
+  - Column 2 (unlabelled by source): x4
+- Row 16:
+  - Column 1 (unlabelled by source): Refresh Jewel 2
+    - Refresh Jewel 2: https://mhrise.kiranico.com/data/decorations/869842888
+  - Column 2 (unlabelled by source): x4
+- Row 17:
+  - Column 1 (unlabelled by source): Enhancer Jewel 2
+    - Enhancer Jewel 2: https://mhrise.kiranico.com/data/decorations/928294933
+  - Column 2 (unlabelled by source): x4
+- Row 18:
+  - Column 1 (unlabelled by source): Mighty Jewel 2
+    - Mighty Jewel 2: https://mhrise.kiranico.com/data/decorations/528038624
+  - Column 2 (unlabelled by source): x5
+- Row 19:
+  - Column 1 (unlabelled by source): Attack Jewel 2
+    - Attack Jewel 2: https://mhrise.kiranico.com/data/decorations/366824395
+  - Column 2 (unlabelled by source): x5
+- Row 20:
+  - Column 1 (unlabelled by source): Expert Jewel 2
+    - Expert Jewel 2: https://mhrise.kiranico.com/data/decorations/303299436
+  - Column 2 (unlabelled by source): x4
+- Row 21:
+  - Column 1 (unlabelled by source): Quickswitch Jewel 2
+    - Quickswitch Jewel 2: https://mhrise.kiranico.com/data/decorations/1875928865
+  - Column 2 (unlabelled by source): x3
+- Row 22:
+  - Column 1 (unlabelled by source): Absorber Jewel 1
+    - Absorber Jewel 1: https://mhrise.kiranico.com/data/decorations/704220607
+  - Column 2 (unlabelled by source): x2
+- Row 23:
+  - Column 1 (unlabelled by source): Blunt Jewel 2
+    - Blunt Jewel 2: https://mhrise.kiranico.com/data/decorations/885053622
+  - Column 2 (unlabelled by source): x4
+- Row 24:
+  - Column 1 (unlabelled by source): Quickload Jewel 1
+    - Quickload Jewel 1: https://mhrise.kiranico.com/data/decorations/790650270
+  - Column 2 (unlabelled by source): x3
+- Row 25:
+  - Column 1 (unlabelled by source): Steadfast Jewel 1
+    - Steadfast Jewel 1: https://mhrise.kiranico.com/data/decorations/1132974822
+  - Column 2 (unlabelled by source): x2
+- Row 26:
+  - Column 1 (unlabelled by source): Footing Jewel 2
+    - Footing Jewel 2: https://mhrise.kiranico.com/data/decorations/1551805557
+  - Column 2 (unlabelled by source): x2
+- Row 27:
+  - Column 1 (unlabelled by source): Earplug Jewel 3
+    - Earplug Jewel 3: https://mhrise.kiranico.com/data/decorations/1389104311
+  - Column 2 (unlabelled by source): x4
+- Row 28:
+  - Column 1 (unlabelled by source): Counter Jewel 2
+    - Counter Jewel 2: https://mhrise.kiranico.com/data/decorations/1862219520
+  - Column 2 (unlabelled by source): x2
+- Row 29:
+  - Column 1 (unlabelled by source): Bubble Jewel 2
+    - Bubble Jewel 2: https://mhrise.kiranico.com/data/decorations/1565531242
+  - Column 2 (unlabelled by source): x1
+- Row 30:
+  - Column 1 (unlabelled by source): Sniper Jewel 1
+    - Sniper Jewel 1: https://mhrise.kiranico.com/data/decorations/718470492
+  - Column 2 (unlabelled by source): x1
+- Row 31:
+  - Column 1 (unlabelled by source): Gambit Jewel 2
+    - Gambit Jewel 2: https://mhrise.kiranico.com/data/decorations/941567853
+  - Column 2 (unlabelled by source): x2
+- Row 32:
+  - Column 1 (unlabelled by source): Jumping Jewel 2
+    - Jumping Jewel 2: https://mhrise.kiranico.com/data/decorations/1594014760
+  - Column 2 (unlabelled by source): x2
+- Row 33:
+  - Column 1 (unlabelled by source): Evasion Jewel 2
+    - Evasion Jewel 2: https://mhrise.kiranico.com/data/decorations/1579764747
+  - Column 2 (unlabelled by source): x2
+- Row 34:
+  - Column 1 (unlabelled by source): Brace Jewel 1
+    - Brace Jewel 1: https://mhrise.kiranico.com/data/decorations/2146828439
+  - Column 2 (unlabelled by source): x2
+- Row 35:
+  - Column 1 (unlabelled by source): Sheath Jewel 2
+    - Sheath Jewel 2: https://mhrise.kiranico.com/data/decorations/988847874
+  - Column 2 (unlabelled by source): x2
+- Row 36:
+  - Column 1 (unlabelled by source): Wind Res Jewel 1
+    - Wind Res Jewel 1: https://mhrise.kiranico.com/data/decorations/1403354196
+  - Column 2 (unlabelled by source): x1
+- Row 37:
+  - Column 1 (unlabelled by source): KO Jewel 2
+    - KO Jewel 2: https://mhrise.kiranico.com/data/decorations/1003081507
+  - Column 2 (unlabelled by source): x1
+- Row 38:
+  - Column 1 (unlabelled by source): Friendship Jewel 2
+    - Friendship Jewel 2: https://mhrise.kiranico.com/data/decorations/1921564947
+  - Column 2 (unlabelled by source): x1
+- Row 39:
+  - Column 1 (unlabelled by source): Destroyer Jewel 2
+    - Destroyer Jewel 2: https://mhrise.kiranico.com/data/decorations/1237729819
+  - Column 2 (unlabelled by source): x1
+- Row 40:
+  - Column 1 (unlabelled by source): Resistor Jewel 2
+    - Resistor Jewel 2: https://mhrise.kiranico.com/data/decorations/1176146786
+  - Column 2 (unlabelled by source): x1
+- Row 41:
+  - Column 1 (unlabelled by source): Gobbler Jewel 2
+    - Gobbler Jewel 2: https://mhrise.kiranico.com/data/decorations/1374346390
+  - Column 2 (unlabelled by source): x2
+- Row 42:
+  - Column 1 (unlabelled by source): Protection Jewel 2
+    - Protection Jewel 2: https://mhrise.kiranico.com/data/decorations/1432800563
+  - Column 2 (unlabelled by source): x4
+
+## Quality Bone
+
+- Category: Items
+- ID: 1440214200
+- Source URL: https://mhrise.kiranico.com/data/items/1440214200
+- language: en
+- description: Quality bone material. Its toughness and pliability lend well to crafting.
+- Source database version: 16.0.0
+- Fetched at (UTC): 2026-10-30T14:23:53.852795+00:00
+- Snapshot ID: 2026-10-30T14:20:10.103912+00:00
+- source_groups: \["https://mhrise.kiranico.com/data/items?view=material"\]
+
+### Quality Bone: Quests
+
+- Row 1:
+  - Column 1 (unlabelled by source): Gathering Hub 4★ Didn't Get the Memo
+    - Gathering Hub 4★ Didn't Get the Memo: https://mhrise.kiranico.com/data/quests/1584060364
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 7%
+- Row 2:
+  - Column 1 (unlabelled by source): Gathering Hub 4★ Dango Duty
+    - Gathering Hub 4★ Dango Duty: https://mhrise.kiranico.com/data/quests/1166194438
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 7%
+
+### Quality Bone: Locale
+
+- Row 1:
+  - Column 1 (unlabelled by source): Shrine Ruins
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 10%
+- Row 2:
+  - Column 1 (unlabelled by source): Frost Islands
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 30%
+- Row 3:
+  - Column 1 (unlabelled by source): Frost Islands
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 10%
+- Row 4:
+  - Column 1 (unlabelled by source): Sandy Plains
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 30%
+- Row 5:
+  - Column 1 (unlabelled by source): Flooded Forest
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 40%
+- Row 6:
+  - Column 1 (unlabelled by source): Flooded Forest
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 20%
+- Row 7:
+  - Column 1 (unlabelled by source): Lava Caverns
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 30%
+- Row 8:
+  - Column 1 (unlabelled by source): Lava Caverns
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 20%
+
+### Quality Bone: Weapons
+
+- Row 1:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/253028761.webp
+  - Column 2 (unlabelled by source): Crimson Goat
+    - Crimson Goat: https://mhrise.kiranico.com/data/weapons/253028761
+  - Column 3 (unlabelled by source): x3
+- Row 2:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/61843973.webp
+  - Column 2 (unlabelled by source): Golem Blade I
+    - Golem Blade I: https://mhrise.kiranico.com/data/weapons/61843973
+  - Column 3 (unlabelled by source): x3
+- Row 3:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/146245983.webp
+  - Column 2 (unlabelled by source): Bone Tabar II
+    - Bone Tabar II: https://mhrise.kiranico.com/data/weapons/146245983
+  - Column 3 (unlabelled by source): x3
+- Row 4:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1107886727.webp
+  - Column 2 (unlabelled by source): Canine Katana I
+    - Canine Katana I: https://mhrise.kiranico.com/data/weapons/1107886727
+  - Column 3 (unlabelled by source): x3
+- Row 5:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/168610003.webp
+  - Column 2 (unlabelled by source): Bone Bludgeon II
+    - Bone Bludgeon II: https://mhrise.kiranico.com/data/weapons/168610003
+  - Column 3 (unlabelled by source): x3
+- Row 6:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/224983420.webp
+  - Column 2 (unlabelled by source): Barbarian Tusk I
+    - Barbarian Tusk I: https://mhrise.kiranico.com/data/weapons/224983420
+  - Column 3 (unlabelled by source): x3
+- Row 7:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/516676262.webp
+  - Column 2 (unlabelled by source): General's Strongaxe I
+    - General's Strongaxe I: https://mhrise.kiranico.com/data/weapons/516676262
+  - Column 3 (unlabelled by source): x3
+- Row 8:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1821018959.webp
+  - Column 2 (unlabelled by source): Kaiser Blade
+    - Kaiser Blade: https://mhrise.kiranico.com/data/weapons/1821018959
+  - Column 3 (unlabelled by source): x2
+- Row 9:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1293390194.webp
+  - Column 2 (unlabelled by source): Pukei Rod II
+    - Pukei Rod II: https://mhrise.kiranico.com/data/weapons/1293390194
+  - Column 3 (unlabelled by source): x3
+- Row 10:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1258772430.webp
+  - Column 2 (unlabelled by source): Pukei Bow II
+    - Pukei Bow II: https://mhrise.kiranico.com/data/weapons/1258772430
+  - Column 3 (unlabelled by source): x3
+- Row 11:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1465553762.webp
+  - Column 2 (unlabelled by source): Wishing Star I
+    - Wishing Star I: https://mhrise.kiranico.com/data/weapons/1465553762
+  - Column 3 (unlabelled by source): x2
+
+### Quality Bone: Armor
+
+- Row 1:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/185919897\_f.webp
+  - Column 2 (unlabelled by source): Death Stench Brain S
+    - Death Stench Brain S: https://mhrise.kiranico.com/data/armors/185919897
+  - Column 3 (unlabelled by source): x1
+- Row 2:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/151316889\_f.webp
+  - Column 2 (unlabelled by source): Death Stench Muscle S
+    - Death Stench Muscle S: https://mhrise.kiranico.com/data/armors/151316889
+  - Column 3 (unlabelled by source): x2
+- Row 3:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/150268313\_f.webp
+  - Column 2 (unlabelled by source): Death Stench Grip S
+    - Death Stench Grip S: https://mhrise.kiranico.com/data/armors/150268313
+  - Column 3 (unlabelled by source): x2
+- Row 4:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/249883033\_f.webp
+  - Column 2 (unlabelled by source): Death Stench Bowels S
+    - Death Stench Bowels S: https://mhrise.kiranico.com/data/armors/249883033
+  - Column 3 (unlabelled by source): x1
+- Row 5:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/215280025\_f.webp
+  - Column 2 (unlabelled by source): Death Stench Heel S
+    - Death Stench Heel S: https://mhrise.kiranico.com/data/armors/215280025
+  - Column 3 (unlabelled by source): x2
+- Row 6:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/807192787\_f.webp
+  - Column 2 (unlabelled by source): Aelucanth Thorax S
+    - Aelucanth Thorax S: https://mhrise.kiranico.com/data/armors/807192787
+  - Column 3 (unlabelled by source): x2
+- Row 7:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/200067283\_f.webp
+  - Column 2 (unlabelled by source): Aelucanth Crura S
+    - Aelucanth Crura S: https://mhrise.kiranico.com/data/armors/200067283
+  - Column 3 (unlabelled by source): x3
+- Row 8:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/869230737\_f.webp
+  - Column 2 (unlabelled by source): Rhopessa Thorax S
+    - Rhopessa Thorax S: https://mhrise.kiranico.com/data/armors/869230737
+  - Column 3 (unlabelled by source): x2
+- Row 9:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/899639441\_f.webp
+  - Column 2 (unlabelled by source): Rhopessa Crura S
+    - Rhopessa Crura S: https://mhrise.kiranico.com/data/armors/899639441
+  - Column 3 (unlabelled by source): x3
+- Row 10:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1615466570\_f.webp
+  - Column 2 (unlabelled by source): Arzuros Vambraces S
+    - Arzuros Vambraces S: https://mhrise.kiranico.com/data/armors/1615466570
+  - Column 3 (unlabelled by source): x1
+- Row 11:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/356292418\_f.webp
+  - Column 2 (unlabelled by source): Khezu Helm S
+    - Khezu Helm S: https://mhrise.kiranico.com/data/armors/356292418
+  - Column 3 (unlabelled by source): x1
+- Row 12:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/101110998\_f.webp
+  - Column 2 (unlabelled by source): Kulu-Ya-Ku Coil S
+    - Kulu-Ya-Ku Coil S: https://mhrise.kiranico.com/data/armors/101110998
+  - Column 3 (unlabelled by source): x1
+- Row 13:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1055562497\_f.webp
+  - Column 2 (unlabelled by source): Jaggi Mask S
+    - Jaggi Mask S: https://mhrise.kiranico.com/data/armors/1055562497
+  - Column 3 (unlabelled by source): x1
+- Row 14:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1000151577\_f.webp
+  - Column 2 (unlabelled by source): Bone Vambraces S
+    - Bone Vambraces S: https://mhrise.kiranico.com/data/armors/1000151577
+  - Column 3 (unlabelled by source): x1
+- Row 15:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1242896979\_f.webp
+  - Column 2 (unlabelled by source): Hornetaur Mail
+    - Hornetaur Mail: https://mhrise.kiranico.com/data/armors/1242896979
+  - Column 3 (unlabelled by source): x4
+- Row 16:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1208293971\_f.webp
+  - Column 2 (unlabelled by source): Hornetaur Braces
+    - Hornetaur Braces: https://mhrise.kiranico.com/data/armors/1208293971
+  - Column 3 (unlabelled by source): x4
+- Row 17:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1341463123\_f.webp
+  - Column 2 (unlabelled by source): Hornetaur Tassets
+    - Hornetaur Tassets: https://mhrise.kiranico.com/data/armors/1341463123
+  - Column 3 (unlabelled by source): x4
+
+### Quality Bone: Decorations
+
+- Source table is empty; this does not prove absence.
+
+## Piercing Claw
+
+- Category: Items
+- ID: 1619304379
+- Source URL: https://mhrise.kiranico.com/data/items/1619304379
+- language: en
+- description: Dangerous to touch with bare hands, it's used as a knife in some workshops.
+- Source database version: 16.0.0
+- Fetched at (UTC): 2026-10-30T14:23:56.038278+00:00
+- Snapshot ID: 2026-10-30T14:20:10.103912+00:00
+- source_groups: \["https://mhrise.kiranico.com/data/items?view=material"\]
+
+### Piercing Claw: Monsters
+
+- Row 1:
+  - Column 1 (unlabelled by source): Ludroth
+    - Ludroth: https://mhrise.kiranico.com/data/monsters/51986285
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Target Rewards
+  - Column 4 (unlabelled by source): x2
+  - Column 5 (unlabelled by source): 27%
+- Row 2:
+  - Column 1 (unlabelled by source): Uroktor
+    - Uroktor: https://mhrise.kiranico.com/data/monsters/233991938
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Target Rewards
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 27%
+- Row 3:
+  - Column 1 (unlabelled by source): Rachnoid
+    - Rachnoid: https://mhrise.kiranico.com/data/monsters/1075749110
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Target Rewards
+  - Column 4 (unlabelled by source): x2
+  - Column 5 (unlabelled by source): 27%
+- Row 4:
+  - Column 1 (unlabelled by source): Izuchi
+    - Izuchi: https://mhrise.kiranico.com/data/monsters/1195733201
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Target Rewards
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 24%
+- Row 5:
+  - Column 1 (unlabelled by source): Jagras
+    - Jagras: https://mhrise.kiranico.com/data/monsters/933125691
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Target Rewards
+  - Column 4 (unlabelled by source): x2
+  - Column 5 (unlabelled by source): 22%
+- Row 6:
+  - Column 1 (unlabelled by source): Uroktor
+    - Uroktor: https://mhrise.kiranico.com/data/monsters/233991938
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Carves Body
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 18%
+- Row 7:
+  - Column 1 (unlabelled by source): Uroktor
+    - Uroktor: https://mhrise.kiranico.com/data/monsters/233991938
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Items Obtained by Palico
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 18%
+- Row 8:
+  - Column 1 (unlabelled by source): Ludroth
+    - Ludroth: https://mhrise.kiranico.com/data/monsters/51986285
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Carves Body
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 16%
+- Row 9:
+  - Column 1 (unlabelled by source): Ludroth
+    - Ludroth: https://mhrise.kiranico.com/data/monsters/51986285
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Items Obtained by Palico
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 16%
+- Row 10:
+  - Column 1 (unlabelled by source): Uroktor
+    - Uroktor: https://mhrise.kiranico.com/data/monsters/233991938
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Target Rewards
+  - Column 4 (unlabelled by source): x2
+  - Column 5 (unlabelled by source): 16%
+- Row 11:
+  - Column 1 (unlabelled by source): Jagras
+    - Jagras: https://mhrise.kiranico.com/data/monsters/933125691
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Carves Body
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 15%
+- Row 12:
+  - Column 1 (unlabelled by source): Jagras
+    - Jagras: https://mhrise.kiranico.com/data/monsters/933125691
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Items Obtained by Palico
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 15%
+- Row 13:
+  - Column 1 (unlabelled by source): Izuchi
+    - Izuchi: https://mhrise.kiranico.com/data/monsters/1195733201
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Carves Body
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 15%
+- Row 14:
+  - Column 1 (unlabelled by source): Izuchi
+    - Izuchi: https://mhrise.kiranico.com/data/monsters/1195733201
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Items Obtained by Palico
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 15%
+- Row 15:
+  - Column 1 (unlabelled by source): Rachnoid
+    - Rachnoid: https://mhrise.kiranico.com/data/monsters/1075749110
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Carves Body
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 15%
+- Row 16:
+  - Column 1 (unlabelled by source): Rachnoid
+    - Rachnoid: https://mhrise.kiranico.com/data/monsters/1075749110
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Items Obtained by Palico
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 15%
+
+### Piercing Claw: Quests
+
+- Row 1:
+  - Column 1 (unlabelled by source): Gathering Hub 5★ The Restless Swamp
+    - Gathering Hub 5★ The Restless Swamp: https://mhrise.kiranico.com/data/quests/784481293
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 12%
+- Row 2:
+  - Column 1 (unlabelled by source): Event Quests 5★ Dastardly Vile Aknosom Trio
+    - Event Quests 5★ Dastardly Vile Aknosom Trio: https://mhrise.kiranico.com/data/quests/2080528867
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 12%
+- Row 3:
+  - Column 1 (unlabelled by source): Event Quests 4★ The Tiniest Snowbaron!
+    - Event Quests 4★ The Tiniest Snowbaron!: https://mhrise.kiranico.com/data/quests/2065316133
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 12%
+- Row 4:
+  - Column 1 (unlabelled by source): Gathering Hub 5★ Charge Blade Coalescing
+    - Gathering Hub 5★ Charge Blade Coalescing: https://mhrise.kiranico.com/data/quests/1377338104
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 12%
+- Row 5:
+  - Column 1 (unlabelled by source): Gathering Hub 5★ Learn the Lance
+    - Gathering Hub 5★ Learn the Lance: https://mhrise.kiranico.com/data/quests/1363628763
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 12%
+- Row 6:
+  - Column 1 (unlabelled by source): Gathering Hub 5★ Honing Your Hammer
+    - Gathering Hub 5★ Honing Your Hammer: https://mhrise.kiranico.com/data/quests/1349378874
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 12%
+- Row 7:
+  - Column 1 (unlabelled by source): Gathering Hub 5★ Charmed by a Queen
+    - Gathering Hub 5★ Charmed by a Queen: https://mhrise.kiranico.com/data/quests/1454588772
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 12%
+- Row 8:
+  - Column 1 (unlabelled by source): Gathering Hub 5★ Miner Problem
+    - Gathering Hub 5★ Miner Problem: https://mhrise.kiranico.com/data/quests/1440355143
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 12%
+- Row 9:
+  - Column 1 (unlabelled by source): Gathering Hub 5★ Go Away, Pukei!
+    - Gathering Hub 5★ Go Away, Pukei!: https://mhrise.kiranico.com/data/quests/721462182
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 12%
+- Row 10:
+  - Column 1 (unlabelled by source): Event Quests 4★ Dancing Parasol, Snowy Breeze
+    - Event Quests 4★ Dancing Parasol, Snowy Breeze: https://mhrise.kiranico.com/data/quests/1356342659
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 12%
+- Row 11:
+  - Column 1 (unlabelled by source): Gathering Hub 4★ Even Cute Things Have Fangs
+    - Gathering Hub 4★ Even Cute Things Have Fangs: https://mhrise.kiranico.com/data/quests/1526638499
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 12%
+- Row 12:
+  - Column 1 (unlabelled by source): Gathering Hub 4★ The Frost Islands Arena
+    - Gathering Hub 4★ The Frost Islands Arena: https://mhrise.kiranico.com/data/quests/1478850434
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 12%
+- Row 13:
+  - Column 1 (unlabelled by source): Event Quests 6★ Out of Sight, Out of Mind's Eye
+    - Event Quests 6★ Out of Sight, Out of Mind's Eye: https://mhrise.kiranico.com/data/quests/728950287
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 12%
+- Row 14:
+  - Column 1 (unlabelled by source): Gathering Hub 4★ Night of the Khezu
+    - Gathering Hub 4★ Night of the Khezu: https://mhrise.kiranico.com/data/quests/1151944545
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 12%
+- Row 15:
+  - Column 1 (unlabelled by source): Gathering Hub 4★ Study the Sword & Shield
+    - Gathering Hub 4★ Study the Sword & Shield: https://mhrise.kiranico.com/data/quests/1195202244
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 12%
+- Row 16:
+  - Column 1 (unlabelled by source): Gathering Hub 4★ Dancing A-purr-ition
+    - Gathering Hub 4★ Dancing A-purr-ition: https://mhrise.kiranico.com/data/quests/1598818285
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 12%
+- Row 17:
+  - Column 1 (unlabelled by source): Gathering Hub 4★ Blue, Round, and Cute
+    - Gathering Hub 4★ Blue, Round, and Cute: https://mhrise.kiranico.com/data/quests/1299433081
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 12%
+- Row 18:
+  - Column 1 (unlabelled by source): Gathering Hub 5★ Foul Play in the Forest
+    - Gathering Hub 5★ Foul Play in the Forest: https://mhrise.kiranico.com/data/quests/798714914
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 12%
+- Row 19:
+  - Column 1 (unlabelled by source): Gathering Hub 5★ Rise above the Mud
+    - Gathering Hub 5★ Rise above the Mud: https://mhrise.kiranico.com/data/quests/679269315
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 12%
+- Row 20:
+  - Column 1 (unlabelled by source): Event Quests 6★ Troubled Waters
+    - Event Quests 6★ Troubled Waters: https://mhrise.kiranico.com/data/quests/2009311822
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 10%
+- Row 21:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ A Somniferous Elegy
+    - Gathering Hub 6★ A Somniferous Elegy: https://mhrise.kiranico.com/data/quests/995626983
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 10%
+- Row 22:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ Be One with the Bow
+    - Gathering Hub 6★ Be One with the Bow: https://mhrise.kiranico.com/data/quests/683056722
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 10%
+- Row 23:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ Invoke the Insect Glaive
+    - Gathering Hub 6★ Invoke the Insect Glaive: https://mhrise.kiranico.com/data/quests/803024573
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 10%
+- Row 24:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ Grasp the Gunlance
+    - Gathering Hub 6★ Grasp the Gunlance: https://mhrise.kiranico.com/data/quests/788266652
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 10%
+- Row 25:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ Dissect the Dual Blades
+    - Gathering Hub 6★ Dissect the Dual Blades: https://mhrise.kiranico.com/data/quests/740462335
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 10%
+- Row 26:
+  - Column 1 (unlabelled by source): Event Quests 6★ Nothing to Sneeze At!
+    - Event Quests 6★ Nothing to Sneeze At!: https://mhrise.kiranico.com/data/quests/1918351917
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 10%
+- Row 27:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ Do It for the Dango!
+    - Gathering Hub 6★ Do It for the Dango!: https://mhrise.kiranico.com/data/quests/578285369
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 10%
+- Row 28:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ A Bewitching Dance
+    - Gathering Hub 6★ A Bewitching Dance: https://mhrise.kiranico.com/data/quests/953432064
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 10%
+- Row 29:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ Closer Than it Appears
+    - Gathering Hub 6★ Closer Than it Appears: https://mhrise.kiranico.com/data/quests/669785946
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 10%
+- Row 30:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ Skies are Gray
+    - Gathering Hub 6★ Skies are Gray: https://mhrise.kiranico.com/data/quests/621457317
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 10%
+- Row 31:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ Sharpening Amber Fangs
+    - Gathering Hub 6★ Sharpening Amber Fangs: https://mhrise.kiranico.com/data/quests/607223684
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 10%
+- Row 32:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ The Abyss Stares Back
+    - Gathering Hub 6★ The Abyss Stares Back: https://mhrise.kiranico.com/data/quests/549801851
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 10%
+- Row 33:
+  - Column 1 (unlabelled by source): Event Quests 5★ Wrestling with Pain
+    - Event Quests 5★ Wrestling with Pain: https://mhrise.kiranico.com/data/quests/2128316800
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 10%
+- Row 34:
+  - Column 1 (unlabelled by source): Gathering Hub 5★ Grasp the Great Sword
+    - Gathering Hub 5★ Grasp the Great Sword: https://mhrise.kiranico.com/data/quests/1469362949
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 10%
+- Row 35:
+  - Column 1 (unlabelled by source): Gathering Hub 5★ Bowled Over
+    - Gathering Hub 5★ Bowled Over: https://mhrise.kiranico.com/data/quests/693502944
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 10%
+- Row 36:
+  - Column 1 (unlabelled by source): Gathering Hub 5★ Rotten Fruit
+    - Gathering Hub 5★ Rotten Fruit: https://mhrise.kiranico.com/data/quests/707752833
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 10%
+- Row 37:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ Fought, Failed, Fired Up
+    - Gathering Hub 7★ Fought, Failed, Fired Up: https://mhrise.kiranico.com/data/quests/611006999
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 9%
+- Row 38:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ A Whirlwind of a Stage
+    - Gathering Hub 7★ A Whirlwind of a Stage: https://mhrise.kiranico.com/data/quests/553585098
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 9%
+- Row 39:
+  - Column 1 (unlabelled by source): Event Quests 7★ I Can't Do What Somnacan
+    - Event Quests 7★ I Can't Do What Somnacan: https://mhrise.kiranico.com/data/quests/1443296738
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 9%
+- Row 40:
+  - Column 1 (unlabelled by source): Event Quests 7★ Heart of a Ninja
+    - Event Quests 7★ Heart of a Ninja: https://mhrise.kiranico.com/data/quests/1370592672
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 9%
+- Row 41:
+  - Column 1 (unlabelled by source): Event Quests 6★ The Blue Bomber's Best Bud
+    - Event Quests 6★ The Blue Bomber's Best Bud: https://mhrise.kiranico.com/data/quests/1248225994
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 9%
+- Row 42:
+  - Column 1 (unlabelled by source): Event Quests 5★ Soaring Desire
+    - Event Quests 5★ Soaring Desire: https://mhrise.kiranico.com/data/quests/1947273864
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 9%
+- Row 43:
+  - Column 1 (unlabelled by source): Event Quests 7★ Kunai Ask You a Favor?
+    - Event Quests 7★ Kunai Ask You a Favor?: https://mhrise.kiranico.com/data/quests/1995078313
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 9%
+- Row 44:
+  - Column 1 (unlabelled by source): Event Quests 7★ Zin and Yang
+    - Event Quests 7★ Zin and Yang: https://mhrise.kiranico.com/data/quests/2051066116
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 9%
+- Row 45:
+  - Column 1 (unlabelled by source): Event Quests 7★ Memories of That Day
+    - Event Quests 7★ Memories of That Day: https://mhrise.kiranico.com/data/quests/1725225211
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 9%
+- Row 46:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ Learn the Long Sword
+    - Gathering Hub 6★ Learn the Long Sword: https://mhrise.kiranico.com/data/quests/592010974
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 9%
+- Row 47:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ Subterranean Disturbances
+    - Gathering Hub 7★ Subterranean Disturbances: https://mhrise.kiranico.com/data/quests/1028872925
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 9%
+- Row 48:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ A Resounding Roar
+    - Gathering Hub 7★ A Resounding Roar: https://mhrise.kiranico.com/data/quests/1043630834
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 9%
+- Row 49:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ Ruckus in the Ruins
+    - Gathering Hub 7★ Ruckus in the Ruins: https://mhrise.kiranico.com/data/quests/985176657
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 9%
+- Row 50:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ Seared Situation
+    - Gathering Hub 7★ Seared Situation: https://mhrise.kiranico.com/data/quests/971451056
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 9%
+- Row 51:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ A Muddy Invitation
+    - Gathering Hub 7★ A Muddy Invitation: https://mhrise.kiranico.com/data/quests/1014623036
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 9%
+- Row 52:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ Clad in Hellfire
+    - Gathering Hub 7★ Clad in Hellfire: https://mhrise.kiranico.com/data/quests/866171679
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 9%
+- Row 53:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ Showdown in the Arena
+    - Gathering Hub 6★ Showdown in the Arena: https://mhrise.kiranico.com/data/quests/711015952
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 9%
+- Row 54:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ Red Skies at Night
+    - Gathering Hub 6★ Red Skies at Night: https://mhrise.kiranico.com/data/quests/564051736
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 9%
+- Row 55:
+  - Column 1 (unlabelled by source): Gathering Hub 6★ Skies Flash, Clouds Boom
+    - Gathering Hub 6★ Skies Flash, Clouds Boom: https://mhrise.kiranico.com/data/quests/981917638
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 9%
+- Row 56:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ A Quartet of Horns
+    - Gathering Hub 7★ A Quartet of Horns: https://mhrise.kiranico.com/data/quests/567310827
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 9%
+- Row 57:
+  - Column 1 (unlabelled by source): Gathering Hub 5★ Shadows Over the Frost
+    - Gathering Hub 5★ Shadows Over the Frost: https://mhrise.kiranico.com/data/quests/1602601596
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 9%
+- Row 58:
+  - Column 1 (unlabelled by source): Gathering Hub 5★ Hone Your Heavy Bowgun
+    - Gathering Hub 5★ Hone Your Heavy Bowgun: https://mhrise.kiranico.com/data/quests/1559360153
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 9%
+- Row 59:
+  - Column 1 (unlabelled by source): Gathering Hub 4★ Study the Switch Axe
+    - Gathering Hub 4★ Study the Switch Axe: https://mhrise.kiranico.com/data/quests/1123022490
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 9%
+- Row 60:
+  - Column 1 (unlabelled by source): Event Quests 8★ Frost Bites
+    - Event Quests 8★ Frost Bites: https://mhrise.kiranico.com/data/quests/1932061122
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 7%
+- Row 61:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ Evil Afoot
+    - Gathering Hub 7★ Evil Afoot: https://mhrise.kiranico.com/data/quests/1057880723
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 7%
+- Row 62:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ It's Gonna Get You!
+    - Gathering Hub 7★ It's Gonna Get You!: https://mhrise.kiranico.com/data/quests/852446078
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 7%
+- Row 63:
+  - Column 1 (unlabelled by source): Event Quests 7★ Monster Maniacs
+    - Event Quests 7★ Monster Maniacs: https://mhrise.kiranico.com/data/quests/2037356903
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 7%
+- Row 64:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ Occupational Hazards
+    - Gathering Hub 7★ Occupational Hazards: https://mhrise.kiranico.com/data/quests/625764916
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 7%
+- Row 65:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ May Fire Quell Fury
+    - Gathering Hub 8★ May Fire Quell Fury: https://mhrise.kiranico.com/data/quests/595794345
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 7%
+- Row 66:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ A Frosty Stalemate
+    - Gathering Hub 7★ A Frosty Stalemate: https://mhrise.kiranico.com/data/quests/999410294
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 7%
+- Row 67:
+  - Column 1 (unlabelled by source): Event Quests 8★ Almudron: Fashion Victim
+    - Event Quests 8★ Almudron: Fashion Victim: https://mhrise.kiranico.com/data/quests/1384826177
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 6%
+- Row 68:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Master Utsushi's Challenge Part 4
+    - Gathering Hub 8★ Master Utsushi's Challenge Part 4: https://mhrise.kiranico.com/data/quests/1129307701
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 6%
+- Row 69:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Master Utsushi's Challenge Part 3
+    - Gathering Hub 8★ Master Utsushi's Challenge Part 3: https://mhrise.kiranico.com/data/quests/1115057684
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 6%
+- Row 70:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Master Utsushi's Challenge Part 1
+    - Gathering Hub 8★ Master Utsushi's Challenge Part 1: https://mhrise.kiranico.com/data/quests/1086049878
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 6%
+- Row 71:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Advanced: Dual Calamities
+    - Gathering Hub 8★ Advanced: Dual Calamities: https://mhrise.kiranico.com/data/quests/1489682303
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 6%
+- Row 72:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Return of the Bazelgeuse
+    - Gathering Hub 8★ Return of the Bazelgeuse: https://mhrise.kiranico.com/data/quests/1356425220
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 6%
+- Row 73:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Return of the Bazelgeuse
+    - Gathering Hub 8★ Return of the Bazelgeuse: https://mhrise.kiranico.com/data/quests/1442855015
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 6%
+- Row 74:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Return of the Bazelgeuse
+    - Gathering Hub 8★ Return of the Bazelgeuse: https://mhrise.kiranico.com/data/quests/1414895777
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 6%
+- Row 75:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Return of the Bazelgeuse
+    - Gathering Hub 8★ Return of the Bazelgeuse: https://mhrise.kiranico.com/data/quests/729557120
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 6%
+- Row 76:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Death From Above
+    - Gathering Hub 8★ Death From Above: https://mhrise.kiranico.com/data/quests/714799331
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 6%
+
+### Piercing Claw: Weapons
+
+- Row 1:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/61843973.webp
+  - Column 2 (unlabelled by source): Golem Blade I
+    - Golem Blade I: https://mhrise.kiranico.com/data/weapons/61843973
+  - Column 3 (unlabelled by source): x5
+- Row 2:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/61843973.webp
+  - Column 2 (unlabelled by source): Golem Blade I
+    - Golem Blade I: https://mhrise.kiranico.com/data/weapons/61843973
+  - Column 3 (unlabelled by source): x5
+- Row 3:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/416623373.webp
+  - Column 2 (unlabelled by source): Iron Beater II
+    - Iron Beater II: https://mhrise.kiranico.com/data/weapons/416623373
+  - Column 3 (unlabelled by source): x3
+- Row 4:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/203667960.webp
+  - Column 2 (unlabelled by source): Bone Barong II
+    - Bone Barong II: https://mhrise.kiranico.com/data/weapons/203667960
+  - Column 3 (unlabelled by source): x3
+- Row 5:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/29149395.webp
+  - Column 2 (unlabelled by source): Talon Carvers II
+    - Talon Carvers II: https://mhrise.kiranico.com/data/weapons/29149395
+  - Column 3 (unlabelled by source): x4
+- Row 6:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1305104894.webp
+  - Column 2 (unlabelled by source): Ludroth Pair II
+    - Ludroth Pair II: https://mhrise.kiranico.com/data/weapons/1305104894
+  - Column 3 (unlabelled by source): x4
+- Row 7:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1023700705.webp
+  - Column 2 (unlabelled by source): Felyne Claws I
+    - Felyne Claws I: https://mhrise.kiranico.com/data/weapons/1023700705
+  - Column 3 (unlabelled by source): x4
+- Row 8:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/133413368.webp
+  - Column 2 (unlabelled by source): Dark Scythe I
+    - Dark Scythe I: https://mhrise.kiranico.com/data/weapons/133413368
+  - Column 3 (unlabelled by source): x3
+- Row 9:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/259586428.webp
+  - Column 2 (unlabelled by source): Cyclo-Hammer II
+    - Cyclo-Hammer II: https://mhrise.kiranico.com/data/weapons/259586428
+  - Column 3 (unlabelled by source): x5
+- Row 10:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1583596291.webp
+  - Column 2 (unlabelled by source): Zurogong Secundo
+    - Zurogong Secundo: https://mhrise.kiranico.com/data/weapons/1583596291
+  - Column 3 (unlabelled by source): x3
+- Row 11:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/78965145.webp
+  - Column 2 (unlabelled by source): Kamura Gunlance V
+    - Kamura Gunlance V: https://mhrise.kiranico.com/data/weapons/78965145
+  - Column 3 (unlabelled by source): x5
+- Row 12:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/113568153.webp
+  - Column 2 (unlabelled by source): Power Gasher II
+    - Power Gasher II: https://mhrise.kiranico.com/data/weapons/113568153
+  - Column 3 (unlabelled by source): x4
+- Row 13:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1672567726.webp
+  - Column 2 (unlabelled by source): Elite Blade II
+    - Elite Blade II: https://mhrise.kiranico.com/data/weapons/1672567726
+  - Column 3 (unlabelled by source): x3
+- Row 14:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/328448504.webp
+  - Column 2 (unlabelled by source): Dragon Veil I
+    - Dragon Veil I: https://mhrise.kiranico.com/data/weapons/328448504
+  - Column 3 (unlabelled by source): x3
+- Row 15:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1563767584.webp
+  - Column 2 (unlabelled by source): Hortadent Brada
+    - Hortadent Brada: https://mhrise.kiranico.com/data/weapons/1563767584
+  - Column 3 (unlabelled by source): x3
+- Row 16:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/759880854.webp
+  - Column 2 (unlabelled by source): Rielle Nulo Red I
+    - Rielle Nulo Red I: https://mhrise.kiranico.com/data/weapons/759880854
+  - Column 3 (unlabelled by source): x3
+- Row 17:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/241649707.webp
+  - Column 2 (unlabelled by source): Deathport Staff II
+    - Deathport Staff II: https://mhrise.kiranico.com/data/weapons/241649707
+  - Column 3 (unlabelled by source): x3
+- Row 18:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/2063420363.webp
+  - Column 2 (unlabelled by source): Hunter's Stoutbow II
+    - Hunter's Stoutbow II: https://mhrise.kiranico.com/data/weapons/2063420363
+  - Column 3 (unlabelled by source): x3
+- Row 19:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/813108903.webp
+  - Column 2 (unlabelled by source): Lumier Bowgun I
+    - Lumier Bowgun I: https://mhrise.kiranico.com/data/weapons/813108903
+  - Column 3 (unlabelled by source): x1
+- Row 20:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/129202292.webp
+  - Column 2 (unlabelled by source): Wind Thief L. Bowgun III
+    - Wind Thief L. Bowgun III: https://mhrise.kiranico.com/data/weapons/129202292
+  - Column 3 (unlabelled by source): x3
+
+### Piercing Claw: Armor
+
+- Row 1:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/151316889\_f.webp
+  - Column 2 (unlabelled by source): Death Stench Muscle S
+    - Death Stench Muscle S: https://mhrise.kiranico.com/data/armors/151316889
+  - Column 3 (unlabelled by source): x2
+- Row 2:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/150268313\_f.webp
+  - Column 2 (unlabelled by source): Death Stench Grip S
+    - Death Stench Grip S: https://mhrise.kiranico.com/data/armors/150268313
+  - Column 3 (unlabelled by source): x2
+- Row 3:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1097237391\_f.webp
+  - Column 2 (unlabelled by source): Izuchi Braces S
+    - Izuchi Braces S: https://mhrise.kiranico.com/data/armors/1097237391
+  - Column 3 (unlabelled by source): x1
+- Row 4:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1964143268\_f.webp
+  - Column 2 (unlabelled by source): Rhenoplos Mail S
+    - Rhenoplos Mail S: https://mhrise.kiranico.com/data/armors/1964143268
+  - Column 3 (unlabelled by source): x1
+- Row 5:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2039976306\_f.webp
+  - Column 2 (unlabelled by source): Droth Mail S
+    - Droth Mail S: https://mhrise.kiranico.com/data/armors/2039976306
+  - Column 3 (unlabelled by source): x2
+- Row 6:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2104988018\_f.webp
+  - Column 2 (unlabelled by source): Droth Coil S
+    - Droth Coil S: https://mhrise.kiranico.com/data/armors/2104988018
+  - Column 3 (unlabelled by source): x3
+- Row 7:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2067935536\_f.webp
+  - Column 2 (unlabelled by source): Uroktor Torso S
+    - Uroktor Torso S: https://mhrise.kiranico.com/data/armors/2067935536
+  - Column 3 (unlabelled by source): x1
+- Row 8:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1875335118\_f.webp
+  - Column 2 (unlabelled by source): Ludroth Mail S
+    - Ludroth Mail S: https://mhrise.kiranico.com/data/armors/1875335118
+  - Column 3 (unlabelled by source): x1
+- Row 9:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1671911374\_f.webp
+  - Column 2 (unlabelled by source): Ludroth Coil S
+    - Ludroth Coil S: https://mhrise.kiranico.com/data/armors/1671911374
+  - Column 3 (unlabelled by source): x2
+- Row 10:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1637308366\_f.webp
+  - Column 2 (unlabelled by source): Ludroth Greaves S
+    - Ludroth Greaves S: https://mhrise.kiranico.com/data/armors/1637308366
+  - Column 3 (unlabelled by source): x2
+- Row 11:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/383727360\_f.webp
+  - Column 2 (unlabelled by source): Nargacuga Mail S
+    - Nargacuga Mail S: https://mhrise.kiranico.com/data/armors/383727360
+  - Column 3 (unlabelled by source): x2
+- Row 12:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/169337865\_f.webp
+  - Column 2 (unlabelled by source): Anjanath Mail S
+    - Anjanath Mail S: https://mhrise.kiranico.com/data/armors/169337865
+  - Column 3 (unlabelled by source): x2
+- Row 13:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/666704409\_f.webp
+  - Column 2 (unlabelled by source): Bone Helm S
+    - Bone Helm S: https://mhrise.kiranico.com/data/armors/666704409
+  - Column 3 (unlabelled by source): x1
+- Row 14:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1000151577\_f.webp
+  - Column 2 (unlabelled by source): Bone Vambraces S
+    - Bone Vambraces S: https://mhrise.kiranico.com/data/armors/1000151577
+  - Column 3 (unlabelled by source): x1
+
+### Piercing Claw: Decorations
+
+- Source table is empty; this does not prove absence.
+
+## Barroth Scalp
+
+- Category: Items
+- ID: 164029980
+- Source URL: https://mhrise.kiranico.com/data/items/164029980
+- language: en
+- description: This durable part of a Barroth's skull is also the hardest to remove.
+- Source database version: 16.0.0
+- Fetched at (UTC): 2026-10-30T14:26:28.044214+00:00
+- Snapshot ID: 2026-10-30T14:20:10.103912+00:00
+- source_groups: \["https://mhrise.kiranico.com/data/items?view=material"\]
+
+### Barroth Scalp: Monsters
+
+- Row 1:
+  - Column 1 (unlabelled by source): Barroth
+    - Barroth: https://mhrise.kiranico.com/data/monsters/643686022
+  - Column 2 (unlabelled by source): Low Rank
+  - Column 3 (unlabelled by source): Carves Severing
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 80%
+- Row 2:
+  - Column 1 (unlabelled by source): Barroth
+    - Barroth: https://mhrise.kiranico.com/data/monsters/643686022
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Carves Severing
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 70%
+- Row 3:
+  - Column 1 (unlabelled by source): Barroth
+    - Barroth: https://mhrise.kiranico.com/data/monsters/643686022
+  - Column 2 (unlabelled by source): Low Rank
+  - Column 3 (unlabelled by source): Capture Rewards
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 13%
+- Row 4:
+  - Column 1 (unlabelled by source): Barroth
+    - Barroth: https://mhrise.kiranico.com/data/monsters/643686022
+  - Column 2 (unlabelled by source): Low Rank
+  - Column 3 (unlabelled by source): Target Rewards
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 10%
+- Row 5:
+  - Column 1 (unlabelled by source): Barroth
+    - Barroth: https://mhrise.kiranico.com/data/monsters/643686022
+  - Column 2 (unlabelled by source): Low Rank
+  - Column 3 (unlabelled by source): Carves Body
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 8%
+- Row 6:
+  - Column 1 (unlabelled by source): Barroth
+    - Barroth: https://mhrise.kiranico.com/data/monsters/643686022
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Capture Rewards
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 8%
+- Row 7:
+  - Column 1 (unlabelled by source): Barroth
+    - Barroth: https://mhrise.kiranico.com/data/monsters/643686022
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Target Rewards
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 6%
+- Row 8:
+  - Column 1 (unlabelled by source): Barroth
+    - Barroth: https://mhrise.kiranico.com/data/monsters/643686022
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Carves Body
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 6%
+
+### Barroth Scalp: Weapons
+
+- Row 1:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1246298759.webp
+  - Column 2 (unlabelled by source): Carapace Sword II
+    - Carapace Sword II: https://mhrise.kiranico.com/data/weapons/1246298759
+  - Column 3 (unlabelled by source): x2
+- Row 2:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/2015060177.webp
+  - Column 2 (unlabelled by source): Carapace Mace II
+    - Carapace Mace II: https://mhrise.kiranico.com/data/weapons/2015060177
+  - Column 3 (unlabelled by source): x1
+- Row 3:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1882767635.webp
+  - Column 2 (unlabelled by source): Castello Saif I
+    - Castello Saif I: https://mhrise.kiranico.com/data/weapons/1882767635
+  - Column 3 (unlabelled by source): x1
+- Row 4:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1882767635.webp
+  - Column 2 (unlabelled by source): Castello Saif I
+    - Castello Saif I: https://mhrise.kiranico.com/data/weapons/1882767635
+  - Column 3 (unlabelled by source): x1
+- Row 5:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1938264434.webp
+  - Column 2 (unlabelled by source): Carapace Hammer I
+    - Carapace Hammer I: https://mhrise.kiranico.com/data/weapons/1938264434
+  - Column 3 (unlabelled by source): x1
+- Row 6:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1180504698.webp
+  - Column 2 (unlabelled by source): Sandpipe I
+    - Sandpipe I: https://mhrise.kiranico.com/data/weapons/1180504698
+  - Column 3 (unlabelled by source): x1
+- Row 7:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1946833406.webp
+  - Column 2 (unlabelled by source): Rugged Lance II
+    - Rugged Lance II: https://mhrise.kiranico.com/data/weapons/1946833406
+  - Column 3 (unlabelled by source): x1
+- Row 8:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1391467626.webp
+  - Column 2 (unlabelled by source): Arzuros Axe II
+    - Arzuros Axe II: https://mhrise.kiranico.com/data/weapons/1391467626
+  - Column 3 (unlabelled by source): x1
+- Row 9:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1298547227.webp
+  - Column 2 (unlabelled by source): Assault Axe II
+    - Assault Axe II: https://mhrise.kiranico.com/data/weapons/1298547227
+  - Column 3 (unlabelled by source): x1
+- Row 10:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1457947535.webp
+  - Column 2 (unlabelled by source): Barroth Anchor II
+    - Barroth Anchor II: https://mhrise.kiranico.com/data/weapons/1457947535
+  - Column 3 (unlabelled by source): x2
+- Row 11:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/542207217.webp
+  - Column 2 (unlabelled by source): Barro Barrel II
+    - Barro Barrel II: https://mhrise.kiranico.com/data/weapons/542207217
+  - Column 3 (unlabelled by source): x1
+
+### Barroth Scalp: Armor
+
+- Row 1:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1754826735\_f.webp
+  - Column 2 (unlabelled by source): Barroth Mail
+    - Barroth Mail: https://mhrise.kiranico.com/data/armors/1754826735
+  - Column 3 (unlabelled by source): x1
+- Row 2:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1819838447\_f.webp
+  - Column 2 (unlabelled by source): Barroth Coil
+    - Barroth Coil: https://mhrise.kiranico.com/data/armors/1819838447
+  - Column 3 (unlabelled by source): x1
+- Row 3:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1769076620\_f.webp
+  - Column 2 (unlabelled by source): Barroth Mail S
+    - Barroth Mail S: https://mhrise.kiranico.com/data/armors/1769076620
+  - Column 3 (unlabelled by source): x1
+
+### Barroth Scalp: Decorations
+
+- Row 1:
+  - Column 1 (unlabelled by source): KO Jewel 2
+    - KO Jewel 2: https://mhrise.kiranico.com/data/decorations/1003081507
+  - Column 2 (unlabelled by source): x1
+
+## High-quality Pelt
+
+- Category: Items
+- ID: 1647787897
+- Source URL: https://mhrise.kiranico.com/data/items/1647787897
+- language: en
+- description: Feels wonderful to the touch. Difficult to carve but valued by the Guild.
+- Source database version: 16.0.0
+- Fetched at (UTC): 2026-10-30T14:23:57.880694+00:00
+- Snapshot ID: 2026-10-30T14:20:10.103912+00:00
+- source_groups: \["https://mhrise.kiranico.com/data/items?view=material"\]
+
+### High-quality Pelt: Monsters
+
+- Row 1:
+  - Column 1 (unlabelled by source): Kelbi
+    - Kelbi: https://mhrise.kiranico.com/data/monsters/2055863177
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Carves Body
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 45%
+- Row 2:
+  - Column 1 (unlabelled by source): Kelbi
+    - Kelbi: https://mhrise.kiranico.com/data/monsters/2055863177
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Items Obtained by Palico
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 45%
+- Row 3:
+  - Column 1 (unlabelled by source): Anteka
+    - Anteka: https://mhrise.kiranico.com/data/monsters/1771235898
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Carves Body
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 18%
+- Row 4:
+  - Column 1 (unlabelled by source): Anteka
+    - Anteka: https://mhrise.kiranico.com/data/monsters/1771235898
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Items Obtained by Palico
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 18%
+- Row 5:
+  - Column 1 (unlabelled by source): Kelbi
+    - Kelbi: https://mhrise.kiranico.com/data/monsters/2055863177
+  - Column 2 (unlabelled by source): Master Rank
+  - Column 3 (unlabelled by source): Carves Body
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 10%
+- Row 6:
+  - Column 1 (unlabelled by source): Kelbi
+    - Kelbi: https://mhrise.kiranico.com/data/monsters/2055863177
+  - Column 2 (unlabelled by source): Master Rank
+  - Column 3 (unlabelled by source): Items Obtained by Palico
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 10%
+
+### High-quality Pelt: Weapons
+
+- Row 1:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1574521867.webp
+  - Column 2 (unlabelled by source): Anteka Blade I
+    - Anteka Blade I: https://mhrise.kiranico.com/data/weapons/1574521867
+  - Column 3 (unlabelled by source): x3
+- Row 2:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/957742924.webp
+  - Column 2 (unlabelled by source): Teddybear II
+    - Teddybear II: https://mhrise.kiranico.com/data/weapons/957742924
+  - Column 3 (unlabelled by source): x5
+- Row 3:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1875991470.webp
+  - Column 2 (unlabelled by source): Heavy Bagpipe I
+    - Heavy Bagpipe I: https://mhrise.kiranico.com/data/weapons/1875991470
+  - Column 3 (unlabelled by source): x2
+- Row 4:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/603823378.webp
+  - Column 2 (unlabelled by source): Bull Grunt I
+    - Bull Grunt I: https://mhrise.kiranico.com/data/weapons/603823378
+  - Column 3 (unlabelled by source): x4
+- Row 5:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/454621564.webp
+  - Column 2 (unlabelled by source): Grass Flute II
+    - Grass Flute II: https://mhrise.kiranico.com/data/weapons/454621564
+  - Column 3 (unlabelled by source): x3
+- Row 6:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1114530497.webp
+  - Column 2 (unlabelled by source): Ploshasta II
+    - Ploshasta II: https://mhrise.kiranico.com/data/weapons/1114530497
+  - Column 3 (unlabelled by source): x2
+- Row 7:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1381135012.webp
+  - Column 2 (unlabelled by source): Kelbi Stingshot II
+    - Kelbi Stingshot II: https://mhrise.kiranico.com/data/weapons/1381135012
+  - Column 3 (unlabelled by source): x4
+- Row 8:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/584416340.webp
+  - Column 2 (unlabelled by source): Anteka Burst II
+    - Anteka Burst II: https://mhrise.kiranico.com/data/weapons/584416340
+  - Column 3 (unlabelled by source): x4
+- Row 9:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/656071830.webp
+  - Column 2 (unlabelled by source): Cyclecaster
+    - Cyclecaster: https://mhrise.kiranico.com/data/weapons/656071830
+  - Column 3 (unlabelled by source): x3
+
+### High-quality Pelt: Armor
+
+- Row 1:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/427813769\_f.webp
+  - Column 2 (unlabelled by source): Leather Headgear S
+    - Leather Headgear S: https://mhrise.kiranico.com/data/armors/427813769
+  - Column 3 (unlabelled by source): x1
+- Row 2:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/115682061\_f.webp
+  - Column 2 (unlabelled by source): Hunter's Helm S
+    - Hunter's Helm S: https://mhrise.kiranico.com/data/armors/115682061
+  - Column 3 (unlabelled by source): x1
+- Row 3:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/514140941\_f.webp
+  - Column 2 (unlabelled by source): Hunter's Greaves S
+    - Hunter's Greaves S: https://mhrise.kiranico.com/data/armors/514140941
+  - Column 3 (unlabelled by source): x2
+- Row 4:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1196852111\_f.webp
+  - Column 2 (unlabelled by source): Izuchi Coil S
+    - Izuchi Coil S: https://mhrise.kiranico.com/data/armors/1196852111
+  - Column 3 (unlabelled by source): x2
+- Row 5:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1970787046\_f.webp
+  - Column 2 (unlabelled by source): Slagtoth Hood S
+    - Slagtoth Hood S: https://mhrise.kiranico.com/data/armors/1970787046
+  - Column 3 (unlabelled by source): x2
+- Row 6:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1265095398\_f.webp
+  - Column 2 (unlabelled by source): Slagtoth Cloak S
+    - Slagtoth Cloak S: https://mhrise.kiranico.com/data/armors/1265095398
+  - Column 3 (unlabelled by source): x2
+- Row 7:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/2039976306\_f.webp
+  - Column 2 (unlabelled by source): Droth Mail S
+    - Droth Mail S: https://mhrise.kiranico.com/data/armors/2039976306
+  - Column 3 (unlabelled by source): x1
+- Row 8:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1818890314\_f.webp
+  - Column 2 (unlabelled by source): Arzuros Helm S
+    - Arzuros Helm S: https://mhrise.kiranico.com/data/armors/1818890314
+  - Column 3 (unlabelled by source): x2
+- Row 9:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1813295112\_f.webp
+  - Column 2 (unlabelled by source): Volvidon Mail S
+    - Volvidon Mail S: https://mhrise.kiranico.com/data/armors/1813295112
+  - Column 3 (unlabelled by source): x2
+- Row 10:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1863096130\_f.webp
+  - Column 2 (unlabelled by source): Khezu Coil S
+    - Khezu Coil S: https://mhrise.kiranico.com/data/armors/1863096130
+  - Column 3 (unlabelled by source): x1
+- Row 11:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/37045323\_f.webp
+  - Column 2 (unlabelled by source): Kadachi Greaves S
+    - Kadachi Greaves S: https://mhrise.kiranico.com/data/armors/37045323
+  - Column 3 (unlabelled by source): x2
+- Row 12:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/604142171\_f.webp
+  - Column 2 (unlabelled by source): Lagombi Helm S
+    - Lagombi Helm S: https://mhrise.kiranico.com/data/armors/604142171
+  - Column 3 (unlabelled by source): x1
+- Row 13:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1070758491\_f.webp
+  - Column 2 (unlabelled by source): Lagombi Coil S
+    - Lagombi Coil S: https://mhrise.kiranico.com/data/armors/1070758491
+  - Column 3 (unlabelled by source): x2
+- Row 14:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1000151577\_f.webp
+  - Column 2 (unlabelled by source): Bone Vambraces S
+    - Bone Vambraces S: https://mhrise.kiranico.com/data/armors/1000151577
+  - Column 3 (unlabelled by source): x2
+
+### High-quality Pelt: Decorations
+
+- Source table is empty; this does not prove absence.
+
+## Azure Era Gem
+
+- Category: Items
+- ID: 1665412677
+- Source URL: https://mhrise.kiranico.com/data/items/1665412677
+- language: en
+- description: A special gift from USJ. Some say its sapphire glow guides onlookers to a brighter future.
+- Source database version: 16.0.0
+- Fetched at (UTC): 2026-10-30T14:23:59.867786+00:00
+- Snapshot ID: 2026-10-30T14:20:10.103912+00:00
+- source_groups: \["https://mhrise.kiranico.com/data/items?view=material"\]
+
+### Azure Era Gem: Quests
+
+- Row 1:
+  - Column 1 (unlabelled by source): Event Quests 8★ USJ - Shrine Showdown!
+    - Event Quests 8★ USJ - Shrine Showdown!: https://mhrise.kiranico.com/data/quests/1752207248
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x3
+  - Column 4 (unlabelled by source): 60%
+- Row 2:
+  - Column 1 (unlabelled by source): Event Quests 8★ USJ - Shrine Showdown!
+    - Event Quests 8★ USJ - Shrine Showdown!: https://mhrise.kiranico.com/data/quests/1752207248
+  - Column 2 (unlabelled by source): additional
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 40%
+
+### Azure Era Gem: Weapons
+
+- Row 1:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/879049415.webp
+  - Column 2 (unlabelled by source): Azure Star Blade I
+    - Azure Star Blade I: https://mhrise.kiranico.com/data/weapons/879049415
+  - Column 3 (unlabelled by source): x1
+- Row 2:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/893283044.webp
+  - Column 2 (unlabelled by source): Azure Star "Dragon Dance"
+    - Azure Star "Dragon Dance": https://mhrise.kiranico.com/data/weapons/893283044
+  - Column 3 (unlabelled by source): x2
+- Row 3:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/49093145.webp
+  - Column 2 (unlabelled by source): Azure Era Wyrmbow I
+    - Azure Era Wyrmbow I: https://mhrise.kiranico.com/data/weapons/49093145
+  - Column 3 (unlabelled by source): x1
+- Row 4:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/63326782.webp
+  - Column 2 (unlabelled by source): Azure Era "Soaring Dragon"
+    - Azure Era "Soaring Dragon": https://mhrise.kiranico.com/data/weapons/63326782
+  - Column 3 (unlabelled by source): x2
+
+### Azure Era Gem: Armor
+
+- Row 1:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1364758402\_f.webp
+  - Column 2 (unlabelled by source): Canyne Tail
+    - Canyne Tail: https://mhrise.kiranico.com/data/armors/1364758402
+  - Column 3 (unlabelled by source): x1
+
+### Azure Era Gem: Decorations
+
+- Source table is empty; this does not prove absence.
+
+## Elder Dragon Bone
+
+- Category: Items
+- ID: 2080864493
+- Source URL: https://mhrise.kiranico.com/data/items/2080864493
+- language: en
+- description: A bone from an elder dragon. It exudes majesty.
+- Source database version: 16.0.0
+- Fetched at (UTC): 2026-10-30T14:24:11.836984+00:00
+- Snapshot ID: 2026-10-30T14:20:10.103912+00:00
+- source_groups: \["https://mhrise.kiranico.com/data/items?view=material"\]
+
+### Elder Dragon Bone: Quests
+
+- Row 1:
+  - Column 1 (unlabelled by source): Gathering Hub 7★ Serpent Goddess of Thunder
+    - Gathering Hub 7★ Serpent Goddess of Thunder: https://mhrise.kiranico.com/data/quests/196572196
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 26%
+- Row 2:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Ancient Illusion
+    - Gathering Hub 8★ Ancient Illusion: https://mhrise.kiranico.com/data/quests/881384389
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 20%
+- Row 3:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Steely Storm
+    - Gathering Hub 8★ The Steely Storm: https://mhrise.kiranico.com/data/quests/895618042
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 20%
+- Row 4:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Emperor of Flame
+    - Gathering Hub 8★ The Emperor of Flame: https://mhrise.kiranico.com/data/quests/909867931
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 20%
+- Row 5:
+  - Column 1 (unlabelled by source): Event Quests 8★ Clouds of Narwa Rumble Again
+    - Event Quests 8★ Clouds of Narwa Rumble Again: https://mhrise.kiranico.com/data/quests/1129221040
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 7%
+- Row 6:
+  - Column 1 (unlabelled by source): Event Quests 8★ Gales of Ibushi Blow Again
+    - Event Quests 8★ Gales of Ibushi Blow Again: https://mhrise.kiranico.com/data/quests/1114987411
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 7%
+- Row 7:
+  - Column 1 (unlabelled by source): Event Quests 8★ Scorching Showdown
+    - Event Quests 8★ Scorching Showdown: https://mhrise.kiranico.com/data/quests/1205949500
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 7%
+- Row 8:
+  - Column 1 (unlabelled by source): Event Quests 8★ Tempest in the Desert
+    - Event Quests 8★ Tempest in the Desert: https://mhrise.kiranico.com/data/quests/1489597690
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 7%
+- Row 9:
+  - Column 1 (unlabelled by source): Event Quests 8★ Fooled in the Flooded Forest
+    - Event Quests 8★ Fooled in the Flooded Forest: https://mhrise.kiranico.com/data/quests/1399600486
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 7%
+- Row 10:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Advanced: Of Storm and Fire
+    - Gathering Hub 8★ Advanced: Of Storm and Fire: https://mhrise.kiranico.com/data/quests/1518690109
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 7%
+- Row 11:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Evil Star from Beyond
+    - Gathering Hub 8★ The Evil Star from Beyond: https://mhrise.kiranico.com/data/quests/700549314
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 7%
+- Row 12:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Evil Star from Beyond
+    - Gathering Hub 8★ The Evil Star from Beyond: https://mhrise.kiranico.com/data/quests/686315821
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 7%
+- Row 13:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Evil Star from Beyond
+    - Gathering Hub 8★ The Evil Star from Beyond: https://mhrise.kiranico.com/data/quests/773253388
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 7%
+- Row 14:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Evil Star from Beyond
+    - Gathering Hub 8★ The Evil Star from Beyond: https://mhrise.kiranico.com/data/quests/759019887
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 7%
+- Row 15:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Crimson Glow
+    - Gathering Hub 8★ The Crimson Glow: https://mhrise.kiranico.com/data/quests/838212441
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 7%
+- Row 16:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Allmother
+    - Gathering Hub 8★ The Allmother: https://mhrise.kiranico.com/data/quests/924625848
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 7%
+- Row 17:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Emperor of Flame
+    - Gathering Hub 8★ The Emperor of Flame: https://mhrise.kiranico.com/data/quests/909867931
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 6%
+- Row 18:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Steely Storm
+    - Gathering Hub 8★ The Steely Storm: https://mhrise.kiranico.com/data/quests/895618042
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 6%
+- Row 19:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Ancient Illusion
+    - Gathering Hub 8★ Ancient Illusion: https://mhrise.kiranico.com/data/quests/881384389
+  - Column 2 (unlabelled by source): common
+  - Column 3 (unlabelled by source): x2
+  - Column 4 (unlabelled by source): 6%
+
+### Elder Dragon Bone: Weapons
+
+- Row 1:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/498185752.webp
+  - Column 2 (unlabelled by source): Tigrex Great Sword
+    - Tigrex Great Sword: https://mhrise.kiranico.com/data/weapons/498185752
+  - Column 3 (unlabelled by source): x3
+- Row 2:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/407209471.webp
+  - Column 2 (unlabelled by source): Feud Hornsword
+    - Feud Hornsword: https://mhrise.kiranico.com/data/weapons/407209471
+  - Column 3 (unlabelled by source): x3
+- Row 3:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1530928234.webp
+  - Column 2 (unlabelled by source): Azure Elder Great Sword II
+    - Azure Elder Great Sword II: https://mhrise.kiranico.com/data/weapons/1530928234
+  - Column 3 (unlabelled by source): x3
+- Row 4:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/421459356.webp
+  - Column 2 (unlabelled by source): Icesteel Edge I
+    - Icesteel Edge I: https://mhrise.kiranico.com/data/weapons/421459356
+  - Column 3 (unlabelled by source): x2
+- Row 5:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/74724624.webp
+  - Column 2 (unlabelled by source): Despot's Crookbolt
+    - Despot's Crookbolt: https://mhrise.kiranico.com/data/weapons/74724624
+  - Column 3 (unlabelled by source): x3
+- Row 6:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/373585540.webp
+  - Column 2 (unlabelled by source): Gnashing Flammensucher
+    - Gnashing Flammensucher: https://mhrise.kiranico.com/data/weapons/373585540
+  - Column 3 (unlabelled by source): x3
+- Row 7:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/207963211.webp
+  - Column 2 (unlabelled by source): Icesteel Dagger I
+    - Icesteel Dagger I: https://mhrise.kiranico.com/data/weapons/207963211
+  - Column 3 (unlabelled by source): x1
+- Row 8:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/236446729.webp
+  - Column 2 (unlabelled by source): Teostra's Spada I
+    - Teostra's Spada I: https://mhrise.kiranico.com/data/weapons/236446729
+  - Column 3 (unlabelled by source): x1
+- Row 9:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1442753653.webp
+  - Column 2 (unlabelled by source): Mud Twister
+    - Mud Twister: https://mhrise.kiranico.com/data/weapons/1442753653
+  - Column 3 (unlabelled by source): x3
+- Row 10:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/347010460.webp
+  - Column 2 (unlabelled by source): Diablos Mashers
+    - Diablos Mashers: https://mhrise.kiranico.com/data/weapons/347010460
+  - Column 3 (unlabelled by source): x3
+- Row 11:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1470712843.webp
+  - Column 2 (unlabelled by source): Azure Elder Blades II
+    - Azure Elder Blades II: https://mhrise.kiranico.com/data/weapons/1470712843
+  - Column 3 (unlabelled by source): x3
+- Row 12:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/722914611.webp
+  - Column 2 (unlabelled by source): Doom Bringer Blade
+    - Doom Bringer Blade: https://mhrise.kiranico.com/data/weapons/722914611
+  - Column 3 (unlabelled by source): x3
+- Row 13:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/267176147.webp
+  - Column 2 (unlabelled by source): Big Menacing Scythe
+    - Big Menacing Scythe: https://mhrise.kiranico.com/data/weapons/267176147
+  - Column 3 (unlabelled by source): x3
+- Row 14:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1455516913.webp
+  - Column 2 (unlabelled by source): Azure Elder Long Sword II
+    - Azure Elder Long Sword II: https://mhrise.kiranico.com/data/weapons/1455516913
+  - Column 3 (unlabelled by source): x3
+- Row 15:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1567980628.webp
+  - Column 2 (unlabelled by source): Abominable Hammer
+    - Abominable Hammer: https://mhrise.kiranico.com/data/weapons/1567980628
+  - Column 3 (unlabelled by source): x3
+- Row 16:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/143387628.webp
+  - Column 2 (unlabelled by source): Genie's Expanse I
+    - Genie's Expanse I: https://mhrise.kiranico.com/data/weapons/143387628
+  - Column 3 (unlabelled by source): x1
+- Row 17:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/2102876110.webp
+  - Column 2 (unlabelled by source): Forte Flammenkornett
+    - Forte Flammenkornett: https://mhrise.kiranico.com/data/weapons/2102876110
+  - Column 3 (unlabelled by source): x2
+- Row 18:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1774552575.webp
+  - Column 2 (unlabelled by source): Duo Horn II
+    - Duo Horn II: https://mhrise.kiranico.com/data/weapons/1774552575
+  - Column 3 (unlabelled by source): x3
+- Row 19:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/619036120.webp
+  - Column 2 (unlabelled by source): Azure Elder Horn II
+    - Azure Elder Horn II: https://mhrise.kiranico.com/data/weapons/619036120
+  - Column 3 (unlabelled by source): x3
+- Row 20:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/282944817.webp
+  - Column 2 (unlabelled by source): Blessed Ocarina I
+    - Blessed Ocarina I: https://mhrise.kiranico.com/data/weapons/282944817
+  - Column 3 (unlabelled by source): x2
+- Row 21:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/303400447.webp
+  - Column 2 (unlabelled by source): Tiger Stinger II
+    - Tiger Stinger II: https://mhrise.kiranico.com/data/weapons/303400447
+  - Column 3 (unlabelled by source): x2
+- Row 22:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/527615347.webp
+  - Column 2 (unlabelled by source): Diablos Spear
+    - Diablos Spear: https://mhrise.kiranico.com/data/weapons/527615347
+  - Column 3 (unlabelled by source): x3
+- Row 23:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1561336938.webp
+  - Column 2 (unlabelled by source): Azure Elder Spear II
+    - Azure Elder Spear II: https://mhrise.kiranico.com/data/weapons/1561336938
+  - Column 3 (unlabelled by source): x3
+- Row 24:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/486368561.webp
+  - Column 2 (unlabelled by source): Diablos Cannon
+    - Diablos Cannon: https://mhrise.kiranico.com/data/weapons/486368561
+  - Column 3 (unlabelled by source): x3
+- Row 25:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/625679898.webp
+  - Column 2 (unlabelled by source): Azure Elder Gunlance II
+    - Azure Elder Gunlance II: https://mhrise.kiranico.com/data/weapons/625679898
+  - Column 3 (unlabelled by source): x3
+- Row 26:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/110711854.webp
+  - Column 2 (unlabelled by source): Bazel Buster II
+    - Bazel Buster II: https://mhrise.kiranico.com/data/weapons/110711854
+  - Column 3 (unlabelled by source): x3
+- Row 27:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/528577684.webp
+  - Column 2 (unlabelled by source): Venomous Cologne I
+    - Venomous Cologne I: https://mhrise.kiranico.com/data/weapons/528577684
+  - Column 3 (unlabelled by source): x1
+- Row 28:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/487417137.webp
+  - Column 2 (unlabelled by source): Axe Semper Tyrannis II
+    - Axe Semper Tyrannis II: https://mhrise.kiranico.com/data/weapons/487417137
+  - Column 3 (unlabelled by source): x3
+- Row 29:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/688311603.webp
+  - Column 2 (unlabelled by source): Azure Elder Axe II
+    - Azure Elder Axe II: https://mhrise.kiranico.com/data/weapons/688311603
+  - Column 3 (unlabelled by source): x3
+- Row 30:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/414713079.webp
+  - Column 2 (unlabelled by source): Daora's Farasa I
+    - Daora's Farasa I: https://mhrise.kiranico.com/data/weapons/414713079
+  - Column 3 (unlabelled by source): x1
+- Row 31:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/443196597.webp
+  - Column 2 (unlabelled by source): Teostra's Arx I
+    - Teostra's Arx I: https://mhrise.kiranico.com/data/weapons/443196597
+  - Column 3 (unlabelled by source): x1
+- Row 32:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/69551179.webp
+  - Column 2 (unlabelled by source): Waxglare Wand I
+    - Waxglare Wand I: https://mhrise.kiranico.com/data/weapons/69551179
+  - Column 3 (unlabelled by source): x1
+- Row 33:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/2032166689.webp
+  - Column 2 (unlabelled by source): Diablos Strongarm II
+    - Diablos Strongarm II: https://mhrise.kiranico.com/data/weapons/2032166689
+  - Column 3 (unlabelled by source): x3
+- Row 34:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/787840084.webp
+  - Column 2 (unlabelled by source): Azure Elder Blade II
+    - Azure Elder Blade II: https://mhrise.kiranico.com/data/weapons/787840084
+  - Column 3 (unlabelled by source): x3
+- Row 35:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1691551463.webp
+  - Column 2 (unlabelled by source): Daora's Casca I
+    - Daora's Casca I: https://mhrise.kiranico.com/data/weapons/1691551463
+  - Column 3 (unlabelled by source): x1
+- Row 36:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1754199452.webp
+  - Column 2 (unlabelled by source): Diablos Rod II
+    - Diablos Rod II: https://mhrise.kiranico.com/data/weapons/1754199452
+  - Column 3 (unlabelled by source): x3
+- Row 37:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/972836411.webp
+  - Column 2 (unlabelled by source): Abominable Glaive
+    - Abominable Glaive: https://mhrise.kiranico.com/data/weapons/972836411
+  - Column 3 (unlabelled by source): x3
+- Row 38:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1001319929.webp
+  - Column 2 (unlabelled by source): Azure Elder Glaive II
+    - Azure Elder Glaive II: https://mhrise.kiranico.com/data/weapons/1001319929
+  - Column 3 (unlabelled by source): x3
+- Row 39:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1782158674.webp
+  - Column 2 (unlabelled by source): Daora's Entom I
+    - Daora's Entom I: https://mhrise.kiranico.com/data/weapons/1782158674
+  - Column 3 (unlabelled by source): x3
+- Row 40:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/967679250.webp
+  - Column 2 (unlabelled by source): Azure Elder Bow II
+    - Azure Elder Bow II: https://mhrise.kiranico.com/data/weapons/967679250
+  - Column 3 (unlabelled by source): x3
+- Row 41:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/524364640.webp
+  - Column 2 (unlabelled by source): Genie's Grimoire I
+    - Genie's Grimoire I: https://mhrise.kiranico.com/data/weapons/524364640
+  - Column 3 (unlabelled by source): x1
+- Row 42:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/2097178401.webp
+  - Column 2 (unlabelled by source): Dual Threat II
+    - Dual Threat II: https://mhrise.kiranico.com/data/weapons/2097178401
+  - Column 3 (unlabelled by source): x3
+- Row 43:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1045454238.webp
+  - Column 2 (unlabelled by source): Azure Elder Cannon II
+    - Azure Elder Cannon II: https://mhrise.kiranico.com/data/weapons/1045454238
+  - Column 3 (unlabelled by source): x3
+- Row 44:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1679312507.webp
+  - Column 2 (unlabelled by source): Kamaeleon I
+    - Kamaeleon I: https://mhrise.kiranico.com/data/weapons/1679312507
+  - Column 3 (unlabelled by source): x3
+- Row 45:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1037848123.webp
+  - Column 2 (unlabelled by source): Azure Elder Bowgun II
+    - Azure Elder Bowgun II: https://mhrise.kiranico.com/data/weapons/1037848123
+  - Column 3 (unlabelled by source): x3
+- Row 46:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1713915515.webp
+  - Column 2 (unlabelled by source): Rookslayer Bowgun II
+    - Rookslayer Bowgun II: https://mhrise.kiranico.com/data/weapons/1713915515
+  - Column 3 (unlabelled by source): x2
+- Row 47:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1940596653.webp
+  - Column 2 (unlabelled by source): Icesteel Wasp I
+    - Icesteel Wasp I: https://mhrise.kiranico.com/data/weapons/1940596653
+  - Column 3 (unlabelled by source): x1
+
+### Elder Dragon Bone: Armor
+
+- Row 1:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1521663016\_f.webp
+  - Column 2 (unlabelled by source): Narwa's Foot
+    - Narwa's Foot: https://mhrise.kiranico.com/data/armors/1521663016
+  - Column 3 (unlabelled by source): x2
+- Row 2:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1111487404\_f.webp
+  - Column 2 (unlabelled by source): Kushala Grip
+    - Kushala Grip: https://mhrise.kiranico.com/data/armors/1111487404
+  - Column 3 (unlabelled by source): x3
+- Row 3:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1125196621\_f.webp
+  - Column 2 (unlabelled by source): Mizuha Sleeves
+    - Mizuha Sleeves: https://mhrise.kiranico.com/data/armors/1125196621
+  - Column 3 (unlabelled by source): x3
+- Row 4:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1138398050\_f.webp
+  - Column 2 (unlabelled by source): Kaiser Coil
+    - Kaiser Coil: https://mhrise.kiranico.com/data/armors/1138398050
+  - Column 3 (unlabelled by source): x3
+
+### Elder Dragon Bone: Decorations
+
+- Row 1:
+  - Column 1 (unlabelled by source): Sleep Jewel 2
+    - Sleep Jewel 2: https://mhrise.kiranico.com/data/decorations/67000766
+  - Column 2 (unlabelled by source): x3
+- Row 2:
+  - Column 1 (unlabelled by source): Paralyzer Jewel 2
+    - Paralyzer Jewel 2: https://mhrise.kiranico.com/data/decorations/19196313
+  - Column 2 (unlabelled by source): x3
+
+## Anjanath Nosebone+
+
+- Category: Items
+- ID: 2131154338
+- Source URL: https://mhrise.kiranico.com/data/items/2131154338
+- language: en
+- description: Nasal bones only grow to be this large in beasts that survive countless battles.
+- Source database version: 16.0.0
+- Fetched at (UTC): 2026-10-30T14:26:30.025218+00:00
+- Snapshot ID: 2026-10-30T14:20:10.103912+00:00
+- source_groups: \["https://mhrise.kiranico.com/data/items?view=material"\]
+
+### Anjanath Nosebone+: Monsters
+
+- Row 1:
+  - Column 1 (unlabelled by source): Anjanath
+    - Anjanath: https://mhrise.kiranico.com/data/monsters/1743214542
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Broken Part Rewards BodyPart 1
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 30%
+- Row 2:
+  - Column 1 (unlabelled by source): Anjanath
+    - Anjanath: https://mhrise.kiranico.com/data/monsters/1743214542
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Target Rewards
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 18%
+- Row 3:
+  - Column 1 (unlabelled by source): Anjanath
+    - Anjanath: https://mhrise.kiranico.com/data/monsters/1743214542
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Carves Body
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 17%
+- Row 4:
+  - Column 1 (unlabelled by source): Anjanath
+    - Anjanath: https://mhrise.kiranico.com/data/monsters/1743214542
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Items Obtained by Palico
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 12%
+
+### Anjanath Nosebone+: Quests
+
+- Row 1:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ Master Utsushi's Challenge Part 4
+    - Gathering Hub 8★ Master Utsushi's Challenge Part 4: https://mhrise.kiranico.com/data/quests/1129307701
+  - Column 2 (unlabelled by source): add\_target
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 19%
+
+### Anjanath Nosebone+: Weapons
+
+- Row 1:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1646571528.webp
+  - Column 2 (unlabelled by source): Flammenzahn II
+    - Flammenzahn II: https://mhrise.kiranico.com/data/weapons/1646571528
+  - Column 3 (unlabelled by source): x2
+- Row 2:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/344577734.webp
+  - Column 2 (unlabelled by source): Flammensucher I
+    - Flammensucher I: https://mhrise.kiranico.com/data/weapons/344577734
+  - Column 3 (unlabelled by source): x2
+- Row 3:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/601390660.webp
+  - Column 2 (unlabelled by source): Jack-'o-lantern King
+    - Jack-'o-lantern King: https://mhrise.kiranico.com/data/weapons/601390660
+  - Column 3 (unlabelled by source): x1
+- Row 4:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/2088624169.webp
+  - Column 2 (unlabelled by source): Flammenkornett II
+    - Flammenkornett II: https://mhrise.kiranico.com/data/weapons/2088624169
+  - Column 3 (unlabelled by source): x2
+- Row 5:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/412412313.webp
+  - Column 2 (unlabelled by source): Rampage Agitato III
+    - Rampage Agitato III: https://mhrise.kiranico.com/data/weapons/412412313
+  - Column 3 (unlabelled by source): x2
+- Row 6:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1626117954.webp
+  - Column 2 (unlabelled by source): Flammenbeil II
+    - Flammenbeil II: https://mhrise.kiranico.com/data/weapons/1626117954
+  - Column 3 (unlabelled by source): x2
+- Row 7:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/255377352.webp
+  - Column 2 (unlabelled by source): Garamorse
+    - Garamorse: https://mhrise.kiranico.com/data/weapons/255377352
+  - Column 3 (unlabelled by source): x2
+- Row 8:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1131110609.webp
+  - Column 2 (unlabelled by source): Flammenkanone I
+    - Flammenkanone I: https://mhrise.kiranico.com/data/weapons/1131110609
+  - Column 3 (unlabelled by source): x2
+- Row 9:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1180926367.webp
+  - Column 2 (unlabelled by source): Flammengewehr I
+    - Flammengewehr I: https://mhrise.kiranico.com/data/weapons/1180926367
+  - Column 3 (unlabelled by source): x2
+
+### Anjanath Nosebone+: Armor
+
+- Row 1:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1341821794\_f.webp
+  - Column 2 (unlabelled by source): Kaiser Mail
+    - Kaiser Mail: https://mhrise.kiranico.com/data/armors/1341821794
+  - Column 3 (unlabelled by source): x2
+- Row 2:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/169337865\_f.webp
+  - Column 2 (unlabelled by source): Anjanath Mail S
+    - Anjanath Mail S: https://mhrise.kiranico.com/data/armors/169337865
+  - Column 3 (unlabelled by source): x2
+
+### Anjanath Nosebone+: Decorations
+
+- Row 1:
+  - Column 1 (unlabelled by source): Absorber Jewel 1
+    - Absorber Jewel 1: https://mhrise.kiranico.com/data/decorations/704220607
+  - Column 2 (unlabelled by source): x1
+- Row 2:
+  - Column 1 (unlabelled by source): KO Jewel 2
+    - KO Jewel 2: https://mhrise.kiranico.com/data/decorations/1003081507
+  - Column 2 (unlabelled by source): x2
+
+## Wind Serpent Orb
+
+- Category: Items
+- ID: 917167458
+- Source URL: https://mhrise.kiranico.com/data/items/917167458
+- language: en
+- description: This jewel shimmers with the rage of a typhoon. Its holder commands the storm.
+- Source database version: 16.0.0
+- Fetched at (UTC): 2026-10-30T14:24:13.804142+00:00
+- Snapshot ID: 2026-10-30T14:20:10.103912+00:00
+- source_groups: \["https://mhrise.kiranico.com/data/items?view=material"\]
+
+### Wind Serpent Orb: Monsters
+
+- Row 1:
+  - Column 1 (unlabelled by source): Narwa the Allmother
+    - Narwa the Allmother: https://mhrise.kiranico.com/data/monsters/664702249
+  - Column 2 (unlabelled by source): Master Rank
+  - Column 3 (unlabelled by source): Broken Part Rewards BodyPart 5
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 7%
+- Row 2:
+  - Column 1 (unlabelled by source): Narwa the Allmother
+    - Narwa the Allmother: https://mhrise.kiranico.com/data/monsters/664702249
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Broken Part Rewards BodyPart 5
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 5%
+- Row 3:
+  - Column 1 (unlabelled by source): Wind Serpent Ibushi
+    - Wind Serpent Ibushi: https://mhrise.kiranico.com/data/monsters/2054819914
+  - Column 2 (unlabelled by source): Master Rank
+  - Column 3 (unlabelled by source): Target Rewards
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 4%
+- Row 4:
+  - Column 1 (unlabelled by source): Wind Serpent Ibushi
+    - Wind Serpent Ibushi: https://mhrise.kiranico.com/data/monsters/2054819914
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Carves Severing
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 3%
+- Row 5:
+  - Column 1 (unlabelled by source): Wind Serpent Ibushi
+    - Wind Serpent Ibushi: https://mhrise.kiranico.com/data/monsters/2054819914
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Broken Part Rewards BodyPart 1
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 3%
+- Row 6:
+  - Column 1 (unlabelled by source): Wind Serpent Ibushi
+    - Wind Serpent Ibushi: https://mhrise.kiranico.com/data/monsters/2054819914
+  - Column 2 (unlabelled by source): Master Rank
+  - Column 3 (unlabelled by source): Dropped Materials
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 3%
+- Row 7:
+  - Column 1 (unlabelled by source): Wind Serpent Ibushi
+    - Wind Serpent Ibushi: https://mhrise.kiranico.com/data/monsters/2054819914
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Target Rewards
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 2%
+- Row 8:
+  - Column 1 (unlabelled by source): Wind Serpent Ibushi
+    - Wind Serpent Ibushi: https://mhrise.kiranico.com/data/monsters/2054819914
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Carves Body
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 1%
+- Row 9:
+  - Column 1 (unlabelled by source): Wind Serpent Ibushi
+    - Wind Serpent Ibushi: https://mhrise.kiranico.com/data/monsters/2054819914
+  - Column 2 (unlabelled by source): High Rank
+  - Column 3 (unlabelled by source): Dropped Materials
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 1%
+- Row 10:
+  - Column 1 (unlabelled by source): Wind Serpent Ibushi
+    - Wind Serpent Ibushi: https://mhrise.kiranico.com/data/monsters/2054819914
+  - Column 2 (unlabelled by source): Master Rank
+  - Column 3 (unlabelled by source): Items Obtained by Palico
+  - Column 4 (unlabelled by source): x1
+  - Column 5 (unlabelled by source): 1%
+
+### Wind Serpent Orb: Quests
+
+- Row 1:
+  - Column 1 (unlabelled by source): Event Quests 8★ Gales of Ibushi Blow Again
+    - Event Quests 8★ Gales of Ibushi Blow Again: https://mhrise.kiranico.com/data/quests/1114987411
+  - Column 2 (unlabelled by source): add\_target
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 5%
+- Row 2:
+  - Column 1 (unlabelled by source): Event Quests 8★ Advanced: Born of Paradise
+    - Event Quests 8★ Advanced: Born of Paradise: https://mhrise.kiranico.com/data/quests/1219218228
+  - Column 2 (unlabelled by source): add\_target
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 3%
+- Row 3:
+  - Column 1 (unlabelled by source): Gathering Hub 8★ The Allmother
+    - Gathering Hub 8★ The Allmother: https://mhrise.kiranico.com/data/quests/924625848
+  - Column 2 (unlabelled by source): add\_target
+  - Column 3 (unlabelled by source): x1
+  - Column 4 (unlabelled by source): 1%
+
+### Wind Serpent Orb: Weapons
+
+- Row 1:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1530928234.webp
+  - Column 2 (unlabelled by source): Azure Elder Great Sword II
+    - Azure Elder Great Sword II: https://mhrise.kiranico.com/data/weapons/1530928234
+  - Column 3 (unlabelled by source): x1
+- Row 2:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1469328765.webp
+  - Column 2 (unlabelled by source): Azure Elder Sword II
+    - Azure Elder Sword II: https://mhrise.kiranico.com/data/weapons/1469328765
+  - Column 3 (unlabelled by source): x1
+- Row 3:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1470712843.webp
+  - Column 2 (unlabelled by source): Azure Elder Blades II
+    - Azure Elder Blades II: https://mhrise.kiranico.com/data/weapons/1470712843
+  - Column 3 (unlabelled by source): x1
+- Row 4:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1455516913.webp
+  - Column 2 (unlabelled by source): Azure Elder Long Sword II
+    - Azure Elder Long Sword II: https://mhrise.kiranico.com/data/weapons/1455516913
+  - Column 3 (unlabelled by source): x1
+- Row 5:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1537991625.webp
+  - Column 2 (unlabelled by source): Azure Elder Hammer II
+    - Azure Elder Hammer II: https://mhrise.kiranico.com/data/weapons/1537991625
+  - Column 3 (unlabelled by source): x1
+- Row 6:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/619036120.webp
+  - Column 2 (unlabelled by source): Azure Elder Horn II
+    - Azure Elder Horn II: https://mhrise.kiranico.com/data/weapons/619036120
+  - Column 3 (unlabelled by source): x1
+- Row 7:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1561336938.webp
+  - Column 2 (unlabelled by source): Azure Elder Spear II
+    - Azure Elder Spear II: https://mhrise.kiranico.com/data/weapons/1561336938
+  - Column 3 (unlabelled by source): x1
+- Row 8:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/625679898.webp
+  - Column 2 (unlabelled by source): Azure Elder Gunlance II
+    - Azure Elder Gunlance II: https://mhrise.kiranico.com/data/weapons/625679898
+  - Column 3 (unlabelled by source): x1
+- Row 9:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/688311603.webp
+  - Column 2 (unlabelled by source): Azure Elder Axe II
+    - Azure Elder Axe II: https://mhrise.kiranico.com/data/weapons/688311603
+  - Column 3 (unlabelled by source): x1
+- Row 10:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/787840084.webp
+  - Column 2 (unlabelled by source): Azure Elder Blade II
+    - Azure Elder Blade II: https://mhrise.kiranico.com/data/weapons/787840084
+  - Column 3 (unlabelled by source): x1
+- Row 11:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1001319929.webp
+  - Column 2 (unlabelled by source): Azure Elder Glaive II
+    - Azure Elder Glaive II: https://mhrise.kiranico.com/data/weapons/1001319929
+  - Column 3 (unlabelled by source): x1
+- Row 12:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/967679250.webp
+  - Column 2 (unlabelled by source): Azure Elder Bow II
+    - Azure Elder Bow II: https://mhrise.kiranico.com/data/weapons/967679250
+  - Column 3 (unlabelled by source): x1
+- Row 13:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1045454238.webp
+  - Column 2 (unlabelled by source): Azure Elder Cannon II
+    - Azure Elder Cannon II: https://mhrise.kiranico.com/data/weapons/1045454238
+  - Column 3 (unlabelled by source): x1
+- Row 14:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/weapons/1037848123.webp
+  - Column 2 (unlabelled by source): Azure Elder Bowgun II
+    - Azure Elder Bowgun II: https://mhrise.kiranico.com/data/weapons/1037848123
+  - Column 3 (unlabelled by source): x1
+
+### Wind Serpent Orb: Armor
+
+- Row 1:
+  - Column 1 (unlabelled by source): Not provided by source
+    - Source icon/label: http://cdn.kiranico.net/file/kiranico/mhrise-web/avatar/armors/1494228074\_f.webp
+  - Column 2 (unlabelled by source): Ibushi's Fauld
+    - Ibushi's Fauld: https://mhrise.kiranico.com/data/armors/1494228074
+  - Column 3 (unlabelled by source): x1
+
+### Wind Serpent Orb: Decorations
+
+- Source table is empty; this does not prove absence.
+
