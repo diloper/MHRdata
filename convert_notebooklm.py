@@ -92,8 +92,25 @@ def render_record(category, record, indexes, warnings):
     for key, value in record.items():
         if key in {"name", "id", "tables"} or key in RELATIONS or key in levels(record):
             continue
+        if category == "Armors" and key in {"decoration_slot_levels", "decoration_slot_note"}:
+            continue
         label = LABELS.get(key, key)
         output.append(f"- {label}: {text(value)}")
+    if category == "Armors":
+        slots = record.get("decoration_slot_levels")
+        if slots is None:
+            slot_text = count_text = "Unknown"
+            warning = {"category": category, "id": record["id"], "field": "decoration_slot_levels",
+                       "reason": record.get("decoration_slot_note", "Slot levels not provided; reparse the source HTML.")}
+            if record.get("source_url"):
+                warning["source_url"] = record["source_url"]
+            warnings.append(warning)
+        else:
+            if not isinstance(slots, list) or any(type(level) is not int or not 1 <= level <= 4 for level in slots):
+                raise ValueError(f"Armors/{record['id']}/decoration_slot_levels: expected a list of levels 1 to 4")
+            slot_text = ", ".join(f"Lv{level}" for level in slots) or "None"
+            count_text = str(len(slots))
+        output.extend([f"- Decoration slot levels: {slot_text}", f"- Total decoration slots: {count_text}"])
     if category == "Armors" and not any("equipped_level" in entry for entry in record.get("skills", [])):
         output.append("- Equipped skill levels: not explicitly provided; do not infer from skillList.")
     if levels(record):
@@ -150,6 +167,8 @@ def render_record(category, record, indexes, warnings):
 def header(category, group, document):
     coverage = document.get("coverage")
     provenance = ""
+    slot_note = ("For armor decoration slots, None means confirmed zero; Unknown means not determined.\n"
+                 if category == "Armors" else "")
     if coverage is not None:
         provenance = (f"- Snapshot mode: {text(document.get('snapshot_mode'))}\n"
                       f"- Coverage: {coverage['parsed']} parsed records; "
@@ -165,6 +184,7 @@ def header(category, group, document):
             "skillList and decorationsNumList retain their original meaning without decoding.\n"
             "Empty values mean not provided, not necessarily absent. Unlock value 'None'\n"
             "is a literal source value, not a verified absence of requirements.\n"
+            f"{slot_note}"
             "All listed skill level effects are reference information, not equipped levels.\n"
             "Rampage skills use a separate ID namespace from normal skills.\n\n")
 
@@ -242,7 +262,7 @@ def main():
     for category, counts in report["sources"].items():
         print(f"{category}: {counts['input_records']} input, {counts['output_records']} output, "
               f"{counts['exact_duplicates_removed']} duplicates removed")
-    print(f"Reference warnings: {len(report['warnings'])}; see conversion-report.json.")
+    print(f"Conversion warnings: {len(report['warnings'])}; see conversion-report.json.")
 
 
 if __name__ == "__main__":

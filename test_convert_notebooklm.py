@@ -3,10 +3,22 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from convert_notebooklm import SOURCES, build_documents, convert, load_sources
+from convert_notebooklm import SOURCES, build_documents, convert, load_sources, render_record
 
 
 class ConversionTests(unittest.TestCase):
+    def test_legacy_armor_slots_are_unknown_not_inferred(self):
+        armor = {"id": "1", "name": "Legacy", "decorationsNumList": [0, 2, 1, 0]}
+        warnings = []
+        content = render_record("Armors", armor, {}, warnings)
+        self.assertIn("- Decoration slot levels: Unknown\n- Total decoration slots: Unknown\n", content)
+        self.assertIn("decorationsNumList", content)
+        self.assertEqual(warnings[0]["field"], "decoration_slot_levels")
+        self.assertEqual(warnings[0]["id"], "1")
+        for invalid in ([0], [True], "2"):
+            with self.subTest(invalid=invalid), self.assertRaisesRegex(ValueError, "Armors/1/decoration_slot_levels"):
+                render_record("Armors", dict(armor, decoration_slot_levels=invalid), {}, [])
+
     def test_workspace_data(self):
         source = Path(__file__).resolve().parent
         original = {category: (source / (category + ".json")).read_bytes() for category in SOURCES}

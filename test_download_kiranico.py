@@ -18,6 +18,11 @@ def page(body, name="Example"):
             f'<h1>{name}</h1>{body}</article></body></html>')
 
 
+def armor_overview(slot_html):
+    return (f'<table><tr><td>{slot_html}</td><td>32 Defense</td>'
+            + '<td>0</td>' * 5 + '<td>Skills</td></tr></table>')
+
+
 class ParserTests(unittest.TestCase):
     def test_listing_routes(self):
         self.assertEqual(listing_category(BASE_URL + "/data/items?view=material"), "Items")
@@ -63,6 +68,39 @@ class ParserTests(unittest.TestCase):
         _, record = parse_detail(page(body), BASE_URL + "/data/armors/42")
         self.assertEqual(record["skills"][0]["equipped_level"], 2)
         self.assertEqual(record["tables"][0]["rows"][0][2]["annotations"], ["#slot-3"])
+
+    def test_armor_slots_from_overview_only(self):
+        url = BASE_URL + "/data/armors/42"
+        other_table = '<h2>Forging Materials</h2>' + armor_overview('<img src="deco3.png">')
+        for levels in ([], [1, 1], [2, 4, 3]):
+            icons = ' '.join(f'<img src="/images/ui/deco{level}.png">' for level in levels)
+            html = page(armor_overview(icons) + other_table)
+            with self.subTest(levels=levels):
+                category, record = parse_detail(html, url)
+                self.assertEqual(record["decoration_slot_levels"], levels)
+                warnings = []
+                output = render_record(category, record, {}, warnings)
+                self.assertIn("- Decoration slot levels: " + (", ".join(f"Lv{n}" for n in levels) or "None")
+                              + "\n", output)
+                self.assertIn(f"- Total decoration slots: {len(levels)}\n", output)
+                self.assertEqual(warnings, [])
+        _, weapon = parse_detail(html, BASE_URL + "/data/weapons/42")
+        self.assertNotIn("decoration_slot_levels", weapon)
+
+    def test_unrecognized_armor_slot_data_never_means_zero_or_partial(self):
+        url = BASE_URL + "/data/armors/42"
+        for body in (armor_overview('').replace('<td></td>', ''),
+                     armor_overview('') + armor_overview(''),
+                     armor_overview('<img src="deco1.png"><img src="deco5.png">'),
+                     armor_overview('<svg><use href="#unknown"/></svg>')):
+            with self.subTest(body=body):
+                category, record = parse_detail(page(body), url)
+                self.assertIsNone(record["decoration_slot_levels"])
+                warnings = []
+                output = render_record(category, record, {}, warnings)
+                self.assertIn("- Decoration slot levels: Unknown\n- Total decoration slots: Unknown\n", output)
+                self.assertEqual(warnings, [{"category": "Armors", "id": "42", "field": "decoration_slot_levels",
+                                             "source_url": url, "reason": record["decoration_slot_note"]}])
 
     def test_multiple_skills_keep_individual_levels(self):
         body = ('<table><tr><td><div><a href="/data/skills/42">First</a> Lv 2</div>'
@@ -256,6 +294,8 @@ class DownloadTests(unittest.TestCase):
         for category in categories:
             body = ('<h2>Forging Materials</h2><table><tr><td><a href="/data/items/99">Extra</a>'
                     '</td><td>x2</td></tr></table>') if category == "weapons" else '<table><tr><td>Value</td></tr></table>'
+            if category == "armors":
+                body = armor_overview('<img src="deco1.png"> <img src="deco1.png">')
             documents[BASE_URL + f"/data/{category}/42"] = page(body).encode()
         for record_id in ("1665412677", "99", "43"):
             documents[BASE_URL + "/data/items/" + record_id] = page('<table><tr><td>Value</td></tr></table>',
@@ -290,10 +330,23 @@ class DownloadTests(unittest.TestCase):
             second = download_snapshot(directory)
             self.assertEqual(first["snapshot_id"], second["snapshot_id"])
             self.assertEqual(first["pages"], second["pages"])
+            armor_url = BASE_URL + "/data/armors/42"
+            armor_key = hashlib.sha256(armor_url.encode("utf-8")).hexdigest()
+            armor_path = Path(directory) / "checkpoint" / "records" / (armor_key + ".json")
+            legacy = json.loads(armor_path.read_text(encoding="utf-8"))
+            del legacy["record"]["decoration_slot_levels"]
+            armor_path.write_text(json.dumps(legacy), encoding="utf-8")
+            del documents[armor_url]  # Only the verified raw cache is available on resume.
             with patch("download_kiranico.parse_detail", wraps=parse_detail) as parser:
                 full = download_snapshot(directory, full=True)
                 self.assertEqual([call.args[1] for call in parser.call_args_list],
-                                 [BASE_URL + "/data/items/43"])
+                                 [armor_url, BASE_URL + "/data/items/43"])
+            self.assertEqual(json.loads(armor_path.read_text(encoding="utf-8"))["record"]["decoration_slot_levels"],
+                             [1, 1])
+            exported = convert(Path(directory) / "structured", Path(directory) / "export")
+            armor_file, = (name for name in exported["generated_files"] if name.startswith("Armors-"))
+            armor_text = (Path(directory) / "export" / armor_file).read_text(encoding="utf-8")
+            self.assertIn("- Decoration slot levels: Lv1, Lv1\n- Total decoration slots: 2\n", armor_text)
             self.assertTrue(full["complete"])
             self.assertEqual(full["mode"], "full")
             self.assertEqual(full["coverage"]["Items"]["parsed"], 4)

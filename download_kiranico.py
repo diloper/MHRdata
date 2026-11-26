@@ -50,6 +50,22 @@ def page_links(soup, base):
     return links
 
 
+def armor_slot_levels(slot_cells):
+    if len(slot_cells) != 1:
+        return None, "Expected one armor Overview slot cell next to the Defense value."
+    cell = slot_cells[0]
+    if cell.get_text(strip=True) or any(tag.name != "img" for tag in cell.find_all(True)):
+        return None, "Unrecognized content in the armor slot cell."
+    levels = []
+    for image in cell.find_all("img"):
+        src = image.get("src", "")
+        match = re.fullmatch(r"(?:[^?#]*/)?deco([1-4])\.png(?:[?#].*)?", src)
+        if not match:
+            return None, f"Unrecognized armor slot icon: {src or '(missing src)'}"
+        levels.append(int(match[1]))
+    return levels, None
+
+
 def parse_detail(html, url):
     url = canonical_url(url)
     category, record_id = identity(url)
@@ -70,6 +86,7 @@ def parse_detail(html, url):
                     if re.fullmatch(r"Database Ver[\d.]+", heading.get_text(" ", strip=True))), None)
     record["source_version"] = version.removeprefix("Database Ver") if version else None
     section = "Overview"
+    slot_cells = []
     for element in article.find_all(["h1", "h2", "h3", "h4", "table"]):
         if element.name != "table":
             section = "Overview" if element.name == "h1" else element.get_text(" ", strip=True)
@@ -78,8 +95,13 @@ def parse_detail(html, url):
         for row in element.find_all("tr"):
             if row.find_parent("table") is not element:
                 continue
+            source_cells = row.find_all(["td", "th"], recursive=False)
+            if (category == "Armors" and section == "Overview" and len(source_cells) == 8
+                    and all(cell.name == "td" for cell in source_cells)
+                    and re.fullmatch(r"\d+\s+Defense", source_cells[1].get_text(" ", strip=True))):
+                slot_cells.append(source_cells[0])
             cells = []
-            for cell in row.find_all(["td", "th"], recursive=False):
+            for cell in source_cells:
                 annotations = sorted({value for tag in cell.select("[title], [aria-label], img, use")
                                       for value in (tag.get("title"), tag.get("aria-label"),
                                                     tag.get("alt"), tag.get("src"),
@@ -146,6 +168,10 @@ def parse_detail(html, url):
                         record.setdefault("skills", []).append(entry)
     if not record["tables"]:
         raise ValueError(f"No data tables found: {url}")
+    if category == "Armors":
+        record["decoration_slot_levels"], note = armor_slot_levels(slot_cells)
+        if note:
+            record["decoration_slot_note"] = note
     return category, record
 
 
@@ -425,6 +451,8 @@ def load_record_checkpoint(client, url, raw):
         category, record_id = identity(url)
         record = checkpoint["record"]
         if record.get("id") != record_id or record.get("source_url") != url:
+            return None
+        if category == "Armors" and "decoration_slot_levels" not in record:
             return None
         return category, record
     except (OSError, ValueError, KeyError, TypeError, AttributeError):

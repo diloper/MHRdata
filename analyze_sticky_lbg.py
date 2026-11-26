@@ -141,7 +141,7 @@ def build_report(snapshot):
         },
         "limitations": [
             "The report does not calculate an optimal five-piece armor, charm, and decoration combination.",
-            "Armor slots and MR unlock thresholds are not normalized by the current source parser.",
+            "This shortlist does not evaluate armor slots or establish MR unlock thresholds.",
             "The weapon order is based on sticky-ammo capacity, not measured stun per second or recoil-adjusted firing cycles.",
         ],
     }
