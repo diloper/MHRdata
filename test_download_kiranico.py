@@ -1,5 +1,6 @@
 import hashlib
 import json
+import re
 import tempfile
 import unittest
 from pathlib import Path
@@ -10,6 +11,8 @@ import requests
 from convert_notebooklm import convert, render_record
 from download_kiranico import (BASE_URL, DownloadError, SnapshotClient, canonical_url,
                                discover, download_snapshot, identity, listing_category, parse_detail)
+from test_kiranico_listing import (ammo_table, armor_row, decoration_row, item_grid, listing_page,
+                                   rampage_decoration_row, rampage_skill_row, skill_row, weapon_row)
 
 
 def page(body, name="Example"):
@@ -21,6 +24,29 @@ def page(body, name="Example"):
 def armor_overview(slot_html):
     return (f'<table><tr><td>{slot_html}</td><td>32 Defense</td>'
             + '<td>0</td>' * 5 + '<td>Skills</td></tr></table>')
+
+
+def fake_site(extra=False):
+    """Realistic minimal listing pages keyed by URL; ``extra`` adds a Light Bowgun and rampage pages."""
+    pages = {
+        "/data/items?view=0": ("Items", item_grid(("42", "Example"), ("43", "New item")), "Materials"),
+        "/data/skills": ("Skills", skill_row("42", "Example", ["Stun power +20%"]), None),
+        "/data/decorations": ("Decorations", decoration_row("42", "Example Jewel 1", ("42", "Example", 1)), None),
+        "/data/armors?view=0": ("Armor", armor_row("42", "Example", skills=(("42", "Example", 1),)), "Rarity 1"),
+        "/data/weapons?view=0": ("Great Sword", weapon_row("42", "Example"), "Great Sword"),
+    }
+    if extra:
+        pages.update({
+            "/data/weapons?view=13": ("Light Bowgun", weapon_row(
+                "77", "Sticky Gun", "Light Bowgun",
+                detail=ammo_table({"Sti": [3, 2, 1], "Nrm": [5, 5, 5]})), "Light Bowgun"),
+            "/data/rampage-skills": ("Rampage Skills", rampage_skill_row("7", "Anti-Aerial Species"), None),
+            "/data/rampage-decorations": ("Rampage Decorations",
+                                          rampage_decoration_row("Anti-Aerial Jewel 1"), None),
+        })
+    nav = "".join(f'<a href="{BASE_URL + path}">{title}</a>' for path, (title, _, _) in pages.items())
+    return {BASE_URL + path: listing_page(title, rows, path, label, nav).encode()
+            for path, (title, rows, label) in pages.items()}
 
 
 class ParserTests(unittest.TestCase):
@@ -165,7 +191,7 @@ class DownloadTests(unittest.TestCase):
                 self.calls = []
                 self.fail = True
 
-            def fetch(self, url):
+            def fetch(self, url, refresh=False):
                 self.calls.append(url)
                 if url == interrupted_url and self.fail:
                     self.fail = False
@@ -188,6 +214,26 @@ class DownloadTests(unittest.TestCase):
             details = discover(resumed)
             self.assertTrue(all(details[category] for category in ("Items", "Skills", "Decorations", "Armors", "Weapons")))
             self.assertTrue(completed_before_failure.isdisjoint(resumed.calls))
+
+            # An interrupted --refresh resumes from its checkpoint, even without --refresh, and
+            # never reuses the stale discovery stored in the manifest.
+            stale = FakeClient(directory)
+            stale.manifest = {"discovered": {"stale": True}, "listing_urls": ["stale"]}
+            with self.assertRaisesRegex(DownloadError, "simulated discovery"):
+                discover(stale, refresh=True)
+            self.assertNotIn("discovered", stale.manifest)
+            again = FakeClient(directory)
+            again.fail = False
+            again.manifest = {"discovered": {"stale": True}, "listing_urls": ["stale"]}
+            refreshed = []
+            again.fetch = lambda url, refresh=False: (refreshed.append((url, refresh)), documents[url])[1]
+            details = discover(again)
+            self.assertNotIn("stale", details)
+            self.assertTrue(completed_before_failure.isdisjoint(url for url, _ in refreshed))
+            self.assertTrue(refreshed and all(flag for _, flag in refreshed))
+            checkpoint = json.loads((again.checkpoint_directory / "discovery.json").read_text(encoding="utf-8"))
+            self.assertEqual((checkpoint["complete"], checkpoint["refresh"]), (True, True))
+            self.assertEqual(discover(again), details)
 
     def test_verified_cache_resume_and_corruption(self):
         url = BASE_URL + "/data/items/42"
@@ -280,17 +326,7 @@ class DownloadTests(unittest.TestCase):
 
     def test_pilot_reference_closure_export_and_resume(self):
         categories = ("items", "skills", "decorations", "armors", "weapons")
-        lists = {category: BASE_URL + "/data/" + category +
-                 ("?view=0" if category in {"items", "armors", "weapons"} else "")
-                 for category in categories}
-        nav = '<nav>' + ''.join(f'<a href="{url}">{category}</a>' for category, url in lists.items()) + '</nav>'
-        documents = {}
-        for category, url in lists.items():
-            link = f'<a href="/data/{category}/42">Example</a>'
-            if category == "items":
-                link += '<a href="/data/items/43">New item</a>'
-            body = f'<div class="grid">{link}</div>' if category == "items" else f'<table><tr><td>{link}</td></tr></table>'
-            documents[url] = (nav + page(body)).encode()
+        documents = fake_site()
         for category in categories:
             body = ('<h2>Forging Materials</h2><table><tr><td><a href="/data/items/99">Extra</a>'
                     '</td><td>x2</td></tr></table>') if category == "weapons" else '<table><tr><td>Value</td></tr></table>'
@@ -326,7 +362,8 @@ class DownloadTests(unittest.TestCase):
             self.assertEqual(first["coverage"]["Items"]["parsed"], 3)
             exported = convert(Path(directory) / "structured", Path(directory) / "export")
             self.assertEqual(exported["warnings"], [])
-            self.assertEqual(len(exported["generated_files"]), 5)
+            self.assertIn("Rules-bowgun-001.md", exported["generated_files"])
+            self.assertEqual(len(exported["generated_files"]), 7)
             second = download_snapshot(directory)
             self.assertEqual(first["snapshot_id"], second["snapshot_id"])
             self.assertEqual(first["pages"], second["pages"])
@@ -359,6 +396,56 @@ class DownloadTests(unittest.TestCase):
             with patch("download_kiranico.parse_detail", wraps=parse_detail) as parser:
                 download_snapshot(directory, full=True)
                 self.assertEqual([call.args[1] for call in parser.call_args_list], [promoted_url])
+
+    def test_listings_mode_migration_typed_output_and_supplement(self):
+        documents = fake_site(extra=True)
+        requested = []
+
+        def fake_request(client, url):
+            requested.append(url)
+            if url.endswith("/robots.txt"):
+                return response(url, b"User-agent: *\nDisallow:\n")
+            return response(url, documents[url])
+
+        supplement = {"weapons": [{"game8_name": "Sticky Gun", "page_url": "https://game8.co/x", "ammo": [
+            {"name": "Sticky Ammo 1", "capacity": 4, "recoil": "Low", "reload": "Fast",
+             "shot_types": ["RF"], "rapid_fire": True}]}], "warnings": []}
+        with tempfile.TemporaryDirectory() as directory, patch.object(SnapshotClient, "request", fake_request):
+            snapshot = Path(directory)
+            (snapshot / "download-manifest.json").write_text(json.dumps({
+                "schema_version": 1, "origin": BASE_URL, "language": "en", "snapshot_id": "v1-snapshot",
+                "pages": {}, "complete": True, "discovered": {"Items": {}}, "listing_urls": []}),
+                encoding="utf-8")
+            (snapshot / "supplemental").mkdir()
+            (snapshot / "supplemental" / "game8-lbg.json").write_text(json.dumps(supplement), encoding="utf-8")
+            manifest = download_snapshot(directory, listings=True)
+            structured = snapshot / "structured"
+            weapons = json.loads((structured / "Weapons.json").read_text(encoding="utf-8"))
+            exported = convert(structured, snapshot / "export")
+            light_bowgun_file = (snapshot / "export" / "Weapons-Light-Bowgun-001.md").read_text(encoding="utf-8")
+            rules_file = (snapshot / "export" / "Rules-bowgun-001.md").read_text(encoding="utf-8")
+
+        self.assertTrue(manifest["complete"])
+        self.assertEqual((manifest["schema_version"], manifest["migrated_from_schema_version"]), (2, 1))
+        self.assertEqual(manifest["snapshot_id"], "v1-snapshot")
+        self.assertFalse([url for url in requested if re.search(r"/data/[a-z-]+/\d+$", url)],
+                         "listings mode must not fetch detail pages")
+        self.assertEqual(manifest["coverage"]["RampageDecorations"]["parsed"], 1)
+        self.assertEqual(manifest["supplements"]["game8_lbg"]["matched"], 1)
+        self.assertEqual(manifest["supplements"]["game8_lbg"]["capacity_mismatches"], 1)
+        gun = next(record for record in weapons["data"] if record["id"] == "77")
+        self.assertEqual(gun["detail_status"], "not_fetched")
+        self.assertEqual(gun["source_group"], "view-13")
+        self.assertEqual(gun["fields"]["rapid_fire_ammo"]["value"], ["Sticky Ammo 1"])
+        self.assertIn("Game8 capacity 4 for Sticky Ammo 1 differs from Kiranico 3", gun["warnings"][0])
+        self.assertEqual(weapons["field_statistics"]["rapid_fire_ammo"]["counts"], {"supplemental": 1})
+        self.assertEqual(sum(value["unexpected"] for value in weapons["field_statistics"].values()), 0)
+        self.assertIn("RampageSkills-all-001.md", exported["generated_files"])
+        self.assertIn("- Rapid Fire ammo: Sticky Ammo 1 (supplemental: game8)", light_bowgun_file)
+        self.assertIn("- Loadable ammo (capacity): Normal Ammo 1 x5", light_bowgun_file)
+        self.assertIn("- Recoil Down needed (v16 table): Low: Recoil Down Lv1 reaches", light_bowgun_file)
+        self.assertIn("- Rampage skills: Not fetched in this snapshot mode", light_bowgun_file)
+        self.assertIn("Base Very High: not reachable", rules_file)
 
 
 if __name__ == "__main__":
