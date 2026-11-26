@@ -218,3 +218,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+snapshots/**/*.json
+snapshots/**/*.html
+snapshots/**/*.txt
